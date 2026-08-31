@@ -1,0 +1,722 @@
+{
+  "dialogues": [
+    {
+      "id": "daily-01",
+      "title": "Meeting a Friend",
+      "description": "Two friends meet in the morning and talk about their day.",
+      "level": "A1",
+      "topic": "daily-life",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "daily-01-line-01",
+          "speaker": "Marco",
+          "text": "Ciao Anna, come stai?",
+          "translation": "Hi Anna, how are you?",
+          "words": [
+            { "text": "Ciao", "translation": ["Hi", "Hello"] },
+            { "text": "Anna", "translation": ["Anna"] },
+            { "text": "come", "translation": ["how"] },
+            { "text": "stai", "translation": ["are you", "you are"] }
+          ]
+        },
+        {
+          "id": "daily-01-line-02",
+          "speaker": "Anna",
+          "text": "Ciao Marco, sto bene, grazie.",
+          "translation": "Hi Marco, I am well, thank you.",
+          "words": [
+            { "text": "Ciao", "translation": ["Hi", "Hello"] },
+            { "text": "Marco", "translation": ["Marco"] },
+            { "text": "sto", "translation": ["I am", "I feel"] },
+            { "text": "bene", "translation": ["well", "good"] },
+            { "text": "grazie", "translation": ["thank you", "thanks"] }
+          ]
+        },
+        {
+          "id": "daily-01-line-03",
+          "speaker": "Marco",
+          "text": "Dove vai questa mattina?",
+          "translation": "Where are you going this morning?",
+          "words": [
+            { "text": "Dove", "translation": ["Where"] },
+            { "text": "vai", "translation": ["you go", "are you going"] },
+            { "text": "questa", "translation": ["this"] },
+            { "text": "mattina", "translation": ["morning"] }
+          ]
+        },
+        {
+          "id": "daily-01-line-04",
+          "speaker": "Anna",
+          "text": "Vado all'università.",
+          "translation": "I am going to the university.",
+          "words": [
+            { "text": "Vado", "translation": ["I go", "I am going"] },
+            { "text": "all'università", "translation": ["to the university"] }
+          ]
+        },
+        {
+          "id": "daily-01-line-05",
+          "speaker": "Marco",
+          "text": "Hai una lezione oggi?",
+          "translation": "Do you have a class today?",
+          "words": [
+            { "text": "Hai", "translation": ["you have", "do you have"] },
+            { "text": "una", "translation": ["a", "one"] },
+            { "text": "lezione", "translation": ["class", "lesson"] },
+            { "text": "oggi", "translation": ["today"] }
+          ]
+        },
+        {
+          "id": "daily-01-line-06",
+          "speaker": "Anna",
+          "text": "Sì, ho una lezione di italiano.",
+          "translation": "Yes, I have an Italian class.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "ho", "translation": ["I have"] },
+            { "text": "una", "translation": ["a", "one"] },
+            { "text": "lezione", "translation": ["class", "lesson"] },
+            { "text": "di", "translation": ["of"] },
+            { "text": "italiano", "translation": ["Italian"] }
+          ]
+        },
+        {
+          "id": "daily-01-line-07",
+          "speaker": "Marco",
+          "text": "A che ora inizia?",
+          "translation": "What time does it start?",
+          "words": [
+            { "text": "A", "translation": ["At"] },
+            { "text": "che", "translation": ["what", "which"] },
+            { "text": "ora", "translation": ["time", "hour"] },
+            { "text": "inizia", "translation": ["it starts", "begins"] }
+          ]
+        },
+        {
+          "id": "daily-01-line-08",
+          "speaker": "Anna",
+          "text": "Inizia alle nove.",
+          "translation": "It starts at nine.",
+          "words": [
+            { "text": "Inizia", "translation": ["It starts", "begins"] },
+            { "text": "alle", "translation": ["at"] },
+            { "text": "nove", "translation": ["nine"] }
+          ]
+        },
+        {
+          "id": "daily-01-line-09",
+          "speaker": "Marco",
+          "text": "Dopo la lezione prendi un caffè?",
+          "translation": "After the class, are you having a coffee?",
+          "words": [
+            { "text": "Dopo", "translation": ["After"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "lezione", "translation": ["class", "lesson"] },
+            { "text": "prendi", "translation": ["you take", "you have"] },
+            { "text": "un", "translation": ["a"] },
+            { "text": "caffè", "translation": ["coffee"] }
+          ]
+        },
+        {
+          "id": "daily-01-line-10",
+          "speaker": "Anna",
+          "text": "Sì, possiamo andare al bar insieme.",
+          "translation": "Yes, we can go to the café together.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "possiamo", "translation": ["we can"] },
+            { "text": "andare", "translation": ["to go"] },
+            { "text": "al", "translation": ["to the"] },
+            { "text": "bar", "translation": ["café", "bar"] },
+            { "text": "insieme", "translation": ["together"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-02",
+      "title": "At the Café",
+      "description": "A customer orders breakfast at a café.",
+      "level": "A1",
+      "topic": "cafe",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "daily-02-line-01",
+          "speaker": "Cliente",
+          "text": "Buongiorno.",
+          "translation": "Good morning.",
+          "words": [
+            {
+              "text": "Buongiorno",
+              "translation": ["Good morning", "Good day"]
+            }
+          ]
+        },
+        {
+          "id": "daily-02-line-02",
+          "speaker": "Barista",
+          "text": "Buongiorno, cosa desidera?",
+          "translation": "Good morning, what would you like?",
+          "words": [
+            { "text": "Buongiorno", "translation": ["Good morning"] },
+            { "text": "cosa", "translation": ["what", "thing"] },
+            {
+              "text": "desidera",
+              "translation": ["you would like", "you want"]
+            }
+          ]
+        },
+        {
+          "id": "daily-02-line-03",
+          "speaker": "Cliente",
+          "text": "Vorrei un cappuccino, per favore.",
+          "translation": "I would like a cappuccino, please.",
+          "words": [
+            { "text": "Vorrei", "translation": ["I would like"] },
+            { "text": "un", "translation": ["a"] },
+            { "text": "cappuccino", "translation": ["cappuccino"] },
+            { "text": "per", "translation": ["for"] },
+            { "text": "favore", "translation": ["please", "favor"] }
+          ]
+        },
+        {
+          "id": "daily-02-line-04",
+          "speaker": "Barista",
+          "text": "Vuole anche qualcosa da mangiare?",
+          "translation": "Would you also like something to eat?",
+          "words": [
+            { "text": "Vuole", "translation": ["you want", "would you like"] },
+            { "text": "anche", "translation": ["also"] },
+            { "text": "qualcosa", "translation": ["something"] },
+            { "text": "da", "translation": ["to", "for"] },
+            { "text": "mangiare", "translation": ["to eat"] }
+          ]
+        },
+        {
+          "id": "daily-02-line-05",
+          "speaker": "Cliente",
+          "text": "Sì, prendo un cornetto.",
+          "translation": "Yes, I'll have a croissant.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "prendo", "translation": ["I take", "I'll have"] },
+            { "text": "un", "translation": ["a"] },
+            { "text": "cornetto", "translation": ["croissant"] }
+          ]
+        },
+        {
+          "id": "daily-02-line-06",
+          "speaker": "Barista",
+          "text": "Lo vuole con la crema?",
+          "translation": "Would you like it with cream?",
+          "words": [
+            { "text": "Lo", "translation": ["it"] },
+            { "text": "vuole", "translation": ["you want", "would you like"] },
+            { "text": "con", "translation": ["with"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "crema", "translation": ["cream", "custard"] }
+          ]
+        },
+        {
+          "id": "daily-02-line-07",
+          "speaker": "Cliente",
+          "text": "No, semplice va bene.",
+          "translation": "No, plain is fine.",
+          "words": [
+            { "text": "No", "translation": ["No"] },
+            { "text": "semplice", "translation": ["plain", "simple"] },
+            { "text": "va", "translation": ["goes", "is"] },
+            { "text": "bene", "translation": ["well", "fine"] }
+          ]
+        },
+        {
+          "id": "daily-02-line-08",
+          "speaker": "Barista",
+          "text": "Mangia qui o porta via?",
+          "translation": "Are you eating here or taking it away?",
+          "words": [
+            { "text": "Mangia", "translation": ["you eat", "are you eating"] },
+            { "text": "qui", "translation": ["here"] },
+            { "text": "o", "translation": ["or"] },
+            { "text": "porta", "translation": ["you take", "bring"] },
+            { "text": "via", "translation": ["away"] }
+          ]
+        },
+        {
+          "id": "daily-02-line-09",
+          "speaker": "Cliente",
+          "text": "Mangio qui.",
+          "translation": "I'm eating here.",
+          "words": [
+            { "text": "Mangio", "translation": ["I eat", "I'm eating"] },
+            { "text": "qui", "translation": ["here"] }
+          ]
+        },
+        {
+          "id": "daily-02-line-10",
+          "speaker": "Barista",
+          "text": "Sono quattro euro.",
+          "translation": "It is four euros.",
+          "words": [
+            { "text": "Sono", "translation": ["They are", "It is"] },
+            { "text": "quattro", "translation": ["four"] },
+            { "text": "euro", "translation": ["euros"] }
+          ]
+        },
+        {
+          "id": "daily-02-line-11",
+          "speaker": "Cliente",
+          "text": "Ecco, grazie.",
+          "translation": "Here you are, thank you.",
+          "words": [
+            { "text": "Ecco", "translation": ["Here you are", "Here"] },
+            { "text": "grazie", "translation": ["thank you", "thanks"] }
+          ]
+        },
+        {
+          "id": "daily-02-line-12",
+          "speaker": "Barista",
+          "text": "Grazie, buona giornata.",
+          "translation": "Thank you, have a nice day.",
+          "words": [
+            { "text": "Grazie", "translation": ["Thank you", "Thanks"] },
+            { "text": "buona", "translation": ["good", "nice"] },
+            { "text": "giornata", "translation": ["day"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-03",
+      "title": "At the Supermarket",
+      "description": "Two people talk while shopping for dinner.",
+      "level": "A1",
+      "topic": "shopping",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "daily-03-line-01",
+          "speaker": "Luca",
+          "text": "Cosa dobbiamo comprare?",
+          "translation": "What do we need to buy?",
+          "words": [
+            { "text": "Cosa", "translation": ["What"] },
+            { "text": "dobbiamo", "translation": ["we must", "we need to"] },
+            { "text": "comprare", "translation": ["to buy"] }
+          ]
+        },
+        {
+          "id": "daily-03-line-02",
+          "speaker": "Sara",
+          "text": "Ci serve il pane.",
+          "translation": "We need bread.",
+          "words": [
+            { "text": "Ci", "translation": ["to us", "we"] },
+            { "text": "serve", "translation": ["is needed", "we need"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "pane", "translation": ["bread"] }
+          ]
+        },
+        {
+          "id": "daily-03-line-03",
+          "speaker": "Luca",
+          "text": "Prendiamo anche il latte?",
+          "translation": "Shall we also get milk?",
+          "words": [
+            { "text": "Prendiamo", "translation": ["we take", "shall we get"] },
+            { "text": "anche", "translation": ["also"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "latte", "translation": ["milk"] }
+          ]
+        },
+        {
+          "id": "daily-03-line-04",
+          "speaker": "Sara",
+          "text": "Sì, a casa non c'è latte.",
+          "translation": "Yes, there is no milk at home.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "a", "translation": ["at", "to"] },
+            { "text": "casa", "translation": ["home", "house"] },
+            { "text": "non", "translation": ["not"] },
+            { "text": "c'è", "translation": ["there is"] },
+            { "text": "latte", "translation": ["milk"] }
+          ]
+        },
+        {
+          "id": "daily-03-line-05",
+          "speaker": "Luca",
+          "text": "Dove sono le uova?",
+          "translation": "Where are the eggs?",
+          "words": [
+            { "text": "Dove", "translation": ["Where"] },
+            { "text": "sono", "translation": ["are"] },
+            { "text": "le", "translation": ["the"] },
+            { "text": "uova", "translation": ["eggs"] }
+          ]
+        },
+        {
+          "id": "daily-03-line-06",
+          "speaker": "Sara",
+          "text": "Sono vicino al formaggio.",
+          "translation": "They are near the cheese.",
+          "words": [
+            { "text": "Sono", "translation": ["They are"] },
+            { "text": "vicino", "translation": ["near", "close"] },
+            { "text": "al", "translation": ["to the"] },
+            { "text": "formaggio", "translation": ["cheese"] }
+          ]
+        },
+        {
+          "id": "daily-03-line-07",
+          "speaker": "Luca",
+          "text": "Vuoi comprare della pasta?",
+          "translation": "Do you want to buy some pasta?",
+          "words": [
+            { "text": "Vuoi", "translation": ["you want", "do you want"] },
+            { "text": "comprare", "translation": ["to buy"] },
+            { "text": "della", "translation": ["some"] },
+            { "text": "pasta", "translation": ["pasta"] }
+          ]
+        },
+        {
+          "id": "daily-03-line-08",
+          "speaker": "Sara",
+          "text": "Sì, prendiamo due pacchi.",
+          "translation": "Yes, let's get two packs.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "prendiamo", "translation": ["we take", "let's get"] },
+            { "text": "due", "translation": ["two"] },
+            { "text": "pacchi", "translation": ["packs", "packages"] }
+          ]
+        },
+        {
+          "id": "daily-03-line-09",
+          "speaker": "Luca",
+          "text": "Abbiamo bisogno di pomodori?",
+          "translation": "Do we need tomatoes?",
+          "words": [
+            { "text": "Abbiamo", "translation": ["we have"] },
+            { "text": "bisogno", "translation": ["need"] },
+            { "text": "di", "translation": ["of"] },
+            { "text": "pomodori", "translation": ["tomatoes"] }
+          ]
+        },
+        {
+          "id": "daily-03-line-10",
+          "speaker": "Sara",
+          "text": "Sì, compriamo quattro pomodori.",
+          "translation": "Yes, let's buy four tomatoes.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "compriamo", "translation": ["we buy", "let's buy"] },
+            { "text": "quattro", "translation": ["four"] },
+            { "text": "pomodori", "translation": ["tomatoes"] }
+          ]
+        },
+        {
+          "id": "daily-03-line-11",
+          "speaker": "Luca",
+          "text": "Va bene, possiamo pagare.",
+          "translation": "Okay, we can pay.",
+          "words": [
+            { "text": "Va", "translation": ["goes", "is"] },
+            { "text": "bene", "translation": ["well", "okay"] },
+            { "text": "possiamo", "translation": ["we can"] },
+            { "text": "pagare", "translation": ["to pay"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-04",
+      "title": "Talking About Dinner",
+      "description": "Two roommates decide what to cook for dinner.",
+      "level": "A1",
+      "topic": "home",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "daily-04-line-01",
+          "speaker": "Elena",
+          "text": "Hai fame?",
+          "translation": "Are you hungry?",
+          "words": [
+            { "text": "Hai", "translation": ["you have", "do you have"] },
+            { "text": "fame", "translation": ["hunger", "hungry"] }
+          ]
+        },
+        {
+          "id": "daily-04-line-02",
+          "speaker": "Paolo",
+          "text": "Sì, ho molta fame.",
+          "translation": "Yes, I am very hungry.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "ho", "translation": ["I have"] },
+            { "text": "molta", "translation": ["a lot of", "much"] },
+            { "text": "fame", "translation": ["hunger", "hungry"] }
+          ]
+        },
+        {
+          "id": "daily-04-line-03",
+          "speaker": "Elena",
+          "text": "Cosa vuoi mangiare?",
+          "translation": "What do you want to eat?",
+          "words": [
+            { "text": "Cosa", "translation": ["What"] },
+            { "text": "vuoi", "translation": ["you want"] },
+            { "text": "mangiare", "translation": ["to eat"] }
+          ]
+        },
+        {
+          "id": "daily-04-line-04",
+          "speaker": "Paolo",
+          "text": "Possiamo fare la pasta.",
+          "translation": "We can make pasta.",
+          "words": [
+            { "text": "Possiamo", "translation": ["We can"] },
+            { "text": "fare", "translation": ["to make", "to do"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "pasta", "translation": ["pasta"] }
+          ]
+        },
+        {
+          "id": "daily-04-line-05",
+          "speaker": "Elena",
+          "text": "Abbiamo il pomodoro?",
+          "translation": "Do we have tomato sauce?",
+          "words": [
+            { "text": "Abbiamo", "translation": ["We have", "do we have"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "pomodoro", "translation": ["tomato"] }
+          ]
+        },
+        {
+          "id": "daily-04-line-06",
+          "speaker": "Paolo",
+          "text": "Sì, è nel frigorifero.",
+          "translation": "Yes, it is in the refrigerator.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "è", "translation": ["is", "it is"] },
+            { "text": "nel", "translation": ["in the"] },
+            { "text": "frigorifero", "translation": ["refrigerator", "fridge"] }
+          ]
+        },
+        {
+          "id": "daily-04-line-07",
+          "speaker": "Elena",
+          "text": "Perfetto, io preparo la pasta.",
+          "translation": "Perfect, I will prepare the pasta.",
+          "words": [
+            { "text": "Perfetto", "translation": ["Perfect"] },
+            { "text": "io", "translation": ["I"] },
+            { "text": "preparo", "translation": ["I prepare", "I make"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "pasta", "translation": ["pasta"] }
+          ]
+        },
+        {
+          "id": "daily-04-line-08",
+          "speaker": "Paolo",
+          "text": "Io preparo l'insalata.",
+          "translation": "I will prepare the salad.",
+          "words": [
+            { "text": "Io", "translation": ["I"] },
+            { "text": "preparo", "translation": ["I prepare", "I make"] },
+            { "text": "l'insalata", "translation": ["the salad"] }
+          ]
+        },
+        {
+          "id": "daily-04-line-09",
+          "speaker": "Elena",
+          "text": "Vuoi anche del pane?",
+          "translation": "Do you also want some bread?",
+          "words": [
+            { "text": "Vuoi", "translation": ["you want", "do you want"] },
+            { "text": "anche", "translation": ["also"] },
+            { "text": "del", "translation": ["some"] },
+            { "text": "pane", "translation": ["bread"] }
+          ]
+        },
+        {
+          "id": "daily-04-line-10",
+          "speaker": "Paolo",
+          "text": "Sì, prendo il pane.",
+          "translation": "Yes, I'll get the bread.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "prendo", "translation": ["I take", "I'll get"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "pane", "translation": ["bread"] }
+          ]
+        },
+        {
+          "id": "daily-04-line-11",
+          "speaker": "Elena",
+          "text": "La cena è quasi pronta.",
+          "translation": "Dinner is almost ready.",
+          "words": [
+            { "text": "La", "translation": ["The"] },
+            { "text": "cena", "translation": ["dinner"] },
+            { "text": "è", "translation": ["is"] },
+            { "text": "quasi", "translation": ["almost"] },
+            { "text": "pronta", "translation": ["ready"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-05",
+      "title": "Making Weekend Plans",
+      "description": "Two friends talk about what to do on Saturday.",
+      "level": "A1",
+      "topic": "free-time",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "daily-05-line-01",
+          "speaker": "Chiara",
+          "text": "Cosa fai sabato?",
+          "translation": "What are you doing on Saturday?",
+          "words": [
+            { "text": "Cosa", "translation": ["What"] },
+            { "text": "fai", "translation": ["you do", "are you doing"] },
+            { "text": "sabato", "translation": ["Saturday"] }
+          ]
+        },
+        {
+          "id": "daily-05-line-02",
+          "speaker": "Davide",
+          "text": "Non ho programmi.",
+          "translation": "I don't have plans.",
+          "words": [
+            { "text": "Non", "translation": ["Not", "don't"] },
+            { "text": "ho", "translation": ["I have"] },
+            { "text": "programmi", "translation": ["plans", "programs"] }
+          ]
+        },
+        {
+          "id": "daily-05-line-03",
+          "speaker": "Chiara",
+          "text": "Vuoi andare in centro?",
+          "translation": "Do you want to go to the city center?",
+          "words": [
+            { "text": "Vuoi", "translation": ["you want", "do you want"] },
+            { "text": "andare", "translation": ["to go"] },
+            { "text": "in", "translation": ["in", "to"] },
+            { "text": "centro", "translation": ["city center", "center"] }
+          ]
+        },
+        {
+          "id": "daily-05-line-04",
+          "speaker": "Davide",
+          "text": "Sì, volentieri.",
+          "translation": "Yes, gladly.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            {
+              "text": "volentieri",
+              "translation": ["gladly", "I'd be happy to"]
+            }
+          ]
+        },
+        {
+          "id": "daily-05-line-05",
+          "speaker": "Chiara",
+          "text": "Possiamo visitare il museo.",
+          "translation": "We can visit the museum.",
+          "words": [
+            { "text": "Possiamo", "translation": ["We can"] },
+            { "text": "visitare", "translation": ["to visit"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "museo", "translation": ["museum"] }
+          ]
+        },
+        {
+          "id": "daily-05-line-06",
+          "speaker": "Davide",
+          "text": "A che ora apre?",
+          "translation": "What time does it open?",
+          "words": [
+            { "text": "A", "translation": ["At"] },
+            { "text": "che", "translation": ["what", "which"] },
+            { "text": "ora", "translation": ["time", "hour"] },
+            { "text": "apre", "translation": ["it opens", "opens"] }
+          ]
+        },
+        {
+          "id": "daily-05-line-07",
+          "speaker": "Chiara",
+          "text": "Apre alle dieci.",
+          "translation": "It opens at ten.",
+          "words": [
+            { "text": "Apre", "translation": ["It opens", "opens"] },
+            { "text": "alle", "translation": ["at"] },
+            { "text": "dieci", "translation": ["ten"] }
+          ]
+        },
+        {
+          "id": "daily-05-line-08",
+          "speaker": "Davide",
+          "text": "Ci vediamo alle nove e mezza?",
+          "translation": "Shall we meet at half past nine?",
+          "words": [
+            { "text": "Ci", "translation": ["each other", "there"] },
+            { "text": "vediamo", "translation": ["we see", "we meet"] },
+            { "text": "alle", "translation": ["at"] },
+            { "text": "nove", "translation": ["nine"] },
+            { "text": "e", "translation": ["and"] },
+            { "text": "mezza", "translation": ["half"] }
+          ]
+        },
+        {
+          "id": "daily-05-line-09",
+          "speaker": "Chiara",
+          "text": "Sì, davanti alla stazione.",
+          "translation": "Yes, in front of the station.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "davanti", "translation": ["in front"] },
+            { "text": "alla", "translation": ["to the", "at the"] },
+            { "text": "stazione", "translation": ["station"] }
+          ]
+        },
+        {
+          "id": "daily-05-line-10",
+          "speaker": "Davide",
+          "text": "Dopo il museo possiamo mangiare insieme.",
+          "translation": "After the museum, we can eat together.",
+          "words": [
+            { "text": "Dopo", "translation": ["After"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "museo", "translation": ["museum"] },
+            { "text": "possiamo", "translation": ["we can"] },
+            { "text": "mangiare", "translation": ["to eat"] },
+            { "text": "insieme", "translation": ["together"] }
+          ]
+        },
+        {
+          "id": "daily-05-line-11",
+          "speaker": "Chiara",
+          "text": "Perfetto, a sabato!",
+          "translation": "Perfect, see you Saturday!",
+          "words": [
+            { "text": "Perfetto", "translation": ["Perfect"] },
+            { "text": "a", "translation": ["until", "to"] },
+            { "text": "sabato", "translation": ["Saturday"] }
+          ]
+        }
+      ]
+    }
+  ]
+}
