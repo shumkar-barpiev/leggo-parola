@@ -3,7 +3,7 @@ import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Chip from '@mui/material/Chip';
-import DialogueList from '@/app/components/dialogue/DialogueList';
+import DialogueLibrary from '@/app/components/dialogue/DialogueLibrary';
 import { getAllDialogues } from '@/app/lib/dialogues';
 
 export const metadata: Metadata = {
@@ -41,8 +41,8 @@ export default function DialoguesPage() {
         </Typography>
       </Box>
 
-      {/* Dialogues List */}
-      <DialogueList dialogues={dialogues} />
+      {/* Interactive Dialogue Library with Search */}
+      <DialogueLibrary dialogues={dialogues} />
     </Container>
   );
 }

@@ -78,7 +78,7 @@ export default function Home() {
               size="small"
               sx={{ fontWeight: 600 }}
             >
-              Browse all dialogues
+              View all dialogues
             </Button>
           </Link>
         </Box>
