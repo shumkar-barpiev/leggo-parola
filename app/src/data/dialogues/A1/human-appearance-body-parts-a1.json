@@ -1,0 +1,715 @@
+{
+  "dialogues": [
+    {
+      "id": "human-appearance-01",
+      "title": "Describing a Friend",
+      "description": "Two people describe a friend’s basic appearance.",
+      "level": "A1",
+      "topic": "human-appearance-body-parts",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "human-appearance-01-line-01",
+          "speaker": "Anna",
+          "text": "Com'è il tuo amico Marco?",
+          "translation": "What is your friend Marco like?",
+          "words": [
+            { "text": "Com'è", "translation": ["What is he like", "How is"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "tuo", "translation": ["your"] },
+            { "text": "amico", "translation": ["friend"] },
+            { "text": "Marco", "translation": ["Marco"] }
+          ]
+        },
+        {
+          "id": "human-appearance-01-line-02",
+          "speaker": "Luca",
+          "text": "È alto e magro.",
+          "translation": "He is tall and thin.",
+          "words": [
+            { "text": "È", "translation": ["He is", "is"] },
+            { "text": "alto", "translation": ["tall"] },
+            { "text": "e", "translation": ["and"] },
+            { "text": "magro", "translation": ["thin", "slim"] }
+          ]
+        },
+        {
+          "id": "human-appearance-01-line-03",
+          "speaker": "Anna",
+          "text": "Ha i capelli scuri?",
+          "translation": "Does he have dark hair?",
+          "words": [
+            { "text": "Ha", "translation": ["he has", "does he have"] },
+            { "text": "i", "translation": ["the"] },
+            { "text": "capelli", "translation": ["hair"] },
+            { "text": "scuri", "translation": ["dark"] }
+          ]
+        },
+        {
+          "id": "human-appearance-01-line-04",
+          "speaker": "Luca",
+          "text": "Sì, ha i capelli neri.",
+          "translation": "Yes, he has black hair.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "ha", "translation": ["he has"] },
+            { "text": "i", "translation": ["the"] },
+            { "text": "capelli", "translation": ["hair"] },
+            { "text": "neri", "translation": ["black"] }
+          ]
+        },
+        {
+          "id": "human-appearance-01-line-05",
+          "speaker": "Anna",
+          "text": "Sono lunghi o corti?",
+          "translation": "Are they long or short?",
+          "words": [
+            { "text": "Sono", "translation": ["They are", "are they"] },
+            { "text": "lunghi", "translation": ["long"] },
+            { "text": "o", "translation": ["or"] },
+            { "text": "corti", "translation": ["short"] }
+          ]
+        },
+        {
+          "id": "human-appearance-01-line-06",
+          "speaker": "Luca",
+          "text": "Sono corti.",
+          "translation": "They are short.",
+          "words": [
+            { "text": "Sono", "translation": ["They are"] },
+            { "text": "corti", "translation": ["short"] }
+          ]
+        },
+        {
+          "id": "human-appearance-01-line-07",
+          "speaker": "Anna",
+          "text": "Di che colore sono i suoi occhi?",
+          "translation": "What color are his eyes?",
+          "words": [
+            { "text": "Di", "translation": ["Of"] },
+            { "text": "che", "translation": ["what"] },
+            { "text": "colore", "translation": ["color"] },
+            { "text": "sono", "translation": ["are"] },
+            { "text": "i", "translation": ["the"] },
+            { "text": "suoi", "translation": ["his"] },
+            { "text": "occhi", "translation": ["eyes"] }
+          ]
+        },
+        {
+          "id": "human-appearance-01-line-08",
+          "speaker": "Luca",
+          "text": "Ha gli occhi marroni.",
+          "translation": "He has brown eyes.",
+          "words": [
+            { "text": "Ha", "translation": ["He has"] },
+            { "text": "gli", "translation": ["the"] },
+            { "text": "occhi", "translation": ["eyes"] },
+            { "text": "marroni", "translation": ["brown"] }
+          ]
+        },
+        {
+          "id": "human-appearance-01-line-09",
+          "speaker": "Anna",
+          "text": "Porta gli occhiali?",
+          "translation": "Does he wear glasses?",
+          "words": [
+            { "text": "Porta", "translation": ["he wears", "does he wear"] },
+            { "text": "gli", "translation": ["the"] },
+            { "text": "occhiali", "translation": ["glasses"] }
+          ]
+        },
+        {
+          "id": "human-appearance-01-line-10",
+          "speaker": "Luca",
+          "text": "No, non porta gli occhiali.",
+          "translation": "No, he does not wear glasses.",
+          "words": [
+            { "text": "No", "translation": ["No"] },
+            { "text": "non", "translation": ["not"] },
+            { "text": "porta", "translation": ["he wears"] },
+            { "text": "gli", "translation": ["the"] },
+            { "text": "occhiali", "translation": ["glasses"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "human-appearance-02",
+      "title": "What Does She Look Like?",
+      "description": "Two people describe a woman they are looking for.",
+      "level": "A1",
+      "topic": "human-appearance-body-parts",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "human-appearance-02-line-01",
+          "speaker": "Paolo",
+          "text": "Hai visto Sara?",
+          "translation": "Have you seen Sara?",
+          "words": [
+            { "text": "Hai", "translation": ["you have", "have you"] },
+            { "text": "visto", "translation": ["seen"] },
+            { "text": "Sara", "translation": ["Sara"] }
+          ]
+        },
+        {
+          "id": "human-appearance-02-line-02",
+          "speaker": "Elena",
+          "text": "Forse. Com'è?",
+          "translation": "Maybe. What does she look like?",
+          "words": [
+            { "text": "Forse", "translation": ["Maybe", "Perhaps"] },
+            {
+              "text": "Com'è",
+              "translation": ["What is she like", "What does she look like"]
+            }
+          ]
+        },
+        {
+          "id": "human-appearance-02-line-03",
+          "speaker": "Paolo",
+          "text": "È bassa e ha i capelli biondi.",
+          "translation": "She is short and has blonde hair.",
+          "words": [
+            { "text": "È", "translation": ["She is", "is"] },
+            { "text": "bassa", "translation": ["short"] },
+            { "text": "e", "translation": ["and"] },
+            { "text": "ha", "translation": ["she has"] },
+            { "text": "i", "translation": ["the"] },
+            { "text": "capelli", "translation": ["hair"] },
+            { "text": "biondi", "translation": ["blonde"] }
+          ]
+        },
+        {
+          "id": "human-appearance-02-line-04",
+          "speaker": "Elena",
+          "text": "Ha i capelli lunghi?",
+          "translation": "Does she have long hair?",
+          "words": [
+            { "text": "Ha", "translation": ["she has", "does she have"] },
+            { "text": "i", "translation": ["the"] },
+            { "text": "capelli", "translation": ["hair"] },
+            { "text": "lunghi", "translation": ["long"] }
+          ]
+        },
+        {
+          "id": "human-appearance-02-line-05",
+          "speaker": "Paolo",
+          "text": "Sì, molto lunghi.",
+          "translation": "Yes, very long.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "molto", "translation": ["very"] },
+            { "text": "lunghi", "translation": ["long"] }
+          ]
+        },
+        {
+          "id": "human-appearance-02-line-06",
+          "speaker": "Elena",
+          "text": "Ha gli occhi azzurri?",
+          "translation": "Does she have blue eyes?",
+          "words": [
+            { "text": "Ha", "translation": ["she has", "does she have"] },
+            { "text": "gli", "translation": ["the"] },
+            { "text": "occhi", "translation": ["eyes"] },
+            { "text": "azzurri", "translation": ["blue", "light blue"] }
+          ]
+        },
+        {
+          "id": "human-appearance-02-line-07",
+          "speaker": "Paolo",
+          "text": "Sì, esatto.",
+          "translation": "Yes, exactly.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "esatto", "translation": ["exactly", "correct"] }
+          ]
+        },
+        {
+          "id": "human-appearance-02-line-08",
+          "speaker": "Elena",
+          "text": "Indossa una giacca rossa?",
+          "translation": "Is she wearing a red jacket?",
+          "words": [
+            { "text": "Indossa", "translation": ["she wears", "is wearing"] },
+            { "text": "una", "translation": ["a"] },
+            { "text": "giacca", "translation": ["jacket"] },
+            { "text": "rossa", "translation": ["red"] }
+          ]
+        },
+        {
+          "id": "human-appearance-02-line-09",
+          "speaker": "Paolo",
+          "text": "Sì, oggi ha una giacca rossa.",
+          "translation": "Yes, today she is wearing a red jacket.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "oggi", "translation": ["today"] },
+            { "text": "ha", "translation": ["she has", "she is wearing"] },
+            { "text": "una", "translation": ["a"] },
+            { "text": "giacca", "translation": ["jacket"] },
+            { "text": "rossa", "translation": ["red"] }
+          ]
+        },
+        {
+          "id": "human-appearance-02-line-10",
+          "speaker": "Elena",
+          "text": "Allora l'ho vista vicino alla porta.",
+          "translation": "Then I saw her near the door.",
+          "words": [
+            { "text": "Allora", "translation": ["Then", "So"] },
+            { "text": "l'ho", "translation": ["I have her", "I"] },
+            { "text": "vista", "translation": ["seen"] },
+            { "text": "vicino", "translation": ["near"] },
+            { "text": "alla", "translation": ["to the"] },
+            { "text": "porta", "translation": ["door"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "human-appearance-03",
+      "title": "Parts of the Body",
+      "description": "A child and a parent talk about basic parts of the body.",
+      "level": "A1",
+      "topic": "human-appearance-body-parts",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "human-appearance-03-line-01",
+          "speaker": "Bambino",
+          "text": "Mamma, come si chiama questa parte?",
+          "translation": "Mom, what is this part called?",
+          "words": [
+            { "text": "Mamma", "translation": ["Mom", "Mum"] },
+            { "text": "come", "translation": ["how", "what"] },
+            { "text": "si", "translation": ["itself"] },
+            { "text": "chiama", "translation": ["is called"] },
+            { "text": "questa", "translation": ["this"] },
+            { "text": "parte", "translation": ["part"] }
+          ]
+        },
+        {
+          "id": "human-appearance-03-line-02",
+          "speaker": "Madre",
+          "text": "Questa è la mano.",
+          "translation": "This is the hand.",
+          "words": [
+            { "text": "Questa", "translation": ["This"] },
+            { "text": "è", "translation": ["is"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "mano", "translation": ["hand"] }
+          ]
+        },
+        {
+          "id": "human-appearance-03-line-03",
+          "speaker": "Bambino",
+          "text": "E queste?",
+          "translation": "And these?",
+          "words": [
+            { "text": "E", "translation": ["And"] },
+            { "text": "queste", "translation": ["these"] }
+          ]
+        },
+        {
+          "id": "human-appearance-03-line-04",
+          "speaker": "Madre",
+          "text": "Queste sono le dita.",
+          "translation": "These are the fingers.",
+          "words": [
+            { "text": "Queste", "translation": ["These"] },
+            { "text": "sono", "translation": ["are"] },
+            { "text": "le", "translation": ["the"] },
+            { "text": "dita", "translation": ["fingers"] }
+          ]
+        },
+        {
+          "id": "human-appearance-03-line-05",
+          "speaker": "Bambino",
+          "text": "Ho dieci dita!",
+          "translation": "I have ten fingers!",
+          "words": [
+            { "text": "Ho", "translation": ["I have"] },
+            { "text": "dieci", "translation": ["ten"] },
+            { "text": "dita", "translation": ["fingers"] }
+          ]
+        },
+        {
+          "id": "human-appearance-03-line-06",
+          "speaker": "Madre",
+          "text": "Sì, cinque per ogni mano.",
+          "translation": "Yes, five on each hand.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "cinque", "translation": ["five"] },
+            { "text": "per", "translation": ["for", "on"] },
+            { "text": "ogni", "translation": ["each", "every"] },
+            { "text": "mano", "translation": ["hand"] }
+          ]
+        },
+        {
+          "id": "human-appearance-03-line-07",
+          "speaker": "Bambino",
+          "text": "E questa è la gamba?",
+          "translation": "And is this the leg?",
+          "words": [
+            { "text": "E", "translation": ["And"] },
+            { "text": "questa", "translation": ["this"] },
+            { "text": "è", "translation": ["is"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "gamba", "translation": ["leg"] }
+          ]
+        },
+        {
+          "id": "human-appearance-03-line-08",
+          "speaker": "Madre",
+          "text": "Sì, e questo è il piede.",
+          "translation": "Yes, and this is the foot.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "e", "translation": ["and"] },
+            { "text": "questo", "translation": ["this"] },
+            { "text": "è", "translation": ["is"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "piede", "translation": ["foot"] }
+          ]
+        },
+        {
+          "id": "human-appearance-03-line-09",
+          "speaker": "Bambino",
+          "text": "Dove sono le orecchie?",
+          "translation": "Where are the ears?",
+          "words": [
+            { "text": "Dove", "translation": ["Where"] },
+            { "text": "sono", "translation": ["are"] },
+            { "text": "le", "translation": ["the"] },
+            { "text": "orecchie", "translation": ["ears"] }
+          ]
+        },
+        {
+          "id": "human-appearance-03-line-10",
+          "speaker": "Madre",
+          "text": "Sono ai lati della testa.",
+          "translation": "They are on the sides of the head.",
+          "words": [
+            { "text": "Sono", "translation": ["They are"] },
+            { "text": "ai", "translation": ["at the", "on the"] },
+            { "text": "lati", "translation": ["sides"] },
+            { "text": "della", "translation": ["of the"] },
+            { "text": "testa", "translation": ["head"] }
+          ]
+        },
+        {
+          "id": "human-appearance-03-line-11",
+          "speaker": "Bambino",
+          "text": "Ora ho capito.",
+          "translation": "Now I understand.",
+          "words": [
+            { "text": "Ora", "translation": ["Now"] },
+            { "text": "ho", "translation": ["I have"] },
+            { "text": "capito", "translation": ["understood"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "human-appearance-04",
+      "title": "Choosing Clothes",
+      "description": "Two friends talk about clothes and appearance before going out.",
+      "level": "A1",
+      "topic": "human-appearance-body-parts",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "human-appearance-04-line-01",
+          "speaker": "Giulia",
+          "text": "Come sto con questa camicia?",
+          "translation": "How do I look in this shirt?",
+          "words": [
+            { "text": "Come", "translation": ["How"] },
+            { "text": "sto", "translation": ["I look", "I am"] },
+            { "text": "con", "translation": ["with", "in"] },
+            { "text": "questa", "translation": ["this"] },
+            { "text": "camicia", "translation": ["shirt"] }
+          ]
+        },
+        {
+          "id": "human-appearance-04-line-02",
+          "speaker": "Sara",
+          "text": "Stai molto bene.",
+          "translation": "You look very good.",
+          "words": [
+            { "text": "Stai", "translation": ["you look", "you are"] },
+            { "text": "molto", "translation": ["very"] },
+            { "text": "bene", "translation": ["well", "good"] }
+          ]
+        },
+        {
+          "id": "human-appearance-04-line-03",
+          "speaker": "Giulia",
+          "text": "Ti piace il colore?",
+          "translation": "Do you like the color?",
+          "words": [
+            { "text": "Ti", "translation": ["to you"] },
+            { "text": "piace", "translation": ["you like", "is pleasing"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "colore", "translation": ["color"] }
+          ]
+        },
+        {
+          "id": "human-appearance-04-line-04",
+          "speaker": "Sara",
+          "text": "Sì, il blu ti sta bene.",
+          "translation": "Yes, blue looks good on you.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "blu", "translation": ["blue"] },
+            { "text": "ti", "translation": ["on you", "to you"] },
+            { "text": "sta", "translation": ["looks", "fits"] },
+            { "text": "bene", "translation": ["well", "good"] }
+          ]
+        },
+        {
+          "id": "human-appearance-04-line-05",
+          "speaker": "Giulia",
+          "text": "Metto anche i pantaloni neri.",
+          "translation": "I'll also wear the black trousers.",
+          "words": [
+            { "text": "Metto", "translation": ["I put on", "I'll wear"] },
+            { "text": "anche", "translation": ["also"] },
+            { "text": "i", "translation": ["the"] },
+            { "text": "pantaloni", "translation": ["trousers", "pants"] },
+            { "text": "neri", "translation": ["black"] }
+          ]
+        },
+        {
+          "id": "human-appearance-04-line-06",
+          "speaker": "Sara",
+          "text": "Sì, sono perfetti.",
+          "translation": "Yes, they are perfect.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "sono", "translation": ["they are"] },
+            { "text": "perfetti", "translation": ["perfect"] }
+          ]
+        },
+        {
+          "id": "human-appearance-04-line-07",
+          "speaker": "Giulia",
+          "text": "E le scarpe?",
+          "translation": "And the shoes?",
+          "words": [
+            { "text": "E", "translation": ["And"] },
+            { "text": "le", "translation": ["the"] },
+            { "text": "scarpe", "translation": ["shoes"] }
+          ]
+        },
+        {
+          "id": "human-appearance-04-line-08",
+          "speaker": "Sara",
+          "text": "Metti quelle bianche.",
+          "translation": "Wear the white ones.",
+          "words": [
+            { "text": "Metti", "translation": ["Put on", "Wear"] },
+            { "text": "quelle", "translation": ["those", "the ones"] },
+            { "text": "bianche", "translation": ["white"] }
+          ]
+        },
+        {
+          "id": "human-appearance-04-line-09",
+          "speaker": "Giulia",
+          "text": "Va bene. E i capelli?",
+          "translation": "Okay. And my hair?",
+          "words": [
+            { "text": "Va", "translation": ["goes", "is"] },
+            { "text": "bene", "translation": ["okay", "well"] },
+            { "text": "E", "translation": ["And"] },
+            { "text": "i", "translation": ["the"] },
+            { "text": "capelli", "translation": ["hair"] }
+          ]
+        },
+        {
+          "id": "human-appearance-04-line-10",
+          "speaker": "Sara",
+          "text": "I capelli stanno bene così.",
+          "translation": "Your hair looks good like that.",
+          "words": [
+            { "text": "I", "translation": ["The"] },
+            { "text": "capelli", "translation": ["hair"] },
+            { "text": "stanno", "translation": ["look", "are"] },
+            { "text": "bene", "translation": ["good", "well"] },
+            { "text": "così", "translation": ["like this", "like that"] }
+          ]
+        },
+        {
+          "id": "human-appearance-04-line-11",
+          "speaker": "Giulia",
+          "text": "Perfetto, sono pronta.",
+          "translation": "Perfect, I am ready.",
+          "words": [
+            { "text": "Perfetto", "translation": ["Perfect"] },
+            { "text": "sono", "translation": ["I am"] },
+            { "text": "pronta", "translation": ["ready"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "human-appearance-05",
+      "title": "Looking for Someone",
+      "description": "A person describes someone to find them in a public place.",
+      "level": "A1",
+      "topic": "human-appearance-body-parts",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "human-appearance-05-line-01",
+          "speaker": "Marco",
+          "text": "Scusi, cerco mio fratello.",
+          "translation": "Excuse me, I am looking for my brother.",
+          "words": [
+            { "text": "Scusi", "translation": ["Excuse me", "Sorry"] },
+            {
+              "text": "cerco",
+              "translation": ["I am looking for", "I search"]
+            },
+            { "text": "mio", "translation": ["my"] },
+            { "text": "fratello", "translation": ["brother"] }
+          ]
+        },
+        {
+          "id": "human-appearance-05-line-02",
+          "speaker": "Persona",
+          "text": "Com'è?",
+          "translation": "What does he look like?",
+          "words": [
+            {
+              "text": "Com'è",
+              "translation": ["What does he look like", "What is he like"]
+            }
+          ]
+        },
+        {
+          "id": "human-appearance-05-line-03",
+          "speaker": "Marco",
+          "text": "È alto e ha i capelli castani.",
+          "translation": "He is tall and has brown hair.",
+          "words": [
+            { "text": "È", "translation": ["He is", "is"] },
+            { "text": "alto", "translation": ["tall"] },
+            { "text": "e", "translation": ["and"] },
+            { "text": "ha", "translation": ["he has"] },
+            { "text": "i", "translation": ["the"] },
+            { "text": "capelli", "translation": ["hair"] },
+            { "text": "castani", "translation": ["brown", "chestnut"] }
+          ]
+        },
+        {
+          "id": "human-appearance-05-line-04",
+          "speaker": "Persona",
+          "text": "Ha la barba?",
+          "translation": "Does he have a beard?",
+          "words": [
+            { "text": "Ha", "translation": ["he has", "does he have"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "barba", "translation": ["beard"] }
+          ]
+        },
+        {
+          "id": "human-appearance-05-line-05",
+          "speaker": "Marco",
+          "text": "Sì, ha una barba corta.",
+          "translation": "Yes, he has a short beard.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "ha", "translation": ["he has"] },
+            { "text": "una", "translation": ["a"] },
+            { "text": "barba", "translation": ["beard"] },
+            { "text": "corta", "translation": ["short"] }
+          ]
+        },
+        {
+          "id": "human-appearance-05-line-06",
+          "speaker": "Persona",
+          "text": "Che cosa indossa?",
+          "translation": "What is he wearing?",
+          "words": [
+            { "text": "Che", "translation": ["What"] },
+            { "text": "cosa", "translation": ["thing", "what"] },
+            { "text": "indossa", "translation": ["he wears", "is wearing"] }
+          ]
+        },
+        {
+          "id": "human-appearance-05-line-07",
+          "speaker": "Marco",
+          "text": "Indossa una maglietta verde.",
+          "translation": "He is wearing a green T-shirt.",
+          "words": [
+            { "text": "Indossa", "translation": ["he is wearing", "he wears"] },
+            { "text": "una", "translation": ["a"] },
+            { "text": "maglietta", "translation": ["T-shirt"] },
+            { "text": "verde", "translation": ["green"] }
+          ]
+        },
+        {
+          "id": "human-appearance-05-line-08",
+          "speaker": "Persona",
+          "text": "Ha uno zaino?",
+          "translation": "Does he have a backpack?",
+          "words": [
+            { "text": "Ha", "translation": ["he has", "does he have"] },
+            { "text": "uno", "translation": ["a", "one"] },
+            { "text": "zaino", "translation": ["backpack"] }
+          ]
+        },
+        {
+          "id": "human-appearance-05-line-09",
+          "speaker": "Marco",
+          "text": "Sì, uno zaino nero.",
+          "translation": "Yes, a black backpack.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "uno", "translation": ["a", "one"] },
+            { "text": "zaino", "translation": ["backpack"] },
+            { "text": "nero", "translation": ["black"] }
+          ]
+        },
+        {
+          "id": "human-appearance-05-line-10",
+          "speaker": "Persona",
+          "text": "Credo di averlo visto vicino all'uscita.",
+          "translation": "I think I saw him near the exit.",
+          "words": [
+            { "text": "Credo", "translation": ["I think", "I believe"] },
+            { "text": "di", "translation": ["to", "of"] },
+            { "text": "averlo", "translation": ["to have him"] },
+            { "text": "visto", "translation": ["seen"] },
+            { "text": "vicino", "translation": ["near"] },
+            {
+              "text": "all'uscita",
+              "translation": ["to the exit", "near the exit"]
+            }
+          ]
+        },
+        {
+          "id": "human-appearance-05-line-11",
+          "speaker": "Marco",
+          "text": "Grazie, vado a vedere.",
+          "translation": "Thank you, I'll go and check.",
+          "words": [
+            { "text": "Grazie", "translation": ["Thank you", "Thanks"] },
+            { "text": "vado", "translation": ["I go", "I'll go"] },
+            { "text": "a", "translation": ["to"] },
+            { "text": "vedere", "translation": ["to see", "to check"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

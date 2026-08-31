@@ -1,0 +1,734 @@
+{
+  "dialogues": [
+    {
+      "id": "dining-social-01",
+      "title": "Ordering at a Restaurant",
+      "description": "A customer orders a simple meal at a restaurant.",
+      "level": "A1",
+      "topic": "dining-social-outings",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "dining-social-01-line-01",
+          "speaker": "Cameriere",
+          "text": "Buonasera, avete prenotato?",
+          "translation": "Good evening, do you have a reservation?",
+          "words": [
+            { "text": "Buonasera", "translation": ["Good evening"] },
+            { "text": "avete", "translation": ["you have", "do you have"] },
+            { "text": "prenotato", "translation": ["reserved", "booked"] }
+          ]
+        },
+        {
+          "id": "dining-social-01-line-02",
+          "speaker": "Cliente",
+          "text": "No, non abbiamo prenotato.",
+          "translation": "No, we do not have a reservation.",
+          "words": [
+            { "text": "No", "translation": ["No"] },
+            { "text": "non", "translation": ["not"] },
+            { "text": "abbiamo", "translation": ["we have"] },
+            { "text": "prenotato", "translation": ["reserved", "booked"] }
+          ]
+        },
+        {
+          "id": "dining-social-01-line-03",
+          "speaker": "Cameriere",
+          "text": "Siete in due?",
+          "translation": "Are there two of you?",
+          "words": [
+            { "text": "Siete", "translation": ["you are", "are you"] },
+            { "text": "in", "translation": ["in"] },
+            { "text": "due", "translation": ["two"] }
+          ]
+        },
+        {
+          "id": "dining-social-01-line-04",
+          "speaker": "Cliente",
+          "text": "Sì, siamo in due.",
+          "translation": "Yes, there are two of us.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "siamo", "translation": ["we are"] },
+            { "text": "in", "translation": ["in"] },
+            { "text": "due", "translation": ["two"] }
+          ]
+        },
+        {
+          "id": "dining-social-01-line-05",
+          "speaker": "Cameriere",
+          "text": "Prego, questo è il vostro tavolo.",
+          "translation": "Here you are, this is your table.",
+          "words": [
+            { "text": "Prego", "translation": ["Here you are", "Please"] },
+            { "text": "questo", "translation": ["this"] },
+            { "text": "è", "translation": ["is"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "vostro", "translation": ["your"] },
+            { "text": "tavolo", "translation": ["table"] }
+          ]
+        },
+        {
+          "id": "dining-social-01-line-06",
+          "speaker": "Cliente",
+          "text": "Grazie, possiamo vedere il menù?",
+          "translation": "Thank you, can we see the menu?",
+          "words": [
+            { "text": "Grazie", "translation": ["Thank you", "Thanks"] },
+            { "text": "possiamo", "translation": ["we can", "can we"] },
+            { "text": "vedere", "translation": ["to see"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "menù", "translation": ["menu"] }
+          ]
+        },
+        {
+          "id": "dining-social-01-line-07",
+          "speaker": "Cameriere",
+          "text": "Certo, ecco il menù.",
+          "translation": "Of course, here is the menu.",
+          "words": [
+            { "text": "Certo", "translation": ["Of course", "Sure"] },
+            { "text": "ecco", "translation": ["here is", "here you are"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "menù", "translation": ["menu"] }
+          ]
+        },
+        {
+          "id": "dining-social-01-line-08",
+          "speaker": "Cliente",
+          "text": "Vorrei una pizza margherita.",
+          "translation": "I would like a margherita pizza.",
+          "words": [
+            { "text": "Vorrei", "translation": ["I would like"] },
+            { "text": "una", "translation": ["a", "one"] },
+            { "text": "pizza", "translation": ["pizza"] },
+            { "text": "margherita", "translation": ["margherita"] }
+          ]
+        },
+        {
+          "id": "dining-social-01-line-09",
+          "speaker": "Cameriere",
+          "text": "E da bere?",
+          "translation": "And to drink?",
+          "words": [
+            { "text": "E", "translation": ["And"] },
+            { "text": "da", "translation": ["to", "for"] },
+            { "text": "bere", "translation": ["to drink"] }
+          ]
+        },
+        {
+          "id": "dining-social-01-line-10",
+          "speaker": "Cliente",
+          "text": "Una bottiglia d'acqua, per favore.",
+          "translation": "A bottle of water, please.",
+          "words": [
+            { "text": "Una", "translation": ["A", "One"] },
+            { "text": "bottiglia", "translation": ["bottle"] },
+            { "text": "d'acqua", "translation": ["of water"] },
+            { "text": "per", "translation": ["for"] },
+            { "text": "favore", "translation": ["please", "favor"] }
+          ]
+        },
+        {
+          "id": "dining-social-01-line-11",
+          "speaker": "Cameriere",
+          "text": "Perfetto, arriva subito.",
+          "translation": "Perfect, it will be right out.",
+          "words": [
+            { "text": "Perfetto", "translation": ["Perfect"] },
+            { "text": "arriva", "translation": ["it arrives", "it is coming"] },
+            { "text": "subito", "translation": ["right away", "immediately"] }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "dining-social-02",
+      "title": "Breakfast at the Bar",
+      "description": "A customer orders a simple Italian breakfast.",
+      "level": "A1",
+      "topic": "dining-social-outings",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "dining-social-02-line-01",
+          "speaker": "Cliente",
+          "text": "Buongiorno.",
+          "translation": "Good morning.",
+          "words": [
+            {
+              "text": "Buongiorno",
+              "translation": ["Good morning", "Good day"]
+            }
+          ]
+        },
+        {
+          "id": "dining-social-02-line-02",
+          "speaker": "Barista",
+          "text": "Buongiorno, cosa prende?",
+          "translation": "Good morning, what would you like?",
+          "words": [
+            { "text": "Buongiorno", "translation": ["Good morning"] },
+            { "text": "cosa", "translation": ["what"] },
+            { "text": "prende", "translation": ["you take", "would you like"] }
+          ]
+        },
+        {
+          "id": "dining-social-02-line-03",
+          "speaker": "Cliente",
+          "text": "Prendo un cappuccino.",
+          "translation": "I'll have a cappuccino.",
+          "words": [
+            { "text": "Prendo", "translation": ["I take", "I'll have"] },
+            { "text": "un", "translation": ["a"] },
+            { "text": "cappuccino", "translation": ["cappuccino"] }
+          ]
+        },
+        {
+          "id": "dining-social-02-line-04",
+          "speaker": "Barista",
+          "text": "Vuole anche un cornetto?",
+          "translation": "Would you also like a croissant?",
+          "words": [
+            { "text": "Vuole", "translation": ["you want", "would you like"] },
+            { "text": "anche", "translation": ["also"] },
+            { "text": "un", "translation": ["a"] },
+            { "text": "cornetto", "translation": ["croissant"] }
+          ]
+        },
+        {
+          "id": "dining-social-02-line-05",
+          "speaker": "Cliente",
+          "text": "Sì, un cornetto alla crema.",
+          "translation": "Yes, a custard croissant.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "un", "translation": ["a"] },
+            { "text": "cornetto", "translation": ["croissant"] },
+            { "text": "alla", "translation": ["with", "to the"] },
+            { "text": "crema", "translation": ["custard", "cream"] }
+          ]
+        },
+        {
+          "id": "dining-social-02-line-06",
+          "speaker": "Barista",
+          "text": "Mangia qui?",
+          "translation": "Are you eating here?",
+          "words": [
+            { "text": "Mangia", "translation": ["you eat", "are you eating"] },
+            { "text": "qui", "translation": ["here"] }
+          ]
+        },
+        {
+          "id": "dining-social-02-line-07",
+          "speaker": "Cliente",
+          "text": "Sì, mangio qui.",
+          "translation": "Yes, I'm eating here.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "mangio", "translation": ["I eat", "I'm eating"] },
+            { "text": "qui", "translation": ["here"] }
+          ]
+        },
+        {
+          "id": "dining-social-02-line-08",
+          "speaker": "Barista",
+          "text": "Vuole dello zucchero?",
+          "translation": "Would you like some sugar?",
+          "words": [
+            { "text": "Vuole", "translation": ["you want", "would you like"] },
+            { "text": "dello", "translation": ["some"] },
+            { "text": "zucchero", "translation": ["sugar"] }
+          ]
+        },
+        {
+          "id": "dining-social-02-line-09",
+          "speaker": "Cliente",
+          "text": "No, grazie.",
+          "translation": "No, thank you.",
+          "words": [
+            { "text": "No", "translation": ["No"] },
+            { "text": "grazie", "translation": ["thank you", "thanks"] }
+          ]
+        },
+        {
+          "id": "dining-social-02-line-10",
+          "speaker": "Barista",
+          "text": "Sono tre euro e cinquanta.",
+          "translation": "It is three euros and fifty cents.",
+          "words": [
+            { "text": "Sono", "translation": ["they are", "it is"] },
+            { "text": "tre", "translation": ["three"] },
+            { "text": "euro", "translation": ["euros"] },
+            { "text": "e", "translation": ["and"] },
+            { "text": "cinquanta", "translation": ["fifty"] }
+          ]
+        },
+        {
+          "id": "dining-social-02-line-11",
+          "speaker": "Cliente",
+          "text": "Ecco, grazie.",
+          "translation": "Here you are, thank you.",
+          "words": [
+            { "text": "Ecco", "translation": ["Here you are", "Here"] },
+            { "text": "grazie", "translation": ["thank you", "thanks"] }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "dining-social-03",
+      "title": "Having Pizza with Friends",
+      "description": "Two friends choose what to eat at a pizzeria.",
+      "level": "A1",
+      "topic": "dining-social-outings",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "dining-social-03-line-01",
+          "speaker": "Sara",
+          "text": "Hai fame?",
+          "translation": "Are you hungry?",
+          "words": [
+            { "text": "Hai", "translation": ["you have", "do you have"] },
+            { "text": "fame", "translation": ["hunger", "hungry"] }
+          ]
+        },
+        {
+          "id": "dining-social-03-line-02",
+          "speaker": "Matteo",
+          "text": "Sì, ho molta fame.",
+          "translation": "Yes, I am very hungry.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "ho", "translation": ["I have"] },
+            { "text": "molta", "translation": ["a lot of", "much"] },
+            { "text": "fame", "translation": ["hunger", "hungry"] }
+          ]
+        },
+        {
+          "id": "dining-social-03-line-03",
+          "speaker": "Sara",
+          "text": "Quale pizza vuoi?",
+          "translation": "Which pizza do you want?",
+          "words": [
+            { "text": "Quale", "translation": ["Which", "What"] },
+            { "text": "pizza", "translation": ["pizza"] },
+            { "text": "vuoi", "translation": ["you want", "do you want"] }
+          ]
+        },
+        {
+          "id": "dining-social-03-line-04",
+          "speaker": "Matteo",
+          "text": "Vorrei una pizza con funghi.",
+          "translation": "I would like a pizza with mushrooms.",
+          "words": [
+            { "text": "Vorrei", "translation": ["I would like"] },
+            { "text": "una", "translation": ["a"] },
+            { "text": "pizza", "translation": ["pizza"] },
+            { "text": "con", "translation": ["with"] },
+            { "text": "funghi", "translation": ["mushrooms"] }
+          ]
+        },
+        {
+          "id": "dining-social-03-line-05",
+          "speaker": "Sara",
+          "text": "Io prendo una margherita.",
+          "translation": "I'll have a margherita.",
+          "words": [
+            { "text": "Io", "translation": ["I"] },
+            { "text": "prendo", "translation": ["I take", "I'll have"] },
+            { "text": "una", "translation": ["a"] },
+            { "text": "margherita", "translation": ["margherita pizza"] }
+          ]
+        },
+        {
+          "id": "dining-social-03-line-06",
+          "speaker": "Matteo",
+          "text": "Vuoi bere qualcosa?",
+          "translation": "Do you want to drink something?",
+          "words": [
+            { "text": "Vuoi", "translation": ["you want", "do you want"] },
+            { "text": "bere", "translation": ["to drink"] },
+            { "text": "qualcosa", "translation": ["something"] }
+          ]
+        },
+        {
+          "id": "dining-social-03-line-07",
+          "speaker": "Sara",
+          "text": "Prendo una Coca-Cola.",
+          "translation": "I'll have a Coca-Cola.",
+          "words": [
+            { "text": "Prendo", "translation": ["I take", "I'll have"] },
+            { "text": "una", "translation": ["a"] },
+            { "text": "Coca-Cola", "translation": ["Coca-Cola"] }
+          ]
+        },
+        {
+          "id": "dining-social-03-line-08",
+          "speaker": "Matteo",
+          "text": "Io bevo acqua.",
+          "translation": "I'll drink water.",
+          "words": [
+            { "text": "Io", "translation": ["I"] },
+            { "text": "bevo", "translation": ["I drink"] },
+            { "text": "acqua", "translation": ["water"] }
+          ]
+        },
+        {
+          "id": "dining-social-03-line-09",
+          "speaker": "Sara",
+          "text": "Dopo prendiamo un dolce?",
+          "translation": "Shall we have a dessert afterward?",
+          "words": [
+            { "text": "Dopo", "translation": ["After", "Later"] },
+            {
+              "text": "prendiamo",
+              "translation": ["we take", "shall we have"]
+            },
+            { "text": "un", "translation": ["a"] },
+            { "text": "dolce", "translation": ["dessert", "sweet"] }
+          ]
+        },
+        {
+          "id": "dining-social-03-line-10",
+          "speaker": "Matteo",
+          "text": "Sì, magari un tiramisù.",
+          "translation": "Yes, maybe a tiramisu.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "magari", "translation": ["maybe", "perhaps"] },
+            { "text": "un", "translation": ["a"] },
+            { "text": "tiramisù", "translation": ["tiramisu"] }
+          ]
+        },
+        {
+          "id": "dining-social-03-line-11",
+          "speaker": "Sara",
+          "text": "Perfetto, buona idea.",
+          "translation": "Perfect, good idea.",
+          "words": [
+            { "text": "Perfetto", "translation": ["Perfect"] },
+            { "text": "buona", "translation": ["good"] },
+            { "text": "idea", "translation": ["idea"] }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "dining-social-04",
+      "title": "Going Out for an Aperitivo",
+      "description": "Two friends make simple plans for an aperitivo.",
+      "level": "A1",
+      "topic": "dining-social-outings",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "dining-social-04-line-01",
+          "speaker": "Giulia",
+          "text": "Sei libero questa sera?",
+          "translation": "Are you free this evening?",
+          "words": [
+            { "text": "Sei", "translation": ["you are", "are you"] },
+            { "text": "libero", "translation": ["free"] },
+            { "text": "questa", "translation": ["this"] },
+            { "text": "sera", "translation": ["evening"] }
+          ]
+        },
+        {
+          "id": "dining-social-04-line-02",
+          "speaker": "Luca",
+          "text": "Sì, non ho programmi.",
+          "translation": "Yes, I don't have plans.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "non", "translation": ["not"] },
+            { "text": "ho", "translation": ["I have"] },
+            { "text": "programmi", "translation": ["plans"] }
+          ]
+        },
+        {
+          "id": "dining-social-04-line-03",
+          "speaker": "Giulia",
+          "text": "Vuoi fare un aperitivo?",
+          "translation": "Do you want to have an aperitivo?",
+          "words": [
+            { "text": "Vuoi", "translation": ["you want", "do you want"] },
+            { "text": "fare", "translation": ["to do", "to have"] },
+            { "text": "un", "translation": ["an", "a"] },
+            {
+              "text": "aperitivo",
+              "translation": ["aperitivo", "pre-dinner drink"]
+            }
+          ]
+        },
+        {
+          "id": "dining-social-04-line-04",
+          "speaker": "Luca",
+          "text": "Sì, volentieri.",
+          "translation": "Yes, I'd be happy to.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            {
+              "text": "volentieri",
+              "translation": ["gladly", "I'd be happy to"]
+            }
+          ]
+        },
+        {
+          "id": "dining-social-04-line-05",
+          "speaker": "Giulia",
+          "text": "Conosco un bar in centro.",
+          "translation": "I know a bar in the city center.",
+          "words": [
+            { "text": "Conosco", "translation": ["I know"] },
+            { "text": "un", "translation": ["a"] },
+            { "text": "bar", "translation": ["bar", "café"] },
+            { "text": "in", "translation": ["in"] },
+            { "text": "centro", "translation": ["city center", "center"] }
+          ]
+        },
+        {
+          "id": "dining-social-04-line-06",
+          "speaker": "Luca",
+          "text": "È lontano da qui?",
+          "translation": "Is it far from here?",
+          "words": [
+            { "text": "È", "translation": ["is", "it is"] },
+            { "text": "lontano", "translation": ["far"] },
+            { "text": "da", "translation": ["from"] },
+            { "text": "qui", "translation": ["here"] }
+          ]
+        },
+        {
+          "id": "dining-social-04-line-07",
+          "speaker": "Giulia",
+          "text": "No, sono dieci minuti a piedi.",
+          "translation": "No, it is ten minutes on foot.",
+          "words": [
+            { "text": "No", "translation": ["No"] },
+            { "text": "sono", "translation": ["they are", "it is"] },
+            { "text": "dieci", "translation": ["ten"] },
+            { "text": "minuti", "translation": ["minutes"] },
+            { "text": "a", "translation": ["by", "on"] },
+            { "text": "piedi", "translation": ["feet", "on foot"] }
+          ]
+        },
+        {
+          "id": "dining-social-04-line-08",
+          "speaker": "Luca",
+          "text": "A che ora ci vediamo?",
+          "translation": "What time shall we meet?",
+          "words": [
+            { "text": "A", "translation": ["At"] },
+            { "text": "che", "translation": ["what", "which"] },
+            { "text": "ora", "translation": ["time", "hour"] },
+            { "text": "ci", "translation": ["each other"] },
+            { "text": "vediamo", "translation": ["we see", "we meet"] }
+          ]
+        },
+        {
+          "id": "dining-social-04-line-09",
+          "speaker": "Giulia",
+          "text": "Alle sette va bene?",
+          "translation": "Is seven okay?",
+          "words": [
+            { "text": "Alle", "translation": ["At"] },
+            { "text": "sette", "translation": ["seven"] },
+            { "text": "va", "translation": ["goes", "is"] },
+            { "text": "bene", "translation": ["well", "okay"] }
+          ]
+        },
+        {
+          "id": "dining-social-04-line-10",
+          "speaker": "Luca",
+          "text": "Sì, perfetto.",
+          "translation": "Yes, perfect.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "perfetto", "translation": ["perfect"] }
+          ]
+        },
+        {
+          "id": "dining-social-04-line-11",
+          "speaker": "Giulia",
+          "text": "Allora ci vediamo alle sette.",
+          "translation": "Then we'll see each other at seven.",
+          "words": [
+            { "text": "Allora", "translation": ["Then", "So"] },
+            { "text": "ci", "translation": ["each other"] },
+            { "text": "vediamo", "translation": ["we see", "we meet"] },
+            { "text": "alle", "translation": ["at"] },
+            { "text": "sette", "translation": ["seven"] }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "dining-social-05",
+      "title": "Asking for the Bill",
+      "description": "Two customers finish dinner and ask for the bill.",
+      "level": "A1",
+      "topic": "dining-social-outings",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "dining-social-05-line-01",
+          "speaker": "Anna",
+          "text": "Hai finito?",
+          "translation": "Have you finished?",
+          "words": [
+            { "text": "Hai", "translation": ["you have", "have you"] },
+            { "text": "finito", "translation": ["finished"] }
+          ]
+        },
+        {
+          "id": "dining-social-05-line-02",
+          "speaker": "Marco",
+          "text": "Sì, era tutto molto buono.",
+          "translation": "Yes, everything was very good.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "era", "translation": ["was", "it was"] },
+            { "text": "tutto", "translation": ["everything", "all"] },
+            { "text": "molto", "translation": ["very", "a lot"] },
+            { "text": "buono", "translation": ["good"] }
+          ]
+        },
+        {
+          "id": "dining-social-05-line-03",
+          "speaker": "Anna",
+          "text": "Anche la mia pasta era buona.",
+          "translation": "My pasta was good too.",
+          "words": [
+            { "text": "Anche", "translation": ["also", "too"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "mia", "translation": ["my"] },
+            { "text": "pasta", "translation": ["pasta"] },
+            { "text": "era", "translation": ["was"] },
+            { "text": "buona", "translation": ["good"] }
+          ]
+        },
+        {
+          "id": "dining-social-05-line-04",
+          "speaker": "Marco",
+          "text": "Prendiamo un caffè?",
+          "translation": "Shall we have a coffee?",
+          "words": [
+            {
+              "text": "Prendiamo",
+              "translation": ["we take", "shall we have"]
+            },
+            { "text": "un", "translation": ["a"] },
+            { "text": "caffè", "translation": ["coffee"] }
+          ]
+        },
+        {
+          "id": "dining-social-05-line-05",
+          "speaker": "Anna",
+          "text": "No, grazie. Sono piena.",
+          "translation": "No, thanks. I'm full.",
+          "words": [
+            { "text": "No", "translation": ["No"] },
+            { "text": "grazie", "translation": ["thanks", "thank you"] },
+            { "text": "Sono", "translation": ["I am"] },
+            { "text": "piena", "translation": ["full"] }
+          ]
+        },
+        {
+          "id": "dining-social-05-line-06",
+          "speaker": "Marco",
+          "text": "Va bene, chiediamo il conto.",
+          "translation": "Okay, let's ask for the bill.",
+          "words": [
+            { "text": "Va", "translation": ["goes", "is"] },
+            { "text": "bene", "translation": ["well", "okay"] },
+            { "text": "chiediamo", "translation": ["we ask", "let's ask"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "conto", "translation": ["bill", "check"] }
+          ]
+        },
+        {
+          "id": "dining-social-05-line-07",
+          "speaker": "Marco",
+          "text": "Scusi, possiamo avere il conto?",
+          "translation": "Excuse me, can we have the bill?",
+          "words": [
+            { "text": "Scusi", "translation": ["Excuse me", "Sorry"] },
+            { "text": "possiamo", "translation": ["we can", "can we"] },
+            { "text": "avere", "translation": ["to have"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "conto", "translation": ["bill", "check"] }
+          ]
+        },
+        {
+          "id": "dining-social-05-line-08",
+          "speaker": "Cameriere",
+          "text": "Certo, sono ventotto euro.",
+          "translation": "Of course, it is twenty-eight euros.",
+          "words": [
+            { "text": "Certo", "translation": ["Of course", "Sure"] },
+            { "text": "sono", "translation": ["they are", "it is"] },
+            { "text": "ventotto", "translation": ["twenty-eight"] },
+            { "text": "euro", "translation": ["euros"] }
+          ]
+        },
+        {
+          "id": "dining-social-05-line-09",
+          "speaker": "Anna",
+          "text": "Possiamo pagare separatamente?",
+          "translation": "Can we pay separately?",
+          "words": [
+            { "text": "Possiamo", "translation": ["we can", "can we"] },
+            { "text": "pagare", "translation": ["to pay"] },
+            { "text": "separatamente", "translation": ["separately"] }
+          ]
+        },
+        {
+          "id": "dining-social-05-line-10",
+          "speaker": "Cameriere",
+          "text": "Sì, nessun problema.",
+          "translation": "Yes, no problem.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "nessun", "translation": ["no", "not any"] },
+            { "text": "problema", "translation": ["problem"] }
+          ]
+        },
+        {
+          "id": "dining-social-05-line-11",
+          "speaker": "Marco",
+          "text": "Pago con la carta.",
+          "translation": "I'll pay by card.",
+          "words": [
+            { "text": "Pago", "translation": ["I pay", "I'll pay"] },
+            { "text": "con", "translation": ["with", "by"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "carta", "translation": ["card"] }
+          ]
+        },
+        {
+          "id": "dining-social-05-line-12",
+          "speaker": "Cameriere",
+          "text": "Grazie e buona serata.",
+          "translation": "Thank you and have a nice evening.",
+          "words": [
+            { "text": "Grazie", "translation": ["Thank you", "Thanks"] },
+            { "text": "e", "translation": ["and"] },
+            { "text": "buona", "translation": ["good", "nice"] },
+            { "text": "serata", "translation": ["evening"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

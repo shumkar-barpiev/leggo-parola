@@ -1,8 +1,30 @@
-import dailyData from '@/app/src/data/dialogues/daily.json';
+import dailySocial01 from '@/app/src/data/dialogues/A1/daily-social-interaction-a1-01.json';
+import dailySocial02 from '@/app/src/data/dialogues/A1/daily-social-interaction-a1-02.json';
+import diningSocial from '@/app/src/data/dialogues/A1/dining-social-outings-a1.json';
+import essentialServices from '@/app/src/data/dialogues/A1/essential-services-emergencies-a1.json';
+import familyRelationships from '@/app/src/data/dialogues/A1/family-relationships-a1.json';
+import humanAppearance from '@/app/src/data/dialogues/A1/human-appearance-body-parts-a1.json';
+import publicAcademic from '@/app/src/data/dialogues/A1/public-academic-spaces-a1.json';
 import { Dialogue } from '@/app/types/dialogue';
 
+const dialogueDatasets = [
+  dailySocial01,
+  dailySocial02,
+  diningSocial,
+  essentialServices,
+  familyRelationships,
+  humanAppearance,
+  publicAcademic,
+];
+
 export function getAllDialogues(): Dialogue[] {
-  return dailyData.dialogues as Dialogue[];
+  const allDialogues: Dialogue[] = [];
+  dialogueDatasets.forEach((dataset) => {
+    if (dataset && Array.isArray(dataset.dialogues)) {
+      allDialogues.push(...(dataset.dialogues as Dialogue[]));
+    }
+  });
+  return allDialogues;
 }
 
 export function getRandomDialogues(limit: number = 5): Dialogue[] {

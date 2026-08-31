@@ -1,0 +1,671 @@
+{
+  "dialogues": [
+    {
+      "id": "family-relationships-01",
+      "title": "Talking About Family",
+      "description": "Two people talk about their families.",
+      "level": "A1",
+      "topic": "family-other-relationships",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "family-relationships-01-line-01",
+          "speaker": "Anna",
+          "text": "Hai fratelli o sorelle?",
+          "translation": "Do you have brothers or sisters?",
+          "words": [
+            { "text": "Hai", "translation": ["you have", "do you have"] },
+            { "text": "fratelli", "translation": ["brothers", "siblings"] },
+            { "text": "o", "translation": ["or"] },
+            { "text": "sorelle", "translation": ["sisters"] }
+          ]
+        },
+        {
+          "id": "family-relationships-01-line-02",
+          "speaker": "Marco",
+          "text": "Sì, ho un fratello.",
+          "translation": "Yes, I have one brother.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "ho", "translation": ["I have"] },
+            { "text": "un", "translation": ["a", "one"] },
+            { "text": "fratello", "translation": ["brother"] }
+          ]
+        },
+        {
+          "id": "family-relationships-01-line-03",
+          "speaker": "Anna",
+          "text": "Come si chiama?",
+          "translation": "What is his name?",
+          "words": [
+            { "text": "Come", "translation": ["how", "what"] },
+            { "text": "si", "translation": ["himself"] },
+            { "text": "chiama", "translation": ["is called", "his name is"] }
+          ]
+        },
+        {
+          "id": "family-relationships-01-line-04",
+          "speaker": "Marco",
+          "text": "Si chiama Davide.",
+          "translation": "His name is Davide.",
+          "words": [
+            { "text": "Si", "translation": ["himself"] },
+            { "text": "chiama", "translation": ["is called", "his name is"] },
+            { "text": "Davide", "translation": ["Davide"] }
+          ]
+        },
+        {
+          "id": "family-relationships-01-line-05",
+          "speaker": "Anna",
+          "text": "Quanti anni ha?",
+          "translation": "How old is he?",
+          "words": [
+            { "text": "Quanti", "translation": ["how many"] },
+            { "text": "anni", "translation": ["years"] },
+            { "text": "ha", "translation": ["has", "is"] }
+          ]
+        },
+        {
+          "id": "family-relationships-01-line-06",
+          "speaker": "Marco",
+          "text": "Ha ventidue anni.",
+          "translation": "He is twenty-two years old.",
+          "words": [
+            { "text": "Ha", "translation": ["has", "he is"] },
+            { "text": "ventidue", "translation": ["twenty-two"] },
+            { "text": "anni", "translation": ["years"] }
+          ]
+        },
+        {
+          "id": "family-relationships-01-line-07",
+          "speaker": "Anna",
+          "text": "Vive con te?",
+          "translation": "Does he live with you?",
+          "words": [
+            { "text": "Vive", "translation": ["he lives", "does he live"] },
+            { "text": "con", "translation": ["with"] },
+            { "text": "te", "translation": ["you"] }
+          ]
+        },
+        {
+          "id": "family-relationships-01-line-08",
+          "speaker": "Marco",
+          "text": "No, vive a Bologna.",
+          "translation": "No, he lives in Bologna.",
+          "words": [
+            { "text": "No", "translation": ["No"] },
+            { "text": "vive", "translation": ["he lives"] },
+            { "text": "a", "translation": ["in", "at"] },
+            { "text": "Bologna", "translation": ["Bologna"] }
+          ]
+        },
+        {
+          "id": "family-relationships-01-line-09",
+          "speaker": "Anna",
+          "text": "Lo vedi spesso?",
+          "translation": "Do you see him often?",
+          "words": [
+            { "text": "Lo", "translation": ["him"] },
+            { "text": "vedi", "translation": ["you see", "do you see"] },
+            { "text": "spesso", "translation": ["often"] }
+          ]
+        },
+        {
+          "id": "family-relationships-01-line-10",
+          "speaker": "Marco",
+          "text": "Sì, lo vedo nel fine settimana.",
+          "translation": "Yes, I see him on the weekend.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "lo", "translation": ["him"] },
+            { "text": "vedo", "translation": ["I see"] },
+            { "text": "nel", "translation": ["in the", "on the"] },
+            { "text": "fine", "translation": ["end"] },
+            { "text": "settimana", "translation": ["week"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-relationships-02",
+      "title": "Introducing My Sister",
+      "description": "A person introduces their sister to a friend.",
+      "level": "A1",
+      "topic": "family-other-relationships",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "family-relationships-02-line-01",
+          "speaker": "Luca",
+          "text": "Sara, questa è mia sorella Giulia.",
+          "translation": "Sara, this is my sister Giulia.",
+          "words": [
+            { "text": "Sara", "translation": ["Sara"] },
+            { "text": "questa", "translation": ["this"] },
+            { "text": "è", "translation": ["is"] },
+            { "text": "mia", "translation": ["my"] },
+            { "text": "sorella", "translation": ["sister"] },
+            { "text": "Giulia", "translation": ["Giulia"] }
+          ]
+        },
+        {
+          "id": "family-relationships-02-line-02",
+          "speaker": "Sara",
+          "text": "Ciao Giulia, piacere.",
+          "translation": "Hi Giulia, nice to meet you.",
+          "words": [
+            { "text": "Ciao", "translation": ["Hi", "Hello"] },
+            { "text": "Giulia", "translation": ["Giulia"] },
+            { "text": "piacere", "translation": ["nice to meet you", "pleasure"] }
+          ]
+        },
+        {
+          "id": "family-relationships-02-line-03",
+          "speaker": "Giulia",
+          "text": "Piacere mio.",
+          "translation": "Nice to meet you too.",
+          "words": [
+            { "text": "Piacere", "translation": ["pleasure", "nice to meet you"] },
+            { "text": "mio", "translation": ["mine", "my"] }
+          ]
+        },
+        {
+          "id": "family-relationships-02-line-04",
+          "speaker": "Sara",
+          "text": "Siete gemelli?",
+          "translation": "Are you twins?",
+          "words": [
+            { "text": "Siete", "translation": ["you are", "are you"] },
+            { "text": "gemelli", "translation": ["twins"] }
+          ]
+        },
+        {
+          "id": "family-relationships-02-line-05",
+          "speaker": "Luca",
+          "text": "No, Giulia è più giovane.",
+          "translation": "No, Giulia is younger.",
+          "words": [
+            { "text": "No", "translation": ["No"] },
+            { "text": "Giulia", "translation": ["Giulia"] },
+            { "text": "è", "translation": ["is"] },
+            { "text": "più", "translation": ["more"] },
+            { "text": "giovane", "translation": ["young", "younger"] }
+          ]
+        },
+        {
+          "id": "family-relationships-02-line-06",
+          "speaker": "Sara",
+          "text": "Quanti anni hai?",
+          "translation": "How old are you?",
+          "words": [
+            { "text": "Quanti", "translation": ["how many"] },
+            { "text": "anni", "translation": ["years"] },
+            { "text": "hai", "translation": ["you have", "are you"] }
+          ]
+        },
+        {
+          "id": "family-relationships-02-line-07",
+          "speaker": "Giulia",
+          "text": "Ho diciannove anni.",
+          "translation": "I am nineteen years old.",
+          "words": [
+            { "text": "Ho", "translation": ["I have", "I am"] },
+            { "text": "diciannove", "translation": ["nineteen"] },
+            { "text": "anni", "translation": ["years"] }
+          ]
+        },
+        {
+          "id": "family-relationships-02-line-08",
+          "speaker": "Sara",
+          "text": "Studi anche tu?",
+          "translation": "Do you study too?",
+          "words": [
+            { "text": "Studi", "translation": ["you study", "do you study"] },
+            { "text": "anche", "translation": ["also", "too"] },
+            { "text": "tu", "translation": ["you"] }
+          ]
+        },
+        {
+          "id": "family-relationships-02-line-09",
+          "speaker": "Giulia",
+          "text": "Sì, studio economia.",
+          "translation": "Yes, I study economics.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "studio", "translation": ["I study"] },
+            { "text": "economia", "translation": ["economics"] }
+          ]
+        },
+        {
+          "id": "family-relationships-02-line-10",
+          "speaker": "Sara",
+          "text": "Molto interessante.",
+          "translation": "Very interesting.",
+          "words": [
+            { "text": "Molto", "translation": ["very", "much"] },
+            { "text": "interessante", "translation": ["interesting"] }
+          ]
+        },
+        {
+          "id": "family-relationships-02-line-11",
+          "speaker": "Giulia",
+          "text": "Grazie.",
+          "translation": "Thank you.",
+          "words": [
+            { "text": "Grazie", "translation": ["Thank you", "Thanks"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-relationships-03",
+      "title": "Who Do You Live With?",
+      "description": "Two people talk about who they live with.",
+      "level": "A1",
+      "topic": "family-other-relationships",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "family-relationships-03-line-01",
+          "speaker": "Elena",
+          "text": "Vivi da solo?",
+          "translation": "Do you live alone?",
+          "words": [
+            { "text": "Vivi", "translation": ["you live", "do you live"] },
+            { "text": "da", "translation": ["by", "as"] },
+            { "text": "solo", "translation": ["alone"] }
+          ]
+        },
+        {
+          "id": "family-relationships-03-line-02",
+          "speaker": "Paolo",
+          "text": "No, vivo con i miei genitori.",
+          "translation": "No, I live with my parents.",
+          "words": [
+            { "text": "No", "translation": ["No"] },
+            { "text": "vivo", "translation": ["I live"] },
+            { "text": "con", "translation": ["with"] },
+            { "text": "i", "translation": ["the"] },
+            { "text": "miei", "translation": ["my"] },
+            { "text": "genitori", "translation": ["parents"] }
+          ]
+        },
+        {
+          "id": "family-relationships-03-line-03",
+          "speaker": "Elena",
+          "text": "E tua sorella?",
+          "translation": "And your sister?",
+          "words": [
+            { "text": "E", "translation": ["And"] },
+            { "text": "tua", "translation": ["your"] },
+            { "text": "sorella", "translation": ["sister"] }
+          ]
+        },
+        {
+          "id": "family-relationships-03-line-04",
+          "speaker": "Paolo",
+          "text": "Lei vive a Roma.",
+          "translation": "She lives in Rome.",
+          "words": [
+            { "text": "Lei", "translation": ["She"] },
+            { "text": "vive", "translation": ["lives"] },
+            { "text": "a", "translation": ["in", "at"] },
+            { "text": "Roma", "translation": ["Rome"] }
+          ]
+        },
+        {
+          "id": "family-relationships-03-line-05",
+          "speaker": "Elena",
+          "text": "I tuoi genitori lavorano?",
+          "translation": "Do your parents work?",
+          "words": [
+            { "text": "I", "translation": ["The"] },
+            { "text": "tuoi", "translation": ["your"] },
+            { "text": "genitori", "translation": ["parents"] },
+            { "text": "lavorano", "translation": ["they work", "do they work"] }
+          ]
+        },
+        {
+          "id": "family-relationships-03-line-06",
+          "speaker": "Paolo",
+          "text": "Sì, mio padre lavora in banca.",
+          "translation": "Yes, my father works in a bank.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "mio", "translation": ["my"] },
+            { "text": "padre", "translation": ["father"] },
+            { "text": "lavora", "translation": ["works"] },
+            { "text": "in", "translation": ["in"] },
+            { "text": "banca", "translation": ["bank"] }
+          ]
+        },
+        {
+          "id": "family-relationships-03-line-07",
+          "speaker": "Elena",
+          "text": "E tua madre?",
+          "translation": "And your mother?",
+          "words": [
+            { "text": "E", "translation": ["And"] },
+            { "text": "tua", "translation": ["your"] },
+            { "text": "madre", "translation": ["mother"] }
+          ]
+        },
+        {
+          "id": "family-relationships-03-line-08",
+          "speaker": "Paolo",
+          "text": "Mia madre è insegnante.",
+          "translation": "My mother is a teacher.",
+          "words": [
+            { "text": "Mia", "translation": ["My"] },
+            { "text": "madre", "translation": ["mother"] },
+            { "text": "è", "translation": ["is"] },
+            { "text": "insegnante", "translation": ["teacher"] }
+          ]
+        },
+        {
+          "id": "family-relationships-03-line-09",
+          "speaker": "Elena",
+          "text": "Mangiate insieme la sera?",
+          "translation": "Do you eat together in the evening?",
+          "words": [
+            { "text": "Mangiate", "translation": ["you eat", "do you eat"] },
+            { "text": "insieme", "translation": ["together"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "sera", "translation": ["evening"] }
+          ]
+        },
+        {
+          "id": "family-relationships-03-line-10",
+          "speaker": "Paolo",
+          "text": "Sì, quasi ogni sera.",
+          "translation": "Yes, almost every evening.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "quasi", "translation": ["almost"] },
+            { "text": "ogni", "translation": ["every"] },
+            { "text": "sera", "translation": ["evening"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-relationships-04",
+      "title": "Talking About a Friend",
+      "description": "Two people talk about a close friend.",
+      "level": "A1",
+      "topic": "family-other-relationships",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "family-relationships-04-line-01",
+          "speaker": "Chiara",
+          "text": "Chi è Matteo?",
+          "translation": "Who is Matteo?",
+          "words": [
+            { "text": "Chi", "translation": ["Who"] },
+            { "text": "è", "translation": ["is"] },
+            { "text": "Matteo", "translation": ["Matteo"] }
+          ]
+        },
+        {
+          "id": "family-relationships-04-line-02",
+          "speaker": "Davide",
+          "text": "È un mio amico.",
+          "translation": "He is a friend of mine.",
+          "words": [
+            { "text": "È", "translation": ["He is", "is"] },
+            { "text": "un", "translation": ["a"] },
+            { "text": "mio", "translation": ["my", "mine"] },
+            { "text": "amico", "translation": ["friend"] }
+          ]
+        },
+        {
+          "id": "family-relationships-04-line-03",
+          "speaker": "Chiara",
+          "text": "Da quanto tempo lo conosci?",
+          "translation": "How long have you known him?",
+          "words": [
+            { "text": "Da", "translation": ["for", "since"] },
+            { "text": "quanto", "translation": ["how much", "how long"] },
+            { "text": "tempo", "translation": ["time"] },
+            { "text": "lo", "translation": ["him"] },
+            { "text": "conosci", "translation": ["you know"] }
+          ]
+        },
+        {
+          "id": "family-relationships-04-line-04",
+          "speaker": "Davide",
+          "text": "Lo conosco da cinque anni.",
+          "translation": "I have known him for five years.",
+          "words": [
+            { "text": "Lo", "translation": ["him"] },
+            { "text": "conosco", "translation": ["I know"] },
+            { "text": "da", "translation": ["for", "since"] },
+            { "text": "cinque", "translation": ["five"] },
+            { "text": "anni", "translation": ["years"] }
+          ]
+        },
+        {
+          "id": "family-relationships-04-line-05",
+          "speaker": "Chiara",
+          "text": "Dove vi siete conosciuti?",
+          "translation": "Where did you meet?",
+          "words": [
+            { "text": "Dove", "translation": ["Where"] },
+            { "text": "vi", "translation": ["each other"] },
+            { "text": "siete", "translation": ["you have", "you are"] },
+            { "text": "conosciuti", "translation": ["met", "known"] }
+          ]
+        },
+        {
+          "id": "family-relationships-04-line-06",
+          "speaker": "Davide",
+          "text": "A scuola.",
+          "translation": "At school.",
+          "words": [
+            { "text": "A", "translation": ["At"] },
+            { "text": "scuola", "translation": ["school"] }
+          ]
+        },
+        {
+          "id": "family-relationships-04-line-07",
+          "speaker": "Chiara",
+          "text": "Abita vicino a te?",
+          "translation": "Does he live near you?",
+          "words": [
+            { "text": "Abita", "translation": ["he lives", "does he live"] },
+            { "text": "vicino", "translation": ["near", "close"] },
+            { "text": "a", "translation": ["to"] },
+            { "text": "te", "translation": ["you"] }
+          ]
+        },
+        {
+          "id": "family-relationships-04-line-08",
+          "speaker": "Davide",
+          "text": "Sì, abita nella stessa zona.",
+          "translation": "Yes, he lives in the same area.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "abita", "translation": ["he lives"] },
+            { "text": "nella", "translation": ["in the"] },
+            { "text": "stessa", "translation": ["same"] },
+            { "text": "zona", "translation": ["area"] }
+          ]
+        },
+        {
+          "id": "family-relationships-04-line-09",
+          "speaker": "Chiara",
+          "text": "Vi vedete spesso?",
+          "translation": "Do you see each other often?",
+          "words": [
+            { "text": "Vi", "translation": ["each other"] },
+            { "text": "vedete", "translation": ["you see", "do you see"] },
+            { "text": "spesso", "translation": ["often"] }
+          ]
+        },
+        {
+          "id": "family-relationships-04-line-10",
+          "speaker": "Davide",
+          "text": "Sì, usciamo spesso insieme.",
+          "translation": "Yes, we often go out together.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "usciamo", "translation": ["we go out"] },
+            { "text": "spesso", "translation": ["often"] },
+            { "text": "insieme", "translation": ["together"] }
+          ]
+        },
+        {
+          "id": "family-relationships-04-line-11",
+          "speaker": "Chiara",
+          "text": "Sembra simpatico.",
+          "translation": "He seems nice.",
+          "words": [
+            { "text": "Sembra", "translation": ["he seems", "seems"] },
+            { "text": "simpatico", "translation": ["nice", "friendly"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-relationships-05",
+      "title": "Visiting Grandparents",
+      "description": "Two people talk about visiting grandparents on Sunday.",
+      "level": "A1",
+      "topic": "family-other-relationships",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "family-relationships-05-line-01",
+          "speaker": "Marta",
+          "text": "Cosa fai domenica?",
+          "translation": "What are you doing on Sunday?",
+          "words": [
+            { "text": "Cosa", "translation": ["What"] },
+            { "text": "fai", "translation": ["you do", "are you doing"] },
+            { "text": "domenica", "translation": ["Sunday"] }
+          ]
+        },
+        {
+          "id": "family-relationships-05-line-02",
+          "speaker": "Andrea",
+          "text": "Vado dai miei nonni.",
+          "translation": "I am going to my grandparents' house.",
+          "words": [
+            { "text": "Vado", "translation": ["I go", "I am going"] },
+            { "text": "dai", "translation": ["to the", "at the home of"] },
+            { "text": "miei", "translation": ["my"] },
+            { "text": "nonni", "translation": ["grandparents"] }
+          ]
+        },
+        {
+          "id": "family-relationships-05-line-03",
+          "speaker": "Marta",
+          "text": "Dove abitano?",
+          "translation": "Where do they live?",
+          "words": [
+            { "text": "Dove", "translation": ["Where"] },
+            { "text": "abitano", "translation": ["they live", "do they live"] }
+          ]
+        },
+        {
+          "id": "family-relationships-05-line-04",
+          "speaker": "Andrea",
+          "text": "Abitano fuori città.",
+          "translation": "They live outside the city.",
+          "words": [
+            { "text": "Abitano", "translation": ["They live"] },
+            { "text": "fuori", "translation": ["outside"] },
+            { "text": "città", "translation": ["city"] }
+          ]
+        },
+        {
+          "id": "family-relationships-05-line-05",
+          "speaker": "Marta",
+          "text": "Vai spesso da loro?",
+          "translation": "Do you visit them often?",
+          "words": [
+            { "text": "Vai", "translation": ["you go", "do you go"] },
+            { "text": "spesso", "translation": ["often"] },
+            { "text": "da", "translation": ["to", "at"] },
+            { "text": "loro", "translation": ["them", "their place"] }
+          ]
+        },
+        {
+          "id": "family-relationships-05-line-06",
+          "speaker": "Andrea",
+          "text": "Sì, una volta al mese.",
+          "translation": "Yes, once a month.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "una", "translation": ["one", "a"] },
+            { "text": "volta", "translation": ["time", "once"] },
+            { "text": "al", "translation": ["per", "in the"] },
+            { "text": "mese", "translation": ["month"] }
+          ]
+        },
+        {
+          "id": "family-relationships-05-line-07",
+          "speaker": "Marta",
+          "text": "Cosa fate insieme?",
+          "translation": "What do you do together?",
+          "words": [
+            { "text": "Cosa", "translation": ["What"] },
+            { "text": "fate", "translation": ["you do", "do you do"] },
+            { "text": "insieme", "translation": ["together"] }
+          ]
+        },
+        {
+          "id": "family-relationships-05-line-08",
+          "speaker": "Andrea",
+          "text": "Pranziamo e parliamo molto.",
+          "translation": "We have lunch and talk a lot.",
+          "words": [
+            { "text": "Pranziamo", "translation": ["we have lunch"] },
+            { "text": "e", "translation": ["and"] },
+            { "text": "parliamo", "translation": ["we talk"] },
+            { "text": "molto", "translation": ["a lot", "much"] }
+          ]
+        },
+        {
+          "id": "family-relationships-05-line-09",
+          "speaker": "Marta",
+          "text": "Tua nonna cucina?",
+          "translation": "Does your grandmother cook?",
+          "words": [
+            { "text": "Tua", "translation": ["Your"] },
+            { "text": "nonna", "translation": ["grandmother"] },
+            { "text": "cucina", "translation": ["cooks", "does she cook"] }
+          ]
+        },
+        {
+          "id": "family-relationships-05-line-10",
+          "speaker": "Andrea",
+          "text": "Sì, cucina molto bene.",
+          "translation": "Yes, she cooks very well.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "cucina", "translation": ["she cooks"] },
+            { "text": "molto", "translation": ["very", "a lot"] },
+            { "text": "bene", "translation": ["well"] }
+          ]
+        },
+        {
+          "id": "family-relationships-05-line-11",
+          "speaker": "Marta",
+          "text": "Che bello!",
+          "translation": "How nice!",
+          "words": [
+            { "text": "Che", "translation": ["How", "What"] },
+            { "text": "bello", "translation": ["nice", "beautiful"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

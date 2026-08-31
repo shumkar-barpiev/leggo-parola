@@ -47,7 +47,7 @@ export default async function DialoguePage({ params }: PageProps) {
     <Container maxWidth="lg" sx={{ py: { xs: 3, md: 5 } }}>
       {/* Top Navigation */}
       <Box sx={{ mb: 3 }}>
-        <Link href="/" style={{ textDecoration: 'none' }}>
+        <Link href="/dialogues" style={{ textDecoration: 'none' }}>
           <Button
             startIcon={<ArrowBackIcon />}
             color="inherit"

@@ -1,0 +1,712 @@
+{
+  "dialogues": [
+    {
+      "id": "academic-public-01",
+      "title": "Finding a Classroom",
+      "description": "A student asks where a classroom is located.",
+      "level": "A1",
+      "topic": "academic-public-places",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "academic-public-01-line-01",
+          "speaker": "Studente",
+          "text": "Scusi, dov'è l'aula 12?",
+          "translation": "Excuse me, where is classroom 12?",
+          "words": [
+            { "text": "Scusi", "translation": ["Excuse me", "Sorry"] },
+            { "text": "dov'è", "translation": ["where is"] },
+            { "text": "l'aula", "translation": ["the classroom"] },
+            { "text": "12", "translation": ["twelve"] }
+          ]
+        },
+        {
+          "id": "academic-public-01-line-02",
+          "speaker": "Studentessa",
+          "text": "È al primo piano.",
+          "translation": "It is on the first floor.",
+          "words": [
+            { "text": "È", "translation": ["It is", "is"] },
+            { "text": "al", "translation": ["on the", "at the"] },
+            { "text": "primo", "translation": ["first"] },
+            { "text": "piano", "translation": ["floor"] }
+          ]
+        },
+        {
+          "id": "academic-public-01-line-03",
+          "speaker": "Studente",
+          "text": "Devo prendere le scale?",
+          "translation": "Do I need to take the stairs?",
+          "words": [
+            { "text": "Devo", "translation": ["I must", "do I need to"] },
+            { "text": "prendere", "translation": ["to take"] },
+            { "text": "le", "translation": ["the"] },
+            { "text": "scale", "translation": ["stairs"] }
+          ]
+        },
+        {
+          "id": "academic-public-01-line-04",
+          "speaker": "Studentessa",
+          "text": "Sì, le scale sono a destra.",
+          "translation": "Yes, the stairs are on the right.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "le", "translation": ["the"] },
+            { "text": "scale", "translation": ["stairs"] },
+            { "text": "sono", "translation": ["are"] },
+            { "text": "a", "translation": ["to", "on"] },
+            { "text": "destra", "translation": ["right"] }
+          ]
+        },
+        {
+          "id": "academic-public-01-line-05",
+          "speaker": "Studente",
+          "text": "E poi?",
+          "translation": "And then?",
+          "words": [
+            { "text": "E", "translation": ["And"] },
+            { "text": "poi", "translation": ["then", "after"] }
+          ]
+        },
+        {
+          "id": "academic-public-01-line-06",
+          "speaker": "Studentessa",
+          "text": "Vai dritto nel corridoio.",
+          "translation": "Go straight down the corridor.",
+          "words": [
+            { "text": "Vai", "translation": ["Go", "you go"] },
+            { "text": "dritto", "translation": ["straight"] },
+            { "text": "nel", "translation": ["in the"] },
+            { "text": "corridoio", "translation": ["corridor", "hallway"] }
+          ]
+        },
+        {
+          "id": "academic-public-01-line-07",
+          "speaker": "Studente",
+          "text": "L'aula è vicino all'ascensore?",
+          "translation": "Is the classroom near the elevator?",
+          "words": [
+            { "text": "L'aula", "translation": ["The classroom"] },
+            { "text": "è", "translation": ["is"] },
+            { "text": "vicino", "translation": ["near", "close"] },
+            { "text": "all'ascensore", "translation": ["to the elevator"] }
+          ]
+        },
+        {
+          "id": "academic-public-01-line-08",
+          "speaker": "Studentessa",
+          "text": "Sì, è accanto all'ascensore.",
+          "translation": "Yes, it is next to the elevator.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "è", "translation": ["it is"] },
+            { "text": "accanto", "translation": ["next to", "beside"] },
+            { "text": "all'ascensore", "translation": ["to the elevator"] }
+          ]
+        },
+        {
+          "id": "academic-public-01-line-09",
+          "speaker": "Studente",
+          "text": "Perfetto, grazie.",
+          "translation": "Perfect, thank you.",
+          "words": [
+            { "text": "Perfetto", "translation": ["Perfect"] },
+            { "text": "grazie", "translation": ["thank you", "thanks"] }
+          ]
+        },
+        {
+          "id": "academic-public-01-line-10",
+          "speaker": "Studentessa",
+          "text": "Prego.",
+          "translation": "You're welcome.",
+          "words": [
+            { "text": "Prego", "translation": ["You're welcome", "Please"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "academic-public-02",
+      "title": "At the Library",
+      "description": "A student asks how to borrow a book.",
+      "level": "A1",
+      "topic": "academic-public-places",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "academic-public-02-line-01",
+          "speaker": "Studente",
+          "text": "Buongiorno, posso prendere questo libro?",
+          "translation": "Good morning, can I borrow this book?",
+          "words": [
+            { "text": "Buongiorno", "translation": ["Good morning"] },
+            { "text": "posso", "translation": ["I can", "can I"] },
+            { "text": "prendere", "translation": ["to take", "to borrow"] },
+            { "text": "questo", "translation": ["this"] },
+            { "text": "libro", "translation": ["book"] }
+          ]
+        },
+        {
+          "id": "academic-public-02-line-02",
+          "speaker": "Bibliotecaria",
+          "text": "Sì, ha la tessera della biblioteca?",
+          "translation": "Yes, do you have a library card?",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "ha", "translation": ["you have", "do you have"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "tessera", "translation": ["card"] },
+            { "text": "della", "translation": ["of the"] },
+            { "text": "biblioteca", "translation": ["library"] }
+          ]
+        },
+        {
+          "id": "academic-public-02-line-03",
+          "speaker": "Studente",
+          "text": "Sì, eccola.",
+          "translation": "Yes, here it is.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "eccola", "translation": ["here it is"] }
+          ]
+        },
+        {
+          "id": "academic-public-02-line-04",
+          "speaker": "Bibliotecaria",
+          "text": "Perfetto. Può tenere il libro per due settimane.",
+          "translation": "Perfect. You can keep the book for two weeks.",
+          "words": [
+            { "text": "Perfetto", "translation": ["Perfect"] },
+            { "text": "Può", "translation": ["you can"] },
+            { "text": "tenere", "translation": ["to keep"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "libro", "translation": ["book"] },
+            { "text": "per", "translation": ["for"] },
+            { "text": "due", "translation": ["two"] },
+            { "text": "settimane", "translation": ["weeks"] }
+          ]
+        },
+        {
+          "id": "academic-public-02-line-05",
+          "speaker": "Studente",
+          "text": "Quando devo restituirlo?",
+          "translation": "When do I need to return it?",
+          "words": [
+            { "text": "Quando", "translation": ["When"] },
+            { "text": "devo", "translation": ["I must", "do I need to"] },
+            { "text": "restituirlo", "translation": ["return it", "to return it"] }
+          ]
+        },
+        {
+          "id": "academic-public-02-line-06",
+          "speaker": "Bibliotecaria",
+          "text": "Entro il 15 ottobre.",
+          "translation": "By October 15.",
+          "words": [
+            { "text": "Entro", "translation": ["By", "Within"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "15", "translation": ["fifteen"] },
+            { "text": "ottobre", "translation": ["October"] }
+          ]
+        },
+        {
+          "id": "academic-public-02-line-07",
+          "speaker": "Studente",
+          "text": "Posso studiare qui?",
+          "translation": "Can I study here?",
+          "words": [
+            { "text": "Posso", "translation": ["Can I", "I can"] },
+            { "text": "studiare", "translation": ["to study"] },
+            { "text": "qui", "translation": ["here"] }
+          ]
+        },
+        {
+          "id": "academic-public-02-line-08",
+          "speaker": "Bibliotecaria",
+          "text": "Certo, ci sono tavoli al piano superiore.",
+          "translation": "Of course, there are tables upstairs.",
+          "words": [
+            { "text": "Certo", "translation": ["Of course", "Sure"] },
+            { "text": "ci", "translation": ["there"] },
+            { "text": "sono", "translation": ["are", "there are"] },
+            { "text": "tavoli", "translation": ["tables"] },
+            { "text": "al", "translation": ["on the"] },
+            { "text": "piano", "translation": ["floor"] },
+            { "text": "superiore", "translation": ["upper"] }
+          ]
+        },
+        {
+          "id": "academic-public-02-line-09",
+          "speaker": "Studente",
+          "text": "C'è anche il Wi-Fi?",
+          "translation": "Is there Wi-Fi too?",
+          "words": [
+            { "text": "C'è", "translation": ["There is", "Is there"] },
+            { "text": "anche", "translation": ["also", "too"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "Wi-Fi", "translation": ["Wi-Fi"] }
+          ]
+        },
+        {
+          "id": "academic-public-02-line-10",
+          "speaker": "Bibliotecaria",
+          "text": "Sì, è gratuito per gli studenti.",
+          "translation": "Yes, it is free for students.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "è", "translation": ["it is"] },
+            { "text": "gratuito", "translation": ["free"] },
+            { "text": "per", "translation": ["for"] },
+            { "text": "gli", "translation": ["the"] },
+            { "text": "studenti", "translation": ["students"] }
+          ]
+        },
+        {
+          "id": "academic-public-02-line-11",
+          "speaker": "Studente",
+          "text": "Grazie per l'aiuto.",
+          "translation": "Thank you for the help.",
+          "words": [
+            { "text": "Grazie", "translation": ["Thank you", "Thanks"] },
+            { "text": "per", "translation": ["for"] },
+            { "text": "l'aiuto", "translation": ["the help"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "academic-public-03",
+      "title": "Before a University Class",
+      "description": "Two students talk before their class starts.",
+      "level": "A1",
+      "topic": "academic-public-places",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "academic-public-03-line-01",
+          "speaker": "Anna",
+          "text": "Ciao, questa è la lezione di italiano?",
+          "translation": "Hi, is this the Italian class?",
+          "words": [
+            { "text": "Ciao", "translation": ["Hi", "Hello"] },
+            { "text": "questa", "translation": ["this"] },
+            { "text": "è", "translation": ["is"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "lezione", "translation": ["class", "lesson"] },
+            { "text": "di", "translation": ["of"] },
+            { "text": "italiano", "translation": ["Italian"] }
+          ]
+        },
+        {
+          "id": "academic-public-03-line-02",
+          "speaker": "Marco",
+          "text": "Sì, è qui.",
+          "translation": "Yes, it is here.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "è", "translation": ["it is"] },
+            { "text": "qui", "translation": ["here"] }
+          ]
+        },
+        {
+          "id": "academic-public-03-line-03",
+          "speaker": "Anna",
+          "text": "A che ora inizia?",
+          "translation": "What time does it start?",
+          "words": [
+            { "text": "A", "translation": ["At"] },
+            { "text": "che", "translation": ["what"] },
+            { "text": "ora", "translation": ["time", "hour"] },
+            { "text": "inizia", "translation": ["it starts", "begins"] }
+          ]
+        },
+        {
+          "id": "academic-public-03-line-04",
+          "speaker": "Marco",
+          "text": "Inizia alle dieci.",
+          "translation": "It starts at ten.",
+          "words": [
+            { "text": "Inizia", "translation": ["It starts", "begins"] },
+            { "text": "alle", "translation": ["at"] },
+            { "text": "dieci", "translation": ["ten"] }
+          ]
+        },
+        {
+          "id": "academic-public-03-line-05",
+          "speaker": "Anna",
+          "text": "Il professore è già qui?",
+          "translation": "Is the professor already here?",
+          "words": [
+            { "text": "Il", "translation": ["The"] },
+            { "text": "professore", "translation": ["professor", "teacher"] },
+            { "text": "è", "translation": ["is"] },
+            { "text": "già", "translation": ["already"] },
+            { "text": "qui", "translation": ["here"] }
+          ]
+        },
+        {
+          "id": "academic-public-03-line-06",
+          "speaker": "Marco",
+          "text": "No, non ancora.",
+          "translation": "No, not yet.",
+          "words": [
+            { "text": "No", "translation": ["No"] },
+            { "text": "non", "translation": ["not"] },
+            { "text": "ancora", "translation": ["yet", "still"] }
+          ]
+        },
+        {
+          "id": "academic-public-03-line-07",
+          "speaker": "Anna",
+          "text": "Hai il libro del corso?",
+          "translation": "Do you have the course book?",
+          "words": [
+            { "text": "Hai", "translation": ["you have", "do you have"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "libro", "translation": ["book"] },
+            { "text": "del", "translation": ["of the"] },
+            { "text": "corso", "translation": ["course"] }
+          ]
+        },
+        {
+          "id": "academic-public-03-line-08",
+          "speaker": "Marco",
+          "text": "Sì, è nello zaino.",
+          "translation": "Yes, it is in my backpack.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "è", "translation": ["it is"] },
+            { "text": "nello", "translation": ["in the"] },
+            { "text": "zaino", "translation": ["backpack"] }
+          ]
+        },
+        {
+          "id": "academic-public-03-line-09",
+          "speaker": "Anna",
+          "text": "Io ho solo il quaderno.",
+          "translation": "I only have my notebook.",
+          "words": [
+            { "text": "Io", "translation": ["I"] },
+            { "text": "ho", "translation": ["I have"] },
+            { "text": "solo", "translation": ["only"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "quaderno", "translation": ["notebook"] }
+          ]
+        },
+        {
+          "id": "academic-public-03-line-10",
+          "speaker": "Marco",
+          "text": "Puoi usare il mio libro.",
+          "translation": "You can use my book.",
+          "words": [
+            { "text": "Puoi", "translation": ["you can"] },
+            { "text": "usare", "translation": ["to use"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "mio", "translation": ["my"] },
+            { "text": "libro", "translation": ["book"] }
+          ]
+        },
+        {
+          "id": "academic-public-03-line-11",
+          "speaker": "Anna",
+          "text": "Grazie, sei molto gentile.",
+          "translation": "Thank you, you are very kind.",
+          "words": [
+            { "text": "Grazie", "translation": ["Thank you", "Thanks"] },
+            { "text": "sei", "translation": ["you are"] },
+            { "text": "molto", "translation": ["very"] },
+            { "text": "gentile", "translation": ["kind", "nice"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "academic-public-04",
+      "title": "At the Student Office",
+      "description": "A student asks for information at the university student office.",
+      "level": "A1",
+      "topic": "academic-public-places",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "academic-public-04-line-01",
+          "speaker": "Studente",
+          "text": "Buongiorno, ho bisogno di un'informazione.",
+          "translation": "Good morning, I need some information.",
+          "words": [
+            { "text": "Buongiorno", "translation": ["Good morning"] },
+            { "text": "ho", "translation": ["I have"] },
+            { "text": "bisogno", "translation": ["need"] },
+            { "text": "di", "translation": ["of"] },
+            { "text": "un'informazione", "translation": ["some information", "information"] }
+          ]
+        },
+        {
+          "id": "academic-public-04-line-02",
+          "speaker": "Impiegata",
+          "text": "Certo, mi dica.",
+          "translation": "Of course, tell me.",
+          "words": [
+            { "text": "Certo", "translation": ["Of course", "Sure"] },
+            { "text": "mi", "translation": ["to me"] },
+            { "text": "dica", "translation": ["tell me", "say"] }
+          ]
+        },
+        {
+          "id": "academic-public-04-line-03",
+          "speaker": "Studente",
+          "text": "Dove posso ritirare la tessera studente?",
+          "translation": "Where can I collect my student card?",
+          "words": [
+            { "text": "Dove", "translation": ["Where"] },
+            { "text": "posso", "translation": ["I can", "can I"] },
+            { "text": "ritirare", "translation": ["to collect", "to pick up"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "tessera", "translation": ["card"] },
+            { "text": "studente", "translation": ["student"] }
+          ]
+        },
+        {
+          "id": "academic-public-04-line-04",
+          "speaker": "Impiegata",
+          "text": "Qui, ma serve un documento.",
+          "translation": "Here, but you need an identity document.",
+          "words": [
+            { "text": "Qui", "translation": ["Here"] },
+            { "text": "ma", "translation": ["but"] },
+            { "text": "serve", "translation": ["is needed", "you need"] },
+            { "text": "un", "translation": ["a"] },
+            { "text": "documento", "translation": ["document", "ID"] }
+          ]
+        },
+        {
+          "id": "academic-public-04-line-05",
+          "speaker": "Studente",
+          "text": "Va bene il passaporto?",
+          "translation": "Is the passport okay?",
+          "words": [
+            { "text": "Va", "translation": ["goes", "is"] },
+            { "text": "bene", "translation": ["fine", "okay"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "passaporto", "translation": ["passport"] }
+          ]
+        },
+        {
+          "id": "academic-public-04-line-06",
+          "speaker": "Impiegata",
+          "text": "Sì, il passaporto va bene.",
+          "translation": "Yes, the passport is fine.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "passaporto", "translation": ["passport"] },
+            { "text": "va", "translation": ["goes", "is"] },
+            { "text": "bene", "translation": ["fine", "okay"] }
+          ]
+        },
+        {
+          "id": "academic-public-04-line-07",
+          "speaker": "Studente",
+          "text": "Quali sono gli orari dell'ufficio?",
+          "translation": "What are the office hours?",
+          "words": [
+            { "text": "Quali", "translation": ["Which", "What"] },
+            { "text": "sono", "translation": ["are"] },
+            { "text": "gli", "translation": ["the"] },
+            { "text": "orari", "translation": ["hours", "opening hours"] },
+            { "text": "dell'ufficio", "translation": ["of the office"] }
+          ]
+        },
+        {
+          "id": "academic-public-04-line-08",
+          "speaker": "Impiegata",
+          "text": "Siamo aperti dalle nove alle tredici.",
+          "translation": "We are open from nine to one.",
+          "words": [
+            { "text": "Siamo", "translation": ["We are"] },
+            { "text": "aperti", "translation": ["open"] },
+            { "text": "dalle", "translation": ["from"] },
+            { "text": "nove", "translation": ["nine"] },
+            { "text": "alle", "translation": ["to", "at"] },
+            { "text": "tredici", "translation": ["thirteen", "one p.m."] }
+          ]
+        },
+        {
+          "id": "academic-public-04-line-09",
+          "speaker": "Studente",
+          "text": "Anche il venerdì?",
+          "translation": "On Friday too?",
+          "words": [
+            { "text": "Anche", "translation": ["Also", "Too"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "venerdì", "translation": ["Friday"] }
+          ]
+        },
+        {
+          "id": "academic-public-04-line-10",
+          "speaker": "Impiegata",
+          "text": "Sì, anche il venerdì.",
+          "translation": "Yes, on Friday too.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "anche", "translation": ["also", "too"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "venerdì", "translation": ["Friday"] }
+          ]
+        },
+        {
+          "id": "academic-public-04-line-11",
+          "speaker": "Studente",
+          "text": "Perfetto, grazie.",
+          "translation": "Perfect, thank you.",
+          "words": [
+            { "text": "Perfetto", "translation": ["Perfect"] },
+            { "text": "grazie", "translation": ["thank you", "thanks"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "academic-public-05",
+      "title": "Studying Together",
+      "description": "Two students make plans to study together at the university.",
+      "level": "A1",
+      "topic": "academic-public-places",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "academic-public-05-line-01",
+          "speaker": "Giulia",
+          "text": "Devi studiare oggi?",
+          "translation": "Do you need to study today?",
+          "words": [
+            { "text": "Devi", "translation": ["you must", "do you need to"] },
+            { "text": "studiare", "translation": ["to study"] },
+            { "text": "oggi", "translation": ["today"] }
+          ]
+        },
+        {
+          "id": "academic-public-05-line-02",
+          "speaker": "Luca",
+          "text": "Sì, ho un esame venerdì.",
+          "translation": "Yes, I have an exam on Friday.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "ho", "translation": ["I have"] },
+            { "text": "un", "translation": ["an", "a"] },
+            { "text": "esame", "translation": ["exam"] },
+            { "text": "venerdì", "translation": ["Friday"] }
+          ]
+        },
+        {
+          "id": "academic-public-05-line-03",
+          "speaker": "Giulia",
+          "text": "Anch'io devo studiare.",
+          "translation": "I need to study too.",
+          "words": [
+            { "text": "Anch'io", "translation": ["Me too", "I also"] },
+            { "text": "devo", "translation": ["I must", "I need to"] },
+            { "text": "studiare", "translation": ["to study"] }
+          ]
+        },
+        {
+          "id": "academic-public-05-line-04",
+          "speaker": "Luca",
+          "text": "Studiamo insieme?",
+          "translation": "Shall we study together?",
+          "words": [
+            { "text": "Studiamo", "translation": ["we study", "shall we study"] },
+            { "text": "insieme", "translation": ["together"] }
+          ]
+        },
+        {
+          "id": "academic-public-05-line-05",
+          "speaker": "Giulia",
+          "text": "Sì, buona idea.",
+          "translation": "Yes, good idea.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "buona", "translation": ["good"] },
+            { "text": "idea", "translation": ["idea"] }
+          ]
+        },
+        {
+          "id": "academic-public-05-line-06",
+          "speaker": "Luca",
+          "text": "Andiamo in biblioteca?",
+          "translation": "Shall we go to the library?",
+          "words": [
+            { "text": "Andiamo", "translation": ["we go", "shall we go"] },
+            { "text": "in", "translation": ["to", "in"] },
+            { "text": "biblioteca", "translation": ["library"] }
+          ]
+        },
+        {
+          "id": "academic-public-05-line-07",
+          "speaker": "Giulia",
+          "text": "Sì, lì è tranquillo.",
+          "translation": "Yes, it is quiet there.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "lì", "translation": ["there"] },
+            { "text": "è", "translation": ["is", "it is"] },
+            { "text": "tranquillo", "translation": ["quiet", "calm"] }
+          ]
+        },
+        {
+          "id": "academic-public-05-line-08",
+          "speaker": "Luca",
+          "text": "A che ora ci vediamo?",
+          "translation": "What time shall we meet?",
+          "words": [
+            { "text": "A", "translation": ["At"] },
+            { "text": "che", "translation": ["what"] },
+            { "text": "ora", "translation": ["time", "hour"] },
+            { "text": "ci", "translation": ["each other"] },
+            { "text": "vediamo", "translation": ["we meet", "we see"] }
+          ]
+        },
+        {
+          "id": "academic-public-05-line-09",
+          "speaker": "Giulia",
+          "text": "Alle tre va bene?",
+          "translation": "Is three o'clock okay?",
+          "words": [
+            { "text": "Alle", "translation": ["At"] },
+            { "text": "tre", "translation": ["three"] },
+            { "text": "va", "translation": ["goes", "is"] },
+            { "text": "bene", "translation": ["fine", "okay"] }
+          ]
+        },
+        {
+          "id": "academic-public-05-line-10",
+          "speaker": "Luca",
+          "text": "Sì, davanti alla biblioteca.",
+          "translation": "Yes, in front of the library.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "davanti", "translation": ["in front"] },
+            { "text": "alla", "translation": ["to the", "at the"] },
+            { "text": "biblioteca", "translation": ["library"] }
+          ]
+        },
+        {
+          "id": "academic-public-05-line-11",
+          "speaker": "Giulia",
+          "text": "Perfetto, a dopo.",
+          "translation": "Perfect, see you later.",
+          "words": [
+            { "text": "Perfetto", "translation": ["Perfect"] },
+            { "text": "a", "translation": ["until", "to"] },
+            { "text": "dopo", "translation": ["later"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

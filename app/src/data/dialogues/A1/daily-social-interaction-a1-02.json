@@ -1,0 +1,739 @@
+{
+  "dialogues": [
+    {
+      "id": "daily-social-01",
+      "title": "Meeting Someone New",
+      "description": "Two people meet for the first time and introduce themselves.",
+      "level": "A1",
+      "topic": "daily-social-interaction",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "daily-social-01-line-01",
+          "speaker": "Luca",
+          "text": "Ciao, io sono Luca.",
+          "translation": "Hi, I am Luca.",
+          "words": [
+            { "text": "Ciao", "translation": ["Hi", "Hello"] },
+            { "text": "io", "translation": ["I"] },
+            { "text": "sono", "translation": ["am", "I am"] },
+            { "text": "Luca", "translation": ["Luca"] }
+          ]
+        },
+        {
+          "id": "daily-social-01-line-02",
+          "speaker": "Marta",
+          "text": "Ciao Luca, io sono Marta.",
+          "translation": "Hi Luca, I am Marta.",
+          "words": [
+            { "text": "Ciao", "translation": ["Hi", "Hello"] },
+            { "text": "Luca", "translation": ["Luca"] },
+            { "text": "io", "translation": ["I"] },
+            { "text": "sono", "translation": ["am", "I am"] },
+            { "text": "Marta", "translation": ["Marta"] }
+          ]
+        },
+        {
+          "id": "daily-social-01-line-03",
+          "speaker": "Luca",
+          "text": "Piacere di conoscerti.",
+          "translation": "Nice to meet you.",
+          "words": [
+            { "text": "Piacere", "translation": ["Pleasure", "Nice to meet you"] },
+            { "text": "di", "translation": ["to", "of"] },
+            { "text": "conoscerti", "translation": ["to meet you", "to know you"] }
+          ]
+        },
+        {
+          "id": "daily-social-01-line-04",
+          "speaker": "Marta",
+          "text": "Piacere mio.",
+          "translation": "Nice to meet you too.",
+          "words": [
+            { "text": "Piacere", "translation": ["Pleasure", "Nice to meet you"] },
+            { "text": "mio", "translation": ["mine", "my"] }
+          ]
+        },
+        {
+          "id": "daily-social-01-line-05",
+          "speaker": "Luca",
+          "text": "Di dove sei?",
+          "translation": "Where are you from?",
+          "words": [
+            { "text": "Di", "translation": ["from", "of"] },
+            { "text": "dove", "translation": ["where"] },
+            { "text": "sei", "translation": ["you are", "are you"] }
+          ]
+        },
+        {
+          "id": "daily-social-01-line-06",
+          "speaker": "Marta",
+          "text": "Sono di Milano.",
+          "translation": "I am from Milan.",
+          "words": [
+            { "text": "Sono", "translation": ["I am"] },
+            { "text": "di", "translation": ["from"] },
+            { "text": "Milano", "translation": ["Milan"] }
+          ]
+        },
+        {
+          "id": "daily-social-01-line-07",
+          "speaker": "Luca",
+          "text": "Vivi qui a Firenze?",
+          "translation": "Do you live here in Florence?",
+          "words": [
+            { "text": "Vivi", "translation": ["you live", "do you live"] },
+            { "text": "qui", "translation": ["here"] },
+            { "text": "a", "translation": ["in", "at"] },
+            { "text": "Firenze", "translation": ["Florence"] }
+          ]
+        },
+        {
+          "id": "daily-social-01-line-08",
+          "speaker": "Marta",
+          "text": "Sì, vivo qui da un anno.",
+          "translation": "Yes, I have lived here for one year.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "vivo", "translation": ["I live"] },
+            { "text": "qui", "translation": ["here"] },
+            { "text": "da", "translation": ["for", "since"] },
+            { "text": "un", "translation": ["one", "a"] },
+            { "text": "anno", "translation": ["year"] }
+          ]
+        },
+        {
+          "id": "daily-social-01-line-09",
+          "speaker": "Luca",
+          "text": "Ti piace Firenze?",
+          "translation": "Do you like Florence?",
+          "words": [
+            { "text": "Ti", "translation": ["to you"] },
+            { "text": "piace", "translation": ["you like", "is pleasing"] },
+            { "text": "Firenze", "translation": ["Florence"] }
+          ]
+        },
+        {
+          "id": "daily-social-01-line-10",
+          "speaker": "Marta",
+          "text": "Sì, mi piace molto.",
+          "translation": "Yes, I like it very much.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "mi", "translation": ["to me"] },
+            { "text": "piace", "translation": ["I like", "is pleasing"] },
+            { "text": "molto", "translation": ["very much", "a lot"] }
+          ]
+        },
+        {
+          "id": "daily-social-01-line-11",
+          "speaker": "Luca",
+          "text": "Bene, ci vediamo presto.",
+          "translation": "Good, see you soon.",
+          "words": [
+            { "text": "Bene", "translation": ["Good", "Well"] },
+            { "text": "ci", "translation": ["each other", "us"] },
+            { "text": "vediamo", "translation": ["we see", "see you"] },
+            { "text": "presto", "translation": ["soon"] }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "daily-social-02",
+      "title": "Meeting a Neighbor",
+      "description": "Two neighbors meet in their apartment building.",
+      "level": "A1",
+      "topic": "daily-social-interaction",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "daily-social-02-line-01",
+          "speaker": "Anna",
+          "text": "Buongiorno.",
+          "translation": "Good morning.",
+          "words": [
+            { "text": "Buongiorno", "translation": ["Good morning", "Good day"] }
+          ]
+        },
+        {
+          "id": "daily-social-02-line-02",
+          "speaker": "Marco",
+          "text": "Buongiorno, lei abita qui?",
+          "translation": "Good morning, do you live here?",
+          "words": [
+            { "text": "Buongiorno", "translation": ["Good morning"] },
+            { "text": "lei", "translation": ["you", "she"] },
+            { "text": "abita", "translation": ["lives", "do you live"] },
+            { "text": "qui", "translation": ["here"] }
+          ]
+        },
+        {
+          "id": "daily-social-02-line-03",
+          "speaker": "Anna",
+          "text": "Sì, abito al secondo piano.",
+          "translation": "Yes, I live on the second floor.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "abito", "translation": ["I live"] },
+            { "text": "al", "translation": ["at the", "on the"] },
+            { "text": "secondo", "translation": ["second"] },
+            { "text": "piano", "translation": ["floor"] }
+          ]
+        },
+        {
+          "id": "daily-social-02-line-04",
+          "speaker": "Marco",
+          "text": "Io abito al terzo piano.",
+          "translation": "I live on the third floor.",
+          "words": [
+            { "text": "Io", "translation": ["I"] },
+            { "text": "abito", "translation": ["I live"] },
+            { "text": "al", "translation": ["on the"] },
+            { "text": "terzo", "translation": ["third"] },
+            { "text": "piano", "translation": ["floor"] }
+          ]
+        },
+        {
+          "id": "daily-social-02-line-05",
+          "speaker": "Anna",
+          "text": "Ah, siamo vicini.",
+          "translation": "Ah, we are neighbors.",
+          "words": [
+            { "text": "Ah", "translation": ["Ah", "Oh"] },
+            { "text": "siamo", "translation": ["we are"] },
+            { "text": "vicini", "translation": ["neighbors", "near"] }
+          ]
+        },
+        {
+          "id": "daily-social-02-line-06",
+          "speaker": "Marco",
+          "text": "Sì, mi chiamo Marco.",
+          "translation": "Yes, my name is Marco.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "mi", "translation": ["myself", "me"] },
+            { "text": "chiamo", "translation": ["I am called", "my name is"] },
+            { "text": "Marco", "translation": ["Marco"] }
+          ]
+        },
+        {
+          "id": "daily-social-02-line-07",
+          "speaker": "Anna",
+          "text": "Io sono Anna.",
+          "translation": "I am Anna.",
+          "words": [
+            { "text": "Io", "translation": ["I"] },
+            { "text": "sono", "translation": ["am", "I am"] },
+            { "text": "Anna", "translation": ["Anna"] }
+          ]
+        },
+        {
+          "id": "daily-social-02-line-08",
+          "speaker": "Marco",
+          "text": "Da quanto tempo vivi qui?",
+          "translation": "How long have you lived here?",
+          "words": [
+            { "text": "Da", "translation": ["for", "since"] },
+            { "text": "quanto", "translation": ["how much", "how long"] },
+            { "text": "tempo", "translation": ["time"] },
+            { "text": "vivi", "translation": ["you live"] },
+            { "text": "qui", "translation": ["here"] }
+          ]
+        },
+        {
+          "id": "daily-social-02-line-09",
+          "speaker": "Anna",
+          "text": "Vivo qui da tre mesi.",
+          "translation": "I have lived here for three months.",
+          "words": [
+            { "text": "Vivo", "translation": ["I live"] },
+            { "text": "qui", "translation": ["here"] },
+            { "text": "da", "translation": ["for", "since"] },
+            { "text": "tre", "translation": ["three"] },
+            { "text": "mesi", "translation": ["months"] }
+          ]
+        },
+        {
+          "id": "daily-social-02-line-10",
+          "speaker": "Marco",
+          "text": "Ti trovi bene?",
+          "translation": "Do you like it here?",
+          "words": [
+            { "text": "Ti", "translation": ["yourself", "you"] },
+            { "text": "trovi", "translation": ["you find yourself", "you feel"] },
+            { "text": "bene", "translation": ["well", "good"] }
+          ]
+        },
+        {
+          "id": "daily-social-02-line-11",
+          "speaker": "Anna",
+          "text": "Sì, il quartiere è tranquillo.",
+          "translation": "Yes, the neighborhood is quiet.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "quartiere", "translation": ["neighborhood"] },
+            { "text": "è", "translation": ["is"] },
+            { "text": "tranquillo", "translation": ["quiet", "calm"] }
+          ]
+        },
+        {
+          "id": "daily-social-02-line-12",
+          "speaker": "Marco",
+          "text": "Bene, allora ci vediamo.",
+          "translation": "Good, then see you around.",
+          "words": [
+            { "text": "Bene", "translation": ["Good", "Well"] },
+            { "text": "allora", "translation": ["then", "so"] },
+            { "text": "ci", "translation": ["each other"] },
+            { "text": "vediamo", "translation": ["we see", "see you"] }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "daily-social-03",
+      "title": "Talking About the Day",
+      "description": "Two friends have a short conversation about their day.",
+      "level": "A1",
+      "topic": "daily-social-interaction",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "daily-social-03-line-01",
+          "speaker": "Giulia",
+          "text": "Ciao Paolo, come va?",
+          "translation": "Hi Paolo, how is it going?",
+          "words": [
+            { "text": "Ciao", "translation": ["Hi", "Hello"] },
+            { "text": "Paolo", "translation": ["Paolo"] },
+            { "text": "come", "translation": ["how"] },
+            { "text": "va", "translation": ["it goes", "is it going"] }
+          ]
+        },
+        {
+          "id": "daily-social-03-line-02",
+          "speaker": "Paolo",
+          "text": "Bene, grazie. E tu?",
+          "translation": "Good, thanks. And you?",
+          "words": [
+            { "text": "Bene", "translation": ["Good", "Well"] },
+            { "text": "grazie", "translation": ["thanks", "thank you"] },
+            { "text": "E", "translation": ["And"] },
+            { "text": "tu", "translation": ["you"] }
+          ]
+        },
+        {
+          "id": "daily-social-03-line-03",
+          "speaker": "Giulia",
+          "text": "Bene, ma sono un po' stanca.",
+          "translation": "Good, but I am a little tired.",
+          "words": [
+            { "text": "Bene", "translation": ["Good", "Well"] },
+            { "text": "ma", "translation": ["but"] },
+            { "text": "sono", "translation": ["I am"] },
+            { "text": "un", "translation": ["a"] },
+            { "text": "po'", "translation": ["little", "bit"] },
+            { "text": "stanca", "translation": ["tired"] }
+          ]
+        },
+        {
+          "id": "daily-social-03-line-04",
+          "speaker": "Paolo",
+          "text": "Hai lavorato oggi?",
+          "translation": "Did you work today?",
+          "words": [
+            { "text": "Hai", "translation": ["you have", "did you"] },
+            { "text": "lavorato", "translation": ["worked"] },
+            { "text": "oggi", "translation": ["today"] }
+          ]
+        },
+        {
+          "id": "daily-social-03-line-05",
+          "speaker": "Giulia",
+          "text": "Sì, ho lavorato tutta la mattina.",
+          "translation": "Yes, I worked all morning.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "ho", "translation": ["I have"] },
+            { "text": "lavorato", "translation": ["worked"] },
+            { "text": "tutta", "translation": ["all", "the whole"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "mattina", "translation": ["morning"] }
+          ]
+        },
+        {
+          "id": "daily-social-03-line-06",
+          "speaker": "Paolo",
+          "text": "Adesso vai a casa?",
+          "translation": "Are you going home now?",
+          "words": [
+            { "text": "Adesso", "translation": ["Now"] },
+            { "text": "vai", "translation": ["you go", "are you going"] },
+            { "text": "a", "translation": ["to"] },
+            { "text": "casa", "translation": ["home", "house"] }
+          ]
+        },
+        {
+          "id": "daily-social-03-line-07",
+          "speaker": "Giulia",
+          "text": "No, prima vado al supermercato.",
+          "translation": "No, first I am going to the supermarket.",
+          "words": [
+            { "text": "No", "translation": ["No"] },
+            { "text": "prima", "translation": ["first", "before"] },
+            { "text": "vado", "translation": ["I go", "I am going"] },
+            { "text": "al", "translation": ["to the"] },
+            { "text": "supermercato", "translation": ["supermarket"] }
+          ]
+        },
+        {
+          "id": "daily-social-03-line-08",
+          "speaker": "Paolo",
+          "text": "Cosa devi comprare?",
+          "translation": "What do you need to buy?",
+          "words": [
+            { "text": "Cosa", "translation": ["What"] },
+            { "text": "devi", "translation": ["you must", "you need to"] },
+            { "text": "comprare", "translation": ["to buy"] }
+          ]
+        },
+        {
+          "id": "daily-social-03-line-09",
+          "speaker": "Giulia",
+          "text": "Devo comprare il pane e il latte.",
+          "translation": "I need to buy bread and milk.",
+          "words": [
+            { "text": "Devo", "translation": ["I must", "I need to"] },
+            { "text": "comprare", "translation": ["to buy"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "pane", "translation": ["bread"] },
+            { "text": "e", "translation": ["and"] },
+            { "text": "latte", "translation": ["milk"] }
+          ]
+        },
+        {
+          "id": "daily-social-03-line-10",
+          "speaker": "Paolo",
+          "text": "Va bene, buona serata.",
+          "translation": "Okay, have a nice evening.",
+          "words": [
+            { "text": "Va", "translation": ["goes", "is"] },
+            { "text": "bene", "translation": ["well", "okay"] },
+            { "text": "buona", "translation": ["good", "nice"] },
+            { "text": "serata", "translation": ["evening"] }
+          ]
+        },
+        {
+          "id": "daily-social-03-line-11",
+          "speaker": "Giulia",
+          "text": "Grazie, anche a te.",
+          "translation": "Thanks, you too.",
+          "words": [
+            { "text": "Grazie", "translation": ["Thanks", "Thank you"] },
+            { "text": "anche", "translation": ["also", "too"] },
+            { "text": "a", "translation": ["to"] },
+            { "text": "te", "translation": ["you"] }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "daily-social-04",
+      "title": "Making Plans for the Afternoon",
+      "description": "Two friends decide to meet later in the day.",
+      "level": "A1",
+      "topic": "daily-social-interaction",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "daily-social-04-line-01",
+          "speaker": "Sara",
+          "text": "Sei libero oggi pomeriggio?",
+          "translation": "Are you free this afternoon?",
+          "words": [
+            { "text": "Sei", "translation": ["you are", "are you"] },
+            { "text": "libero", "translation": ["free"] },
+            { "text": "oggi", "translation": ["today"] },
+            { "text": "pomeriggio", "translation": ["afternoon"] }
+          ]
+        },
+        {
+          "id": "daily-social-04-line-02",
+          "speaker": "Andrea",
+          "text": "Sì, dopo le quattro.",
+          "translation": "Yes, after four.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "dopo", "translation": ["after"] },
+            { "text": "le", "translation": ["the"] },
+            { "text": "quattro", "translation": ["four"] }
+          ]
+        },
+        {
+          "id": "daily-social-04-line-03",
+          "speaker": "Sara",
+          "text": "Vuoi prendere un caffè?",
+          "translation": "Do you want to have a coffee?",
+          "words": [
+            { "text": "Vuoi", "translation": ["you want", "do you want"] },
+            { "text": "prendere", "translation": ["to take", "to have"] },
+            { "text": "un", "translation": ["a"] },
+            { "text": "caffè", "translation": ["coffee"] }
+          ]
+        },
+        {
+          "id": "daily-social-04-line-04",
+          "speaker": "Andrea",
+          "text": "Sì, volentieri.",
+          "translation": "Yes, I'd be happy to.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "volentieri", "translation": ["gladly", "I'd be happy to"] }
+          ]
+        },
+        {
+          "id": "daily-social-04-line-05",
+          "speaker": "Sara",
+          "text": "Ci vediamo alle cinque?",
+          "translation": "Shall we meet at five?",
+          "words": [
+            { "text": "Ci", "translation": ["each other"] },
+            { "text": "vediamo", "translation": ["we see", "we meet"] },
+            { "text": "alle", "translation": ["at"] },
+            { "text": "cinque", "translation": ["five"] }
+          ]
+        },
+        {
+          "id": "daily-social-04-line-06",
+          "speaker": "Andrea",
+          "text": "Va bene.",
+          "translation": "Okay.",
+          "words": [
+            { "text": "Va", "translation": ["goes", "is"] },
+            { "text": "bene", "translation": ["well", "okay"] }
+          ]
+        },
+        {
+          "id": "daily-social-04-line-07",
+          "speaker": "Sara",
+          "text": "Dove ci incontriamo?",
+          "translation": "Where shall we meet?",
+          "words": [
+            { "text": "Dove", "translation": ["Where"] },
+            { "text": "ci", "translation": ["each other"] },
+            { "text": "incontriamo", "translation": ["we meet"] }
+          ]
+        },
+        {
+          "id": "daily-social-04-line-08",
+          "speaker": "Andrea",
+          "text": "Davanti al bar in piazza.",
+          "translation": "In front of the café in the square.",
+          "words": [
+            { "text": "Davanti", "translation": ["In front"] },
+            { "text": "al", "translation": ["to the", "at the"] },
+            { "text": "bar", "translation": ["café", "bar"] },
+            { "text": "in", "translation": ["in"] },
+            { "text": "piazza", "translation": ["square"] }
+          ]
+        },
+        {
+          "id": "daily-social-04-line-09",
+          "speaker": "Sara",
+          "text": "Perfetto, conosco quel bar.",
+          "translation": "Perfect, I know that café.",
+          "words": [
+            { "text": "Perfetto", "translation": ["Perfect"] },
+            { "text": "conosco", "translation": ["I know"] },
+            { "text": "quel", "translation": ["that"] },
+            { "text": "bar", "translation": ["café", "bar"] }
+          ]
+        },
+        {
+          "id": "daily-social-04-line-10",
+          "speaker": "Andrea",
+          "text": "Allora a dopo.",
+          "translation": "Then see you later.",
+          "words": [
+            { "text": "Allora", "translation": ["Then", "So"] },
+            { "text": "a", "translation": ["until", "to"] },
+            { "text": "dopo", "translation": ["later", "after"] }
+          ]
+        },
+        {
+          "id": "daily-social-04-line-11",
+          "speaker": "Sara",
+          "text": "A dopo!",
+          "translation": "See you later!",
+          "words": [
+            { "text": "A", "translation": ["until", "to"] },
+            { "text": "dopo", "translation": ["later"] }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "daily-social-05",
+      "title": "Saying Goodbye After a Visit",
+      "description": "Two friends say goodbye after spending time together.",
+      "level": "A1",
+      "topic": "daily-social-interaction",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "daily-social-05-line-01",
+          "speaker": "Elena",
+          "text": "È già tardi.",
+          "translation": "It is already late.",
+          "words": [
+            { "text": "È", "translation": ["It is", "is"] },
+            { "text": "già", "translation": ["already"] },
+            { "text": "tardi", "translation": ["late"] }
+          ]
+        },
+        {
+          "id": "daily-social-05-line-02",
+          "speaker": "Davide",
+          "text": "Sì, sono quasi le undici.",
+          "translation": "Yes, it is almost eleven.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "sono", "translation": ["are", "it is"] },
+            { "text": "quasi", "translation": ["almost"] },
+            { "text": "le", "translation": ["the"] },
+            { "text": "undici", "translation": ["eleven"] }
+          ]
+        },
+        {
+          "id": "daily-social-05-line-03",
+          "speaker": "Elena",
+          "text": "Devo andare a casa.",
+          "translation": "I have to go home.",
+          "words": [
+            { "text": "Devo", "translation": ["I must", "I have to"] },
+            { "text": "andare", "translation": ["to go"] },
+            { "text": "a", "translation": ["to"] },
+            { "text": "casa", "translation": ["home", "house"] }
+          ]
+        },
+        {
+          "id": "daily-social-05-line-04",
+          "speaker": "Davide",
+          "text": "Va bene, grazie per la visita.",
+          "translation": "Okay, thanks for the visit.",
+          "words": [
+            { "text": "Va", "translation": ["goes", "is"] },
+            { "text": "bene", "translation": ["well", "okay"] },
+            { "text": "grazie", "translation": ["thanks", "thank you"] },
+            { "text": "per", "translation": ["for"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "visita", "translation": ["visit"] }
+          ]
+        },
+        {
+          "id": "daily-social-05-line-05",
+          "speaker": "Elena",
+          "text": "Grazie a te per la cena.",
+          "translation": "Thank you for dinner.",
+          "words": [
+            { "text": "Grazie", "translation": ["Thanks", "Thank you"] },
+            { "text": "a", "translation": ["to"] },
+            { "text": "te", "translation": ["you"] },
+            { "text": "per", "translation": ["for"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "cena", "translation": ["dinner"] }
+          ]
+        },
+        {
+          "id": "daily-social-05-line-06",
+          "speaker": "Davide",
+          "text": "Ti è piaciuta?",
+          "translation": "Did you like it?",
+          "words": [
+            { "text": "Ti", "translation": ["to you"] },
+            { "text": "è", "translation": ["is", "has"] },
+            { "text": "piaciuta", "translation": ["liked", "was pleasing"] }
+          ]
+        },
+        {
+          "id": "daily-social-05-line-07",
+          "speaker": "Elena",
+          "text": "Sì, era molto buona.",
+          "translation": "Yes, it was very good.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "era", "translation": ["it was", "was"] },
+            { "text": "molto", "translation": ["very", "a lot"] },
+            { "text": "buona", "translation": ["good"] }
+          ]
+        },
+        {
+          "id": "daily-social-05-line-08",
+          "speaker": "Davide",
+          "text": "Sono contento.",
+          "translation": "I am happy.",
+          "words": [
+            { "text": "Sono", "translation": ["I am"] },
+            { "text": "contento", "translation": ["happy", "glad"] }
+          ]
+        },
+        {
+          "id": "daily-social-05-line-09",
+          "speaker": "Elena",
+          "text": "Ci vediamo domani?",
+          "translation": "Shall we see each other tomorrow?",
+          "words": [
+            { "text": "Ci", "translation": ["each other"] },
+            { "text": "vediamo", "translation": ["we see", "we meet"] },
+            { "text": "domani", "translation": ["tomorrow"] }
+          ]
+        },
+        {
+          "id": "daily-social-05-line-10",
+          "speaker": "Davide",
+          "text": "Sì, ti scrivo domani mattina.",
+          "translation": "Yes, I will message you tomorrow morning.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "ti", "translation": ["you", "to you"] },
+            { "text": "scrivo", "translation": ["I write", "I'll message"] },
+            { "text": "domani", "translation": ["tomorrow"] },
+            { "text": "mattina", "translation": ["morning"] }
+          ]
+        },
+        {
+          "id": "daily-social-05-line-11",
+          "speaker": "Elena",
+          "text": "Perfetto, buonanotte.",
+          "translation": "Perfect, good night.",
+          "words": [
+            { "text": "Perfetto", "translation": ["Perfect"] },
+            { "text": "buonanotte", "translation": ["good night"] }
+          ]
+        },
+        {
+          "id": "daily-social-05-line-12",
+          "speaker": "Davide",
+          "text": "Buonanotte, a domani.",
+          "translation": "Good night, see you tomorrow.",
+          "words": [
+            { "text": "Buonanotte", "translation": ["Good night"] },
+            { "text": "a", "translation": ["until", "to"] },
+            { "text": "domani", "translation": ["tomorrow"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

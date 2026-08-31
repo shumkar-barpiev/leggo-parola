@@ -1,0 +1,709 @@
+{
+  "dialogues": [
+    {
+      "id": "essential-services-01",
+      "title": "At the Pharmacy",
+      "description": "A customer asks for help with a simple cold.",
+      "level": "A1",
+      "topic": "essential-services-emergencies",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "essential-services-01-line-01",
+          "speaker": "Cliente",
+          "text": "Buongiorno, ho bisogno di aiuto.",
+          "translation": "Good morning, I need help.",
+          "words": [
+            { "text": "Buongiorno", "translation": ["Good morning"] },
+            { "text": "ho", "translation": ["I have"] },
+            { "text": "bisogno", "translation": ["need"] },
+            { "text": "di", "translation": ["of"] },
+            { "text": "aiuto", "translation": ["help"] }
+          ]
+        },
+        {
+          "id": "essential-services-01-line-02",
+          "speaker": "Farmacista",
+          "text": "Certo, cosa ha?",
+          "translation": "Of course, what is wrong?",
+          "words": [
+            { "text": "Certo", "translation": ["Of course", "Sure"] },
+            { "text": "cosa", "translation": ["what"] },
+            { "text": "ha", "translation": ["you have", "has"] }
+          ]
+        },
+        {
+          "id": "essential-services-01-line-03",
+          "speaker": "Cliente",
+          "text": "Ho mal di gola.",
+          "translation": "I have a sore throat.",
+          "words": [
+            { "text": "Ho", "translation": ["I have"] },
+            { "text": "mal", "translation": ["pain", "ache"] },
+            { "text": "di", "translation": ["of"] },
+            { "text": "gola", "translation": ["throat"] }
+          ]
+        },
+        {
+          "id": "essential-services-01-line-04",
+          "speaker": "Farmacista",
+          "text": "Ha anche la febbre?",
+          "translation": "Do you also have a fever?",
+          "words": [
+            { "text": "Ha", "translation": ["you have", "do you have"] },
+            { "text": "anche", "translation": ["also"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "febbre", "translation": ["fever"] }
+          ]
+        },
+        {
+          "id": "essential-services-01-line-05",
+          "speaker": "Cliente",
+          "text": "No, non ho la febbre.",
+          "translation": "No, I do not have a fever.",
+          "words": [
+            { "text": "No", "translation": ["No"] },
+            { "text": "non", "translation": ["not"] },
+            { "text": "ho", "translation": ["I have"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "febbre", "translation": ["fever"] }
+          ]
+        },
+        {
+          "id": "essential-services-01-line-06",
+          "speaker": "Farmacista",
+          "text": "Ha la tosse?",
+          "translation": "Do you have a cough?",
+          "words": [
+            { "text": "Ha", "translation": ["do you have", "you have"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "tosse", "translation": ["cough"] }
+          ]
+        },
+        {
+          "id": "essential-services-01-line-07",
+          "speaker": "Cliente",
+          "text": "Sì, un po'.",
+          "translation": "Yes, a little.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "un", "translation": ["a"] },
+            { "text": "po'", "translation": ["little", "bit"] }
+          ]
+        },
+        {
+          "id": "essential-services-01-line-08",
+          "speaker": "Farmacista",
+          "text": "Può prendere questo sciroppo.",
+          "translation": "You can take this syrup.",
+          "words": [
+            { "text": "Può", "translation": ["you can", "can"] },
+            { "text": "prendere", "translation": ["to take"] },
+            { "text": "questo", "translation": ["this"] },
+            { "text": "sciroppo", "translation": ["syrup"] }
+          ]
+        },
+        {
+          "id": "essential-services-01-line-09",
+          "speaker": "Cliente",
+          "text": "Quante volte al giorno?",
+          "translation": "How many times a day?",
+          "words": [
+            { "text": "Quante", "translation": ["how many"] },
+            { "text": "volte", "translation": ["times"] },
+            { "text": "al", "translation": ["per", "in the"] },
+            { "text": "giorno", "translation": ["day"] }
+          ]
+        },
+        {
+          "id": "essential-services-01-line-10",
+          "speaker": "Farmacista",
+          "text": "Due volte al giorno.",
+          "translation": "Twice a day.",
+          "words": [
+            { "text": "Due", "translation": ["two"] },
+            { "text": "volte", "translation": ["times"] },
+            { "text": "al", "translation": ["per"] },
+            { "text": "giorno", "translation": ["day"] }
+          ]
+        },
+        {
+          "id": "essential-services-01-line-11",
+          "speaker": "Cliente",
+          "text": "Grazie mille.",
+          "translation": "Thank you very much.",
+          "words": [
+            { "text": "Grazie", "translation": ["Thank you", "Thanks"] },
+            { "text": "mille", "translation": ["a thousand", "very much"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "essential-services-02",
+      "title": "At the Doctor",
+      "description": "A patient explains a simple health problem to a doctor.",
+      "level": "A1",
+      "topic": "essential-services-emergencies",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "essential-services-02-line-01",
+          "speaker": "Dottore",
+          "text": "Buongiorno, come si sente?",
+          "translation": "Good morning, how do you feel?",
+          "words": [
+            { "text": "Buongiorno", "translation": ["Good morning"] },
+            { "text": "come", "translation": ["how"] },
+            { "text": "si", "translation": ["yourself"] },
+            { "text": "sente", "translation": ["you feel", "feels"] }
+          ]
+        },
+        {
+          "id": "essential-services-02-line-02",
+          "speaker": "Paziente",
+          "text": "Non molto bene.",
+          "translation": "Not very well.",
+          "words": [
+            { "text": "Non", "translation": ["Not"] },
+            { "text": "molto", "translation": ["very", "much"] },
+            { "text": "bene", "translation": ["well"] }
+          ]
+        },
+        {
+          "id": "essential-services-02-line-03",
+          "speaker": "Dottore",
+          "text": "Cosa le fa male?",
+          "translation": "What hurts?",
+          "words": [
+            { "text": "Cosa", "translation": ["What"] },
+            { "text": "le", "translation": ["to you"] },
+            { "text": "fa", "translation": ["does", "makes"] },
+            { "text": "male", "translation": ["badly", "hurt"] }
+          ]
+        },
+        {
+          "id": "essential-services-02-line-04",
+          "speaker": "Paziente",
+          "text": "Mi fa male la testa.",
+          "translation": "My head hurts.",
+          "words": [
+            { "text": "Mi", "translation": ["to me"] },
+            { "text": "fa", "translation": ["does", "makes"] },
+            { "text": "male", "translation": ["hurt", "pain"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "testa", "translation": ["head"] }
+          ]
+        },
+        {
+          "id": "essential-services-02-line-05",
+          "speaker": "Dottore",
+          "text": "Da quanto tempo?",
+          "translation": "For how long?",
+          "words": [
+            { "text": "Da", "translation": ["for", "since"] },
+            { "text": "quanto", "translation": ["how much", "how long"] },
+            { "text": "tempo", "translation": ["time"] }
+          ]
+        },
+        {
+          "id": "essential-services-02-line-06",
+          "speaker": "Paziente",
+          "text": "Da due giorni.",
+          "translation": "For two days.",
+          "words": [
+            { "text": "Da", "translation": ["for"] },
+            { "text": "due", "translation": ["two"] },
+            { "text": "giorni", "translation": ["days"] }
+          ]
+        },
+        {
+          "id": "essential-services-02-line-07",
+          "speaker": "Dottore",
+          "text": "Ha la febbre?",
+          "translation": "Do you have a fever?",
+          "words": [
+            { "text": "Ha", "translation": ["do you have", "you have"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "febbre", "translation": ["fever"] }
+          ]
+        },
+        {
+          "id": "essential-services-02-line-08",
+          "speaker": "Paziente",
+          "text": "Sì, un po'.",
+          "translation": "Yes, a little.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "un", "translation": ["a"] },
+            { "text": "po'", "translation": ["little", "bit"] }
+          ]
+        },
+        {
+          "id": "essential-services-02-line-09",
+          "speaker": "Dottore",
+          "text": "Deve riposare e bere molta acqua.",
+          "translation": "You need to rest and drink plenty of water.",
+          "words": [
+            { "text": "Deve", "translation": ["you must", "you need to"] },
+            { "text": "riposare", "translation": ["to rest"] },
+            { "text": "e", "translation": ["and"] },
+            { "text": "bere", "translation": ["to drink"] },
+            { "text": "molta", "translation": ["a lot of", "plenty of"] },
+            { "text": "acqua", "translation": ["water"] }
+          ]
+        },
+        {
+          "id": "essential-services-02-line-10",
+          "speaker": "Paziente",
+          "text": "Devo prendere una medicina?",
+          "translation": "Do I need to take medicine?",
+          "words": [
+            { "text": "Devo", "translation": ["I must", "do I need to"] },
+            { "text": "prendere", "translation": ["to take"] },
+            { "text": "una", "translation": ["a"] },
+            { "text": "medicina", "translation": ["medicine"] }
+          ]
+        },
+        {
+          "id": "essential-services-02-line-11",
+          "speaker": "Dottore",
+          "text": "Sì, le scrivo una ricetta.",
+          "translation": "Yes, I will write you a prescription.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "le", "translation": ["to you"] },
+            { "text": "scrivo", "translation": ["I write", "I will write"] },
+            { "text": "una", "translation": ["a"] },
+            { "text": "ricetta", "translation": ["prescription", "recipe"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "essential-services-03",
+      "title": "Lost Wallet",
+      "description": "A person asks a police officer for help after losing a wallet.",
+      "level": "A1",
+      "topic": "essential-services-emergencies",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "essential-services-03-line-01",
+          "speaker": "Persona",
+          "text": "Scusi, può aiutarmi?",
+          "translation": "Excuse me, can you help me?",
+          "words": [
+            { "text": "Scusi", "translation": ["Excuse me", "Sorry"] },
+            { "text": "può", "translation": ["can you", "you can"] },
+            { "text": "aiutarmi", "translation": ["help me", "to help me"] }
+          ]
+        },
+        {
+          "id": "essential-services-03-line-02",
+          "speaker": "Poliziotto",
+          "text": "Certo, cosa è successo?",
+          "translation": "Of course, what happened?",
+          "words": [
+            { "text": "Certo", "translation": ["Of course", "Sure"] },
+            { "text": "cosa", "translation": ["what"] },
+            { "text": "è", "translation": ["is", "has"] },
+            { "text": "successo", "translation": ["happened"] }
+          ]
+        },
+        {
+          "id": "essential-services-03-line-03",
+          "speaker": "Persona",
+          "text": "Ho perso il portafoglio.",
+          "translation": "I lost my wallet.",
+          "words": [
+            { "text": "Ho", "translation": ["I have"] },
+            { "text": "perso", "translation": ["lost"] },
+            { "text": "il", "translation": ["the"] },
+            { "text": "portafoglio", "translation": ["wallet"] }
+          ]
+        },
+        {
+          "id": "essential-services-03-line-04",
+          "speaker": "Poliziotto",
+          "text": "Dove lo ha perso?",
+          "translation": "Where did you lose it?",
+          "words": [
+            { "text": "Dove", "translation": ["Where"] },
+            { "text": "lo", "translation": ["it"] },
+            { "text": "ha", "translation": ["you have", "did you"] },
+            { "text": "perso", "translation": ["lost"] }
+          ]
+        },
+        {
+          "id": "essential-services-03-line-05",
+          "speaker": "Persona",
+          "text": "Forse sull'autobus.",
+          "translation": "Maybe on the bus.",
+          "words": [
+            { "text": "Forse", "translation": ["Maybe", "Perhaps"] },
+            { "text": "sull'autobus", "translation": ["on the bus"] }
+          ]
+        },
+        {
+          "id": "essential-services-03-line-06",
+          "speaker": "Poliziotto",
+          "text": "Che colore è?",
+          "translation": "What color is it?",
+          "words": [
+            { "text": "Che", "translation": ["What", "Which"] },
+            { "text": "colore", "translation": ["color"] },
+            { "text": "è", "translation": ["is"] }
+          ]
+        },
+        {
+          "id": "essential-services-03-line-07",
+          "speaker": "Persona",
+          "text": "È nero.",
+          "translation": "It is black.",
+          "words": [
+            { "text": "È", "translation": ["It is", "is"] },
+            { "text": "nero", "translation": ["black"] }
+          ]
+        },
+        {
+          "id": "essential-services-03-line-08",
+          "speaker": "Poliziotto",
+          "text": "Ci sono documenti dentro?",
+          "translation": "Are there documents inside?",
+          "words": [
+            { "text": "Ci", "translation": ["there"] },
+            { "text": "sono", "translation": ["are", "there are"] },
+            { "text": "documenti", "translation": ["documents"] },
+            { "text": "dentro", "translation": ["inside"] }
+          ]
+        },
+        {
+          "id": "essential-services-03-line-09",
+          "speaker": "Persona",
+          "text": "Sì, c'è la mia carta d'identità.",
+          "translation": "Yes, my identity card is inside.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "c'è", "translation": ["there is"] },
+            { "text": "la", "translation": ["the"] },
+            { "text": "mia", "translation": ["my"] },
+            { "text": "carta", "translation": ["card"] },
+            { "text": "d'identità", "translation": ["identity", "ID"] }
+          ]
+        },
+        {
+          "id": "essential-services-03-line-10",
+          "speaker": "Poliziotto",
+          "text": "Deve fare una denuncia.",
+          "translation": "You need to make a report.",
+          "words": [
+            { "text": "Deve", "translation": ["you must", "you need to"] },
+            { "text": "fare", "translation": ["to make", "to do"] },
+            { "text": "una", "translation": ["a"] },
+            { "text": "denuncia", "translation": ["report", "police report"] }
+          ]
+        },
+        {
+          "id": "essential-services-03-line-11",
+          "speaker": "Persona",
+          "text": "Va bene, grazie.",
+          "translation": "Okay, thank you.",
+          "words": [
+            { "text": "Va", "translation": ["goes", "is"] },
+            { "text": "bene", "translation": ["well", "okay"] },
+            { "text": "grazie", "translation": ["thank you", "thanks"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "essential-services-04",
+      "title": "Asking for Help in the Street",
+      "description": "A person asks for help after feeling unwell outside.",
+      "level": "A1",
+      "topic": "essential-services-emergencies",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "essential-services-04-line-01",
+          "speaker": "Persona",
+          "text": "Scusi, mi può aiutare?",
+          "translation": "Excuse me, can you help me?",
+          "words": [
+            { "text": "Scusi", "translation": ["Excuse me", "Sorry"] },
+            { "text": "mi", "translation": ["me"] },
+            { "text": "può", "translation": ["can you", "you can"] },
+            { "text": "aiutare", "translation": ["to help"] }
+          ]
+        },
+        {
+          "id": "essential-services-04-line-02",
+          "speaker": "Passante",
+          "text": "Certo, cosa c'è?",
+          "translation": "Of course, what is wrong?",
+          "words": [
+            { "text": "Certo", "translation": ["Of course", "Sure"] },
+            { "text": "cosa", "translation": ["what"] },
+            { "text": "c'è", "translation": ["there is", "is wrong"] }
+          ]
+        },
+        {
+          "id": "essential-services-04-line-03",
+          "speaker": "Persona",
+          "text": "Non mi sento bene.",
+          "translation": "I do not feel well.",
+          "words": [
+            { "text": "Non", "translation": ["Not"] },
+            { "text": "mi", "translation": ["myself", "me"] },
+            { "text": "sento", "translation": ["I feel"] },
+            { "text": "bene", "translation": ["well"] }
+          ]
+        },
+        {
+          "id": "essential-services-04-line-04",
+          "speaker": "Passante",
+          "text": "Ha bisogno di sedersi?",
+          "translation": "Do you need to sit down?",
+          "words": [
+            { "text": "Ha", "translation": ["do you have", "you have"] },
+            { "text": "bisogno", "translation": ["need"] },
+            { "text": "di", "translation": ["to", "of"] },
+            { "text": "sedersi", "translation": ["to sit down"] }
+          ]
+        },
+        {
+          "id": "essential-services-04-line-05",
+          "speaker": "Persona",
+          "text": "Sì, per favore.",
+          "translation": "Yes, please.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "per", "translation": ["for"] },
+            { "text": "favore", "translation": ["please"] }
+          ]
+        },
+        {
+          "id": "essential-services-04-line-06",
+          "speaker": "Passante",
+          "text": "C'è una panchina qui vicino.",
+          "translation": "There is a bench nearby.",
+          "words": [
+            { "text": "C'è", "translation": ["There is"] },
+            { "text": "una", "translation": ["a"] },
+            { "text": "panchina", "translation": ["bench"] },
+            { "text": "qui", "translation": ["here"] },
+            { "text": "vicino", "translation": ["nearby", "close"] }
+          ]
+        },
+        {
+          "id": "essential-services-04-line-07",
+          "speaker": "Persona",
+          "text": "Grazie.",
+          "translation": "Thank you.",
+          "words": [
+            { "text": "Grazie", "translation": ["Thank you", "Thanks"] }
+          ]
+        },
+        {
+          "id": "essential-services-04-line-08",
+          "speaker": "Passante",
+          "text": "Vuole un po' d'acqua?",
+          "translation": "Would you like some water?",
+          "words": [
+            { "text": "Vuole", "translation": ["would you like", "you want"] },
+            { "text": "un", "translation": ["a"] },
+            { "text": "po'", "translation": ["little", "bit"] },
+            { "text": "d'acqua", "translation": ["of water"] }
+          ]
+        },
+        {
+          "id": "essential-services-04-line-09",
+          "speaker": "Persona",
+          "text": "Sì, grazie.",
+          "translation": "Yes, thank you.",
+          "words": [
+            { "text": "Sì", "translation": ["Yes"] },
+            { "text": "grazie", "translation": ["thank you", "thanks"] }
+          ]
+        },
+        {
+          "id": "essential-services-04-line-10",
+          "speaker": "Passante",
+          "text": "Devo chiamare qualcuno?",
+          "translation": "Should I call someone?",
+          "words": [
+            { "text": "Devo", "translation": ["should I", "must I"] },
+            { "text": "chiamare", "translation": ["to call"] },
+            { "text": "qualcuno", "translation": ["someone"] }
+          ]
+        },
+        {
+          "id": "essential-services-04-line-11",
+          "speaker": "Persona",
+          "text": "No, adesso sto meglio.",
+          "translation": "No, I feel better now.",
+          "words": [
+            { "text": "No", "translation": ["No"] },
+            { "text": "adesso", "translation": ["now"] },
+            { "text": "sto", "translation": ["I am", "I feel"] },
+            { "text": "meglio", "translation": ["better"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "essential-services-05",
+      "title": "Calling Emergency Services",
+      "description": "A person calls emergency services after seeing an accident.",
+      "level": "A1",
+      "topic": "essential-services-emergencies",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "lines": [
+        {
+          "id": "essential-services-05-line-01",
+          "speaker": "Operatore",
+          "text": "Emergenza, come posso aiutarla?",
+          "translation": "Emergency services, how can I help you?",
+          "words": [
+            { "text": "Emergenza", "translation": ["Emergency"] },
+            { "text": "come", "translation": ["how"] },
+            { "text": "posso", "translation": ["I can", "can I"] },
+            { "text": "aiutarla", "translation": ["help you", "to help you"] }
+          ]
+        },
+        {
+          "id": "essential-services-05-line-02",
+          "speaker": "Persona",
+          "text": "C'è stato un incidente.",
+          "translation": "There has been an accident.",
+          "words": [
+            { "text": "C'è", "translation": ["There is", "There has been"] },
+            { "text": "stato", "translation": ["been"] },
+            { "text": "un", "translation": ["an", "a"] },
+            { "text": "incidente", "translation": ["accident"] }
+          ]
+        },
+        {
+          "id": "essential-services-05-line-03",
+          "speaker": "Operatore",
+          "text": "Dove si trova?",
+          "translation": "Where are you?",
+          "words": [
+            { "text": "Dove", "translation": ["Where"] },
+            { "text": "si", "translation": ["yourself"] },
+            { "text": "trova", "translation": ["are you", "is located"] }
+          ]
+        },
+        {
+          "id": "essential-services-05-line-04",
+          "speaker": "Persona",
+          "text": "Sono in via Roma.",
+          "translation": "I am on Via Roma.",
+          "words": [
+            { "text": "Sono", "translation": ["I am"] },
+            { "text": "in", "translation": ["in", "on"] },
+            { "text": "via", "translation": ["street"] },
+            { "text": "Roma", "translation": ["Rome"] }
+          ]
+        },
+        {
+          "id": "essential-services-05-line-05",
+          "speaker": "Operatore",
+          "text": "Quante persone sono coinvolte?",
+          "translation": "How many people are involved?",
+          "words": [
+            { "text": "Quante", "translation": ["How many"] },
+            { "text": "persone", "translation": ["people"] },
+            { "text": "sono", "translation": ["are"] },
+            { "text": "coinvolte", "translation": ["involved"] }
+          ]
+        },
+        {
+          "id": "essential-services-05-line-06",
+          "speaker": "Persona",
+          "text": "Due persone.",
+          "translation": "Two people.",
+          "words": [
+            { "text": "Due", "translation": ["Two"] },
+            { "text": "persone", "translation": ["people"] }
+          ]
+        },
+        {
+          "id": "essential-services-05-line-07",
+          "speaker": "Operatore",
+          "text": "Sono ferite?",
+          "translation": "Are they injured?",
+          "words": [
+            { "text": "Sono", "translation": ["Are they", "They are"] },
+            { "text": "ferite", "translation": ["injured", "hurt"] }
+          ]
+        },
+        {
+          "id": "essential-services-05-line-08",
+          "speaker": "Persona",
+          "text": "Una persona ha male alla gamba.",
+          "translation": "One person has pain in their leg.",
+          "words": [
+            { "text": "Una", "translation": ["One", "A"] },
+            { "text": "persona", "translation": ["person"] },
+            { "text": "ha", "translation": ["has"] },
+            { "text": "male", "translation": ["pain", "hurt"] },
+            { "text": "alla", "translation": ["in the", "to the"] },
+            { "text": "gamba", "translation": ["leg"] }
+          ]
+        },
+        {
+          "id": "essential-services-05-line-09",
+          "speaker": "Operatore",
+          "text": "L'ambulanza sta arrivando.",
+          "translation": "The ambulance is coming.",
+          "words": [
+            { "text": "L'ambulanza", "translation": ["The ambulance"] },
+            { "text": "sta", "translation": ["is"] },
+            { "text": "arrivando", "translation": ["coming", "arriving"] }
+          ]
+        },
+        {
+          "id": "essential-services-05-line-10",
+          "speaker": "Persona",
+          "text": "Quanto tempo ci vuole?",
+          "translation": "How long will it take?",
+          "words": [
+            { "text": "Quanto", "translation": ["How much", "How long"] },
+            { "text": "tempo", "translation": ["time"] },
+            { "text": "ci", "translation": ["it", "there"] },
+            { "text": "vuole", "translation": ["takes", "is needed"] }
+          ]
+        },
+        {
+          "id": "essential-services-05-line-11",
+          "speaker": "Operatore",
+          "text": "Circa cinque minuti.",
+          "translation": "About five minutes.",
+          "words": [
+            { "text": "Circa", "translation": ["About", "Approximately"] },
+            { "text": "cinque", "translation": ["five"] },
+            { "text": "minuti", "translation": ["minutes"] }
+          ]
+        },
+        {
+          "id": "essential-services-05-line-12",
+          "speaker": "Persona",
+          "text": "Va bene, grazie.",
+          "translation": "Okay, thank you.",
+          "words": [
+            { "text": "Va", "translation": ["goes", "is"] },
+            { "text": "bene", "translation": ["well", "okay"] },
+            { "text": "grazie", "translation": ["thank you", "thanks"] }
+          ]
+        }
+      ]
+    }
+  ]
+}
