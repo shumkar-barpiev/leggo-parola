@@ -9,6 +9,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import Link from 'next/link';
+import ThemeToggle from './ThemeToggle';
 
 export default function Header() {
   return (
@@ -49,16 +50,17 @@ export default function Header() {
             </Typography>
           </Box>
 
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
             <Button
               component={Link}
-              href="/"
+              href="/dialogues"
               color="inherit"
               size="medium"
               sx={{ fontWeight: 500 }}
             >
               Dialogues
             </Button>
+            <ThemeToggle />
           </Box>
         </Toolbar>
       </Container>

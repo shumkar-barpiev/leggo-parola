@@ -2,11 +2,14 @@ import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Chip from '@mui/material/Chip';
+import Button from '@mui/material/Button';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import Link from 'next/link';
 import DialogueList from '@/app/components/dialogue/DialogueList';
-import { getRecentDialogues } from '@/app/lib/dialogues';
+import { getRandomDialogues } from '@/app/lib/dialogues';
 
 export default function Home() {
-  const dialogues = getRecentDialogues(10);
+  const dialogues = getRandomDialogues(5);
 
   return (
     <Container maxWidth="lg" sx={{ py: { xs: 4, md: 6 } }}>
@@ -45,26 +48,39 @@ export default function Home() {
         </Typography>
       </Box>
 
-      {/* Dialogues Section */}
+      {/* Featured Dialogues Section */}
       <Box sx={{ mb: 4 }}>
         <Box
           sx={{
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            gap: 2,
             mb: 3,
           }}
         >
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
             <Typography variant="h5" component="h2" sx={{ fontWeight: 700 }}>
-              Available Dialogues
+              Featured Dialogues
             </Typography>
             <Chip
-              label={`${dialogues.length} available`}
+              label={`${dialogues.length} dialogues`}
               size="small"
               sx={{ fontWeight: 600, bgcolor: 'action.hover' }}
             />
           </Box>
+
+          <Link href="/dialogues" style={{ textDecoration: 'none' }}>
+            <Button
+              endIcon={<ArrowForwardIcon />}
+              variant="outlined"
+              size="small"
+              sx={{ fontWeight: 600 }}
+            >
+              Browse all dialogues
+            </Button>
+          </Link>
         </Box>
 
         <DialogueList dialogues={dialogues} />

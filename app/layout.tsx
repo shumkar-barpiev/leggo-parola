@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v16-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
+import InitColorSchemeScript from "@mui/material/InitColorSchemeScript";
 import Box from "@mui/material/Box";
 import theme from "./theme";
 import Header from "./components/layout/Header";
@@ -29,10 +30,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className={`${geistSans.variable} ${geistMono.variable}`}
+    >
       <body>
+        <InitColorSchemeScript attribute="class" />
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
-          <ThemeProvider theme={theme}>
+          <ThemeProvider theme={theme} defaultMode="system">
             <CssBaseline />
             <Box
               sx={{
@@ -41,6 +47,7 @@ export default function RootLayout({
                 minHeight: "100vh",
                 bgcolor: "background.default",
                 color: "text.primary",
+                transition: "background-color 0.2s ease, color 0.2s ease",
               }}
             >
               <Header />

@@ -46,9 +46,14 @@ export default function WordTranslationPopover({
             p: 1.75,
             minWidth: 180,
             maxWidth: 280,
+            bgcolor: 'background.paper',
+            color: 'text.primary',
             border: '1px solid',
             borderColor: 'divider',
-            boxShadow: '0 8px 24px rgba(0, 0, 0, 0.12)',
+            boxShadow: (theme) =>
+              theme.palette.mode === 'dark'
+                ? '0 8px 24px rgba(0, 0, 0, 0.45)'
+                : '0 8px 24px rgba(0, 0, 0, 0.12)',
           },
         },
       }}

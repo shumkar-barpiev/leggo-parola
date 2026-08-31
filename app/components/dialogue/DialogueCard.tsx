@@ -29,8 +29,11 @@ export default function DialogueCard({ dialogue }: DialogueCardProps) {
         transition: 'transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out',
         '&:hover': {
           transform: 'translateY(-4px)',
-          boxShadow: (theme) => theme.shadows[4],
-          borderColor: 'primary.light',
+          boxShadow: (theme) =>
+            theme.palette.mode === 'dark'
+              ? '0 8px 24px rgba(0, 0, 0, 0.4)'
+              : theme.shadows[4],
+          borderColor: 'primary.main',
         },
       }}
     >

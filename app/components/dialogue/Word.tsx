@@ -48,11 +48,23 @@ export default function Word({ word }: WordProps) {
           px: '2px',
           py: '1px',
           transition: 'background-color 0.15s ease, color 0.15s ease',
-          backgroundColor: isOpen ? 'rgba(25, 118, 210, 0.15)' : 'transparent',
+          backgroundColor: (theme) =>
+            isOpen
+              ? theme.palette.mode === 'dark'
+                ? 'rgba(56, 189, 248, 0.22)'
+                : 'rgba(25, 118, 210, 0.15)'
+              : 'transparent',
           color: isOpen ? 'primary.main' : 'inherit',
           fontWeight: isOpen ? 600 : 'inherit',
           '&:hover': {
-            backgroundColor: isOpen ? 'rgba(25, 118, 210, 0.18)' : 'rgba(25, 118, 210, 0.08)',
+            backgroundColor: (theme) =>
+              isOpen
+                ? theme.palette.mode === 'dark'
+                  ? 'rgba(56, 189, 248, 0.28)'
+                  : 'rgba(25, 118, 210, 0.2)'
+                : theme.palette.mode === 'dark'
+                  ? 'rgba(56, 189, 248, 0.12)'
+                  : 'rgba(25, 118, 210, 0.08)',
             color: 'primary.main',
           },
           '&:focus-visible': {
