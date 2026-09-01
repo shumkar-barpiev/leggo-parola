@@ -36,7 +36,15 @@ export default function Home() {
             mb: 2,
           }}
         >
-          Learn Italian Through Real Conversations & Stories
+          <Box component="span" sx={{ display: { xs: 'inline', sm: 'block' } }}>
+            Learn Italian
+          </Box>
+          <Box component="span" sx={{ display: { xs: 'inline', sm: 'none' } }}>
+            {' '}
+          </Box>
+          <Box component="span" sx={{ display: { xs: 'inline', sm: 'block' } }}>
+            Through Real Conversations & Stories
+          </Box>
         </Typography>
         <Typography
           variant="body1"
