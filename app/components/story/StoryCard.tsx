@@ -12,6 +12,7 @@ import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Link from 'next/link';
 import { Story } from '@/app/types/story';
+import ContentTypeBadge from '@/app/components/common/ContentTypeBadge';
 
 interface StoryCardProps {
   story: Story;
@@ -50,7 +51,8 @@ export default function StoryCard({ story }: StoryCardProps) {
         }}
       >
         <CardContent sx={{ p: 0, '&:last-child': { pb: 0 } }}>
-          <Stack direction="row" spacing={1} sx={{ mb: 1.5, alignItems: 'center' }}>
+          <Stack direction="row" spacing={1} sx={{ mb: 1.5, alignItems: 'center', flexWrap: 'wrap', gap: 0.75 }}>
+            <ContentTypeBadge type="Story" />
             <Chip
               label={story.level}
               size="small"

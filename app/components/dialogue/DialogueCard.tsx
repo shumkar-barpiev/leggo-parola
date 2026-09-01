@@ -12,6 +12,7 @@ import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutlined';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Link from 'next/link';
 import { Dialogue } from '@/app/types/dialogue';
+import ContentTypeBadge from '@/app/components/common/ContentTypeBadge';
 
 interface DialogueCardProps {
   dialogue: Dialogue;
@@ -50,7 +51,8 @@ export default function DialogueCard({ dialogue }: DialogueCardProps) {
         }}
       >
         <CardContent sx={{ p: 0, '&:last-child': { pb: 0 } }}>
-          <Stack direction="row" spacing={1} sx={{ mb: 1.5, alignItems: 'center' }}>
+          <Stack direction="row" spacing={1} sx={{ mb: 1.5, alignItems: 'center', flexWrap: 'wrap', gap: 0.75 }}>
+            <ContentTypeBadge type="Dialogue" />
             <Chip
               label={dialogue.level}
               size="small"

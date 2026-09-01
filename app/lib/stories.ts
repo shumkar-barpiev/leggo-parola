@@ -18,3 +18,16 @@ export function getAllStories(): Story[] {
 export function getStoryById(id: string): Story | undefined {
   return getAllStories().find((story) => story.id === id);
 }
+
+export function getFeaturedStories(limit: number = 3): Story[] {
+  const all = getAllStories();
+  const uniqueMap = new Map<string, Story>();
+  all.forEach((story) => {
+    if (!uniqueMap.has(story.id)) {
+      uniqueMap.set(story.id, story);
+    }
+  });
+
+  return Array.from(uniqueMap.values()).slice(0, Math.min(limit, uniqueMap.size));
+}
+

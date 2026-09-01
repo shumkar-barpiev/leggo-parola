@@ -3,13 +3,17 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Chip from '@mui/material/Chip';
 import Button from '@mui/material/Button';
+import Divider from '@mui/material/Divider';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Link from 'next/link';
 import DialogueList from '@/app/components/dialogue/DialogueList';
+import StoryList from '@/app/components/story/StoryList';
 import { getRandomDialogues } from '@/app/lib/dialogues';
+import { getFeaturedStories } from '@/app/lib/stories';
 
 export default function Home() {
-  const dialogues = getRandomDialogues(5);
+  const dialogues = getRandomDialogues(3);
+  const stories = getFeaturedStories(3);
 
   return (
     <Container maxWidth="lg" sx={{ py: { xs: 4, md: 6 } }}>
@@ -32,7 +36,7 @@ export default function Home() {
             mb: 2,
           }}
         >
-          Learn Italian Through Real Conversations
+          Learn Italian Through Real Conversations & Stories
         </Typography>
         <Typography
           variant="body1"
@@ -44,9 +48,49 @@ export default function Home() {
             lineHeight: 1.6,
           }}
         >
-          Practice with realistic Italian dialogues. Tap any word to see its translation and explore natural phrasing in context.
+          Practice with realistic Italian dialogues and engaging short stories. Tap any word to see its translation and explore natural phrasing in context.
         </Typography>
       </Box>
+
+      {/* Featured Stories Section */}
+      <Box sx={{ mb: 6 }}>
+        <Box
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            gap: 2,
+            mb: 3,
+          }}
+        >
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
+            <Typography variant="h5" component="h2" sx={{ fontWeight: 700 }}>
+              Featured Stories
+            </Typography>
+            <Chip
+              label={`${stories.length} stories`}
+              size="small"
+              sx={{ fontWeight: 600, bgcolor: 'action.hover' }}
+            />
+          </Box>
+
+          <Link href="/stories" style={{ textDecoration: 'none' }}>
+            <Button
+              endIcon={<ArrowForwardIcon />}
+              variant="outlined"
+              size="small"
+              sx={{ fontWeight: 600 }}
+            >
+              View all stories
+            </Button>
+          </Link>
+        </Box>
+
+        <StoryList stories={stories} />
+      </Box>
+
+      <Divider sx={{ mb: 6 }} />
 
       {/* Featured Dialogues Section */}
       <Box sx={{ mb: 4 }}>

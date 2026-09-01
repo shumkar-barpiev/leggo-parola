@@ -107,19 +107,26 @@ export default function StoryLibrary({ stories }: StoryLibraryProps) {
 
   return (
     <Box>
-      {/* Compact Controls Header */}
-      <Box sx={{ mb: 2.5, display: 'flex', flexDirection: 'column', gap: 1.5 }}>
-        {/* Row 1: Search & Level Filters */}
+      {/* Cohesive Filter Toolbar */}
+      <Box
+        sx={{
+          mb: 3,
+          display: "flex",
+          flexDirection: "column",
+          gap: 1.5,
+        }}
+      >
+        {/* Main Filter Toolbar */}
         <Box
           sx={{
-            display: 'flex',
-            flexDirection: { xs: 'column', sm: 'row' },
-            alignItems: { xs: 'stretch', sm: 'center' },
-            justifyContent: 'space-between',
-            gap: 1.5,
+            display: "flex",
+            flexDirection: { xs: "column", md: "row" },
+            alignItems: { xs: "stretch", md: "center" },
+            flexWrap: { xs: "nowrap", md: "wrap" },
+            gap: { xs: 1.5, md: 2 },
           }}
         >
-          {/* Search Input Bar */}
+          {/* Search */}
           <TextField
             size="small"
             value={searchQuery}
@@ -130,7 +137,12 @@ export default function StoryLibrary({ stories }: StoryLibraryProps) {
               input: {
                 startAdornment: (
                   <InputAdornment position="start">
-                    <SearchIcon sx={{ color: 'text.secondary', fontSize: 18 }} />
+                    <SearchIcon
+                      sx={{
+                        color: "text.secondary",
+                        fontSize: 18,
+                      }}
+                    />
                   </InputAdornment>
                 ),
                 endAdornment: searchQuery ? (
@@ -148,35 +160,41 @@ export default function StoryLibrary({ stories }: StoryLibraryProps) {
                 ) : null,
                 sx: {
                   borderRadius: 2,
-                  bgcolor: 'background.paper',
-                  fontSize: '0.875rem',
-                  height: 36,
+                  bgcolor: "background.paper",
+                  fontSize: "0.875rem",
+                  height: 38,
                 },
               },
             }}
             sx={{
-              width: { xs: '100%', sm: 280 },
+              width: {
+                xs: "100%",
+                sm: 320,
+                md: 300,
+              },
               flexShrink: 0,
             }}
           />
 
-          {/* Level Filter Chips */}
+          {/* Level Filter */}
           <Box
             sx={{
-              display: 'flex',
-              alignItems: 'center',
-              flexWrap: 'wrap',
+              display: "flex",
+              alignItems: "center",
+              flexWrap: "wrap",
               gap: 0.75,
+              minWidth: 0,
             }}
           >
             <Typography
               variant="caption"
               sx={{
                 fontWeight: 700,
-                color: 'text.secondary',
-                textTransform: 'uppercase',
-                letterSpacing: '0.04em',
+                color: "text.secondary",
+                textTransform: "uppercase",
+                letterSpacing: "0.04em",
                 mr: 0.25,
+                whiteSpace: "nowrap",
               }}
             >
               Level:
@@ -186,166 +204,154 @@ export default function StoryLibrary({ stories }: StoryLibraryProps) {
               label="All"
               clickable
               size="small"
-              color={selectedLevel === 'ALL' ? 'primary' : 'default'}
-              variant={selectedLevel === 'ALL' ? 'filled' : 'outlined'}
-              onClick={() => handleLevelChange('ALL')}
-              sx={{ fontWeight: 600, fontSize: '0.75rem', height: 26 }}
+              color={selectedLevel === "ALL" ? "primary" : "default"}
+              variant={selectedLevel === "ALL" ? "filled" : "outlined"}
+              onClick={() => handleLevelChange("ALL")}
+              sx={{
+                fontWeight: 600,
+                fontSize: "0.75rem",
+                height: 28,
+              }}
             />
 
             {availableLevels.map((level) => {
-              const isSelected = selectedLevel.toUpperCase() === level.toUpperCase();
+              const isSelected =
+                selectedLevel.toUpperCase() === level.toUpperCase();
+
               return (
                 <Chip
                   key={level}
                   label={level}
                   clickable
                   size="small"
-                  color={isSelected ? 'primary' : 'default'}
-                  variant={isSelected ? 'filled' : 'outlined'}
+                  color={isSelected ? "primary" : "default"}
+                  variant={isSelected ? "filled" : "outlined"}
                   onClick={() => handleLevelChange(level)}
-                  sx={{ fontWeight: 700, fontSize: '0.75rem', height: 26 }}
-                />
-              );
-            })}
-          </Box>
-        </Box>
-
-        {/* Row 2: Topic Filter Chips */}
-        {availableTopics.length > 0 && (
-          <Box
-            sx={{
-              display: 'flex',
-              alignItems: 'center',
-              flexWrap: 'wrap',
-              gap: 0.75,
-            }}
-          >
-            <Typography
-              variant="caption"
-              sx={{
-                fontWeight: 700,
-                color: 'text.secondary',
-                textTransform: 'uppercase',
-                letterSpacing: '0.04em',
-                mr: 0.25,
-              }}
-            >
-              Topic:
-            </Typography>
-
-            <Chip
-              label="All topics"
-              clickable
-              size="small"
-              color={selectedTopic === 'ALL' ? 'primary' : 'default'}
-              variant={selectedTopic === 'ALL' ? 'filled' : 'outlined'}
-              onClick={() => handleTopicChange('ALL')}
-              sx={{ fontWeight: 600, fontSize: '0.75rem', height: 26 }}
-            />
-
-            {availableTopics.map((topic) => {
-              const isSelected = selectedTopic.toLowerCase() === topic.toLowerCase();
-              return (
-                <Chip
-                  key={topic}
-                  label={topic.replace(/-/g, ' ')}
-                  clickable
-                  size="small"
-                  color={isSelected ? 'primary' : 'default'}
-                  variant={isSelected ? 'filled' : 'outlined'}
-                  onClick={() => handleTopicChange(topic)}
                   sx={{
-                    fontWeight: isSelected ? 700 : 500,
-                    fontSize: '0.75rem',
-                    height: 26,
-                    textTransform: 'capitalize',
+                    fontWeight: 700,
+                    fontSize: "0.75rem",
+                    height: 28,
                   }}
                 />
               );
             })}
           </Box>
-        )}
-      </Box>
 
-      {/* Result Count and Active Filters Bar */}
-      <Box
-        sx={{
-          mb: 2.5,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          flexWrap: 'wrap',
-          gap: 1,
-          py: isFiltering ? 0.625 : 0,
-          px: isFiltering ? 1.25 : 0,
-          borderRadius: 2,
-          bgcolor: isFiltering
-            ? (theme) =>
-                theme.palette.mode === 'dark'
-                  ? 'rgba(255, 255, 255, 0.03)'
-                  : 'rgba(0, 0, 0, 0.02)'
-            : 'transparent',
-          border: isFiltering ? '1px solid' : 'none',
-          borderColor: 'divider',
-        }}
-      >
-        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, flexWrap: 'wrap' }}>
+          {/* Topic Filter */}
+          {availableTopics.length > 0 && (
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                flexWrap: "wrap",
+                gap: 0.75,
+                minWidth: 0,
+                flex: { xs: "unset", md: 1 },
+              }}
+            >
+              <Typography
+                variant="caption"
+                sx={{
+                  fontWeight: 700,
+                  color: "text.secondary",
+                  textTransform: "uppercase",
+                  letterSpacing: "0.04em",
+                  mr: 0.25,
+                  whiteSpace: "nowrap",
+                }}
+              >
+                Topic:
+              </Typography>
+
+              <Chip
+                label="All topics"
+                clickable
+                size="small"
+                color={selectedTopic === "ALL" ? "primary" : "default"}
+                variant={selectedTopic === "ALL" ? "filled" : "outlined"}
+                onClick={() => handleTopicChange("ALL")}
+                sx={{
+                  fontWeight: 600,
+                  fontSize: "0.75rem",
+                  height: 28,
+                }}
+              />
+
+              {availableTopics.map((topic) => {
+                const isSelected =
+                  selectedTopic.toLowerCase() === topic.toLowerCase();
+
+                return (
+                  <Chip
+                    key={topic}
+                    label={topic.replace(/-/g, " ")}
+                    clickable
+                    size="small"
+                    color={isSelected ? "primary" : "default"}
+                    variant={isSelected ? "filled" : "outlined"}
+                    onClick={() => handleTopicChange(topic)}
+                    sx={{
+                      fontWeight: isSelected ? 700 : 500,
+                      fontSize: "0.75rem",
+                      height: 28,
+                      textTransform: "capitalize",
+                    }}
+                  />
+                );
+              })}
+            </Box>
+          )}
+        </Box>
+
+        {/* Result Count */}
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            flexWrap: "wrap",
+            gap: 1,
+            minHeight: 28,
+          }}
+        >
           <Typography
-            variant="caption"
-            sx={{ fontWeight: 600, color: 'text.secondary', fontSize: '0.8125rem' }}
+            variant="body2"
+            sx={{
+              fontWeight: 500,
+              color: "text.secondary",
+              fontSize: "0.875rem",
+            }}
           >
             {isFiltering ? (
               <>
-                Showing <strong>{filteredStories.length}</strong> of {stories.length} stories
+                Showing <strong>{filteredStories.length}</strong> of{" "}
+                {stories.length} stories
               </>
             ) : (
               <>
-                Showing <strong>{filteredStories.length}</strong> {filteredStories.length === 1 ? 'story' : 'stories'}
+                Showing <strong>{filteredStories.length}</strong>{" "}
+                {filteredStories.length === 1 ? "story" : "stories"}
               </>
             )}
           </Typography>
 
-          {trimmedQuery && (
-            <Chip
+          {isFiltering && (
+            <Button
               size="small"
-              label={`"${trimmedQuery}"`}
-              onDelete={handleClearSearch}
-              sx={{ height: 22, fontSize: '0.75rem' }}
-            />
-          )}
-          {selectedLevel !== 'ALL' && (
-            <Chip
-              size="small"
-              label={`Level: ${selectedLevel}`}
-              onDelete={() => handleLevelChange('ALL')}
-              sx={{ height: 22, fontSize: '0.75rem' }}
-            />
-          )}
-          {selectedTopic !== 'ALL' && (
-            <Chip
-              size="small"
-              label={`Topic: ${selectedTopic.replace(/-/g, ' ')}`}
-              onDelete={() => handleTopicChange('ALL')}
-              sx={{ height: 22, fontSize: '0.75rem', textTransform: 'capitalize' }}
-            />
+              onClick={handleResetFilters}
+              sx={{
+                fontWeight: 600,
+                fontSize: "0.75rem",
+                textTransform: "none",
+                minWidth: "auto",
+                px: 1,
+                py: 0.25,
+                minHeight: 28,
+              }}
+            >
+              Clear filters
+            </Button>
           )}
         </Box>
-
-        {isFiltering && (
-          <Button
-            size="small"
-            onClick={handleResetFilters}
-            sx={{
-              fontWeight: 600,
-              fontSize: '0.75rem',
-              textTransform: 'none',
-              py: 0,
-              minHeight: 22,
-            }}
-          >
-            Clear filters
-          </Button>
-        )}
       </Box>
 
       {/* Story Cards Grid or Empty State */}
