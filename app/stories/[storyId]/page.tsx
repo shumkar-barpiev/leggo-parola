@@ -5,41 +5,41 @@ import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import DialogueReader from '@/app/components/reader/DialogueReader';
-import { getAllDialogues, getDialogueById } from '@/app/lib/dialogues';
+import StoryReader from '@/app/components/reader/StoryReader';
+import { getAllStories, getStoryById } from '@/app/lib/stories';
 
 interface PageProps {
-  params: Promise<{ id: string }>;
+  params: Promise<{ storyId: string }>;
 }
 
 export async function generateStaticParams() {
-  const dialogues = getAllDialogues();
-  return dialogues.map((dialogue) => ({
-    id: dialogue.id,
+  const stories = getAllStories();
+  return stories.map((story) => ({
+    storyId: story.id,
   }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { id } = await params;
-  const dialogue = getDialogueById(id);
+  const { storyId } = await params;
+  const story = getStoryById(storyId);
 
-  if (!dialogue) {
+  if (!story) {
     return {
-      title: 'Dialogue Not Found - LeggoParola',
+      title: 'Story Not Found - LeggoParola',
     };
   }
 
   return {
-    title: `${dialogue.title} (${dialogue.level}) - LeggoParola`,
-    description: dialogue.description,
+    title: `${story.title} (${story.level}) - LeggoParola`,
+    description: story.description,
   };
 }
 
-export default async function DialoguePage({ params }: PageProps) {
-  const { id } = await params;
-  const dialogue = getDialogueById(id);
+export default async function StoryPage({ params }: PageProps) {
+  const { storyId } = await params;
+  const story = getStoryById(storyId);
 
-  if (!dialogue) {
+  if (!story) {
     notFound();
   }
 
@@ -47,7 +47,7 @@ export default async function DialoguePage({ params }: PageProps) {
     <Container maxWidth="lg" sx={{ py: { xs: 3, md: 5 } }}>
       {/* Top Navigation */}
       <Box sx={{ mb: 3 }}>
-        <Link href="/dialogues" style={{ textDecoration: 'none' }}>
+        <Link href="/stories" style={{ textDecoration: 'none' }}>
           <Button
             startIcon={<ArrowBackIcon />}
             color="inherit"
@@ -57,13 +57,13 @@ export default async function DialoguePage({ params }: PageProps) {
               '&:hover': { color: 'primary.main' },
             }}
           >
-            Back to Dialogues
+            Back to Stories
           </Button>
         </Link>
       </Box>
 
-      {/* Dialogue Reader Main Content */}
-      <DialogueReader dialogue={dialogue} />
+      {/* Story Reader Main Content */}
+      <StoryReader story={story} />
     </Container>
   );
 }

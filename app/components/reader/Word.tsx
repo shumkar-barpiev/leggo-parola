@@ -3,10 +3,11 @@
 import React, { useState } from 'react';
 import Box from '@mui/material/Box';
 import { DialogueWord } from '@/app/types/dialogue';
+import { StoryWord } from '@/app/types/story';
 import WordTranslationPopover from './WordTranslationPopover';
 
 interface WordProps {
-  word: DialogueWord;
+  word: DialogueWord | StoryWord;
 }
 
 export default function Word({ word }: WordProps) {

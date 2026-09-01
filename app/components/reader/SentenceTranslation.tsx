@@ -25,31 +25,36 @@ export default function SentenceTranslation({ translation, isOpen }: SentenceTra
             theme.palette.mode === 'dark' ? 'rgba(255, 255, 255, 0.04)' : 'rgba(25, 118, 210, 0.04)',
         }}
       >
-        <Typography
-          variant="caption"
+        <Box
           sx={{
-            display: 'block',
-            fontWeight: 700,
-            fontSize: '0.6875rem',
-            color: 'text.secondary',
-            textTransform: 'uppercase',
-            letterSpacing: '0.04em',
-            mb: 0.25,
+            display: 'flex',
+            alignItems: 'baseline',
+            gap: 1,
           }}
         >
-          English Translation
-        </Typography>
-        <Typography
-          variant="body2"
-          sx={{
-            fontSize: { xs: '0.9rem', sm: '0.95rem' },
-            color: 'text.primary',
-            fontStyle: 'italic',
-            lineHeight: 1.5,
-          }}
-        >
-          {translation}
-        </Typography>
+          <Typography
+            variant="caption"
+            sx={{
+              fontWeight: 700,
+              fontSize: '0.8125rem',
+              color: 'text.secondary',
+              flexShrink: 0,
+            }}
+          >
+            Eng:
+          </Typography>
+          <Typography
+            variant="body2"
+            sx={{
+              fontSize: { xs: '0.9rem', sm: '0.95rem' },
+              color: 'text.primary',
+              fontStyle: 'italic',
+              lineHeight: 1.5,
+            }}
+          >
+            {translation}
+          </Typography>
+        </Box>
       </Box>
     </Collapse>
   );

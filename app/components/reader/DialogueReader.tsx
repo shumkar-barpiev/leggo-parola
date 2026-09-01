@@ -14,11 +14,11 @@ import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import { Dialogue } from '@/app/types/dialogue';
 import DialogueLine from '@/app/components/dialogue/DialogueLine';
 
-interface ReaderProps {
+interface DialogueReaderProps {
   dialogue: Dialogue;
 }
 
-export default function Reader({ dialogue }: ReaderProps) {
+export default function DialogueReader({ dialogue }: DialogueReaderProps) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   // Map unique speakers to distinct color indices

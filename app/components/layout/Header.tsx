@@ -9,9 +9,15 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import ThemeToggle from './ThemeToggle';
 
 export default function Header() {
+  const pathname = usePathname();
+
+  const isDialoguesActive = pathname?.startsWith('/dialogues');
+  const isStoriesActive = pathname?.startsWith('/stories');
+
   return (
     <AppBar
       position="sticky"
@@ -24,19 +30,27 @@ export default function Header() {
       }}
     >
       <Container maxWidth="lg">
-        <Toolbar disableGutters sx={{ justifyContent: 'space-between', minHeight: 64 }}>
+        <Toolbar
+          disableGutters
+          sx={{
+            justifyContent: 'space-between',
+            minHeight: { xs: 56, sm: 64 },
+            gap: 1,
+          }}
+        >
           <Box
             component={Link}
             href="/"
             sx={{
               display: 'flex',
               alignItems: 'center',
-              gap: 1.5,
+              gap: { xs: 1, sm: 1.5 },
               textDecoration: 'none',
               color: 'inherit',
+              flexShrink: 0,
             }}
           >
-            <MenuBookIcon sx={{ color: 'primary.main', fontSize: 28 }} />
+            <MenuBookIcon sx={{ color: 'primary.main', fontSize: { xs: 24, sm: 28 } }} />
             <Typography
               variant="h6"
               noWrap
@@ -44,21 +58,57 @@ export default function Header() {
                 fontWeight: 700,
                 letterSpacing: '.05rem',
                 color: 'text.primary',
+                fontSize: { xs: '1.1rem', sm: '1.25rem' },
               }}
             >
               LeggoParola
             </Typography>
           </Box>
 
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
+          <Box
+            component="nav"
+            aria-label="Main Navigation"
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: { xs: 0.5, sm: 1.5 },
+            }}
+          >
             <Button
               component={Link}
               href="/dialogues"
-              color="inherit"
+              color={isDialoguesActive ? 'primary' : 'inherit'}
               size="medium"
-              sx={{ fontWeight: 500 }}
+              sx={{
+                fontWeight: isDialoguesActive ? 700 : 500,
+                px: { xs: 1, sm: 1.5 },
+                minWidth: { xs: 'auto', sm: 64 },
+                fontSize: { xs: '0.875rem', sm: '0.9375rem' },
+                backgroundColor: isDialoguesActive ? 'action.selected' : 'transparent',
+                '&:hover': {
+                  backgroundColor: isDialoguesActive ? 'action.selected' : 'action.hover',
+                },
+              }}
             >
               Dialogues
+            </Button>
+            <Button
+              component={Link}
+              href="/stories"
+              color={isStoriesActive ? 'primary' : 'inherit'}
+              size="medium"
+              sx={{
+                fontWeight: isStoriesActive ? 700 : 500,
+                px: { xs: 1, sm: 1.5 },
+                minWidth: { xs: 'auto', sm: 64 },
+                fontSize: { xs: '0.875rem', sm: '0.9375rem' },
+                backgroundColor: isStoriesActive ? 'action.selected' : 'transparent',
+                '&:hover': {
+                  backgroundColor: isStoriesActive ? 'action.selected' : 'action.hover',
+                },
+              }}
+            >
+              Stories
             </Button>
             <ThemeToggle />
           </Box>
@@ -67,3 +117,4 @@ export default function Header() {
     </AppBar>
   );
 }
+

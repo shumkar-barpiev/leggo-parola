@@ -7,9 +7,9 @@ import Avatar from '@mui/material/Avatar';
 import Tooltip from '@mui/material/Tooltip';
 import IconButton from '@mui/material/IconButton';
 import TranslateIcon from '@mui/icons-material/Translate';
-import { DialogueLine as DialogueLineType, DialogueWord } from '@/app/types/dialogue';
-import Word from './Word';
-import SentenceTranslation from './SentenceTranslation';
+import { DialogueLine as DialogueLineType } from '@/app/types/dialogue';
+import SentenceTranslation from '@/app/components/reader/SentenceTranslation';
+import { renderInteractiveText } from '@/app/lib/renderInteractiveText';
 
 interface DialogueLineProps {
   line: DialogueLineType;
@@ -24,54 +24,6 @@ const SPEAKER_AVATAR_COLORS = [
   '#e11d48', // Rose / Red
   '#0d9488', // Teal
 ];
-
-function renderInteractiveText(text: string, words: DialogueWord[]) {
-  if (!words || words.length === 0) {
-    return text;
-  }
-
-  const nodes: React.ReactNode[] = [];
-  let currentIndex = 0;
-
-  for (let i = 0; i < words.length; i++) {
-    const word = words[i];
-    const matchIndex = text.indexOf(word.text, currentIndex);
-
-    if (matchIndex === -1) {
-      nodes.push(
-        <Word key={`word-${i}-${word.text}`} word={word} />
-      );
-      continue;
-    }
-
-    // Append preceding characters (punctuation, whitespace)
-    if (matchIndex > currentIndex) {
-      nodes.push(
-        <React.Fragment key={`text-before-${i}-${currentIndex}`}>
-          {text.slice(currentIndex, matchIndex)}
-        </React.Fragment>
-      );
-    }
-
-    // Append interactive word
-    nodes.push(
-      <Word key={`word-${i}-${word.text}`} word={word} />
-    );
-
-    currentIndex = matchIndex + word.text.length;
-  }
-
-  // Append any trailing punctuation or whitespace
-  if (currentIndex < text.length) {
-    nodes.push(
-      <React.Fragment key={`text-trailing-${currentIndex}`}>
-        {text.slice(currentIndex)}
-      </React.Fragment>
-    );
-  }
-
-  return nodes;
-}
 
 export default function DialogueLine({ line, speakerIndex = 0 }: DialogueLineProps) {
   const [showTranslation, setShowTranslation] = useState(false);

@@ -1,0 +1,824 @@
+{
+  "stories": [
+    {
+      "id": "a1-story-01",
+      "title": "La Mia Camera",
+      "description": "A simple description of a bedroom and the objects inside it.",
+      "level": "A1",
+      "topic": "home",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "wordCount": 118,
+      "estimatedReadingMinutes": 2,
+      "paragraphs": [
+        {
+          "id": "a1-story-01-paragraph-01",
+          "sentences": [
+            {
+              "id": "a1-story-01-sentence-01",
+              "text": "La mia camera è piccola ma molto comoda.",
+              "translation": "My room is small but very comfortable.",
+              "words": [
+                { "text": "La", "translation": ["The"] },
+                { "text": "mia", "translation": ["my"] },
+                { "text": "camera", "translation": ["room", "bedroom"] },
+                { "text": "è", "translation": ["is"] },
+                { "text": "piccola", "translation": ["small"] },
+                { "text": "ma", "translation": ["but"] },
+                { "text": "molto", "translation": ["very"] },
+                { "text": "comoda", "translation": ["comfortable"] }
+              ]
+            },
+            {
+              "id": "a1-story-01-sentence-02",
+              "text": "C'è un letto vicino alla finestra.",
+              "translation": "There is a bed near the window.",
+              "words": [
+                { "text": "C'è", "translation": ["There is"] },
+                { "text": "un", "translation": ["a"] },
+                { "text": "letto", "translation": ["bed"] },
+                { "text": "vicino", "translation": ["near", "close"] },
+                { "text": "alla", "translation": ["to the"] },
+                { "text": "finestra", "translation": ["window"] }
+              ]
+            },
+            {
+              "id": "a1-story-01-sentence-03",
+              "text": "Accanto al letto c'è un piccolo comodino.",
+              "translation": "Next to the bed there is a small bedside table.",
+              "words": [
+                { "text": "Accanto", "translation": ["next to", "beside"] },
+                { "text": "al", "translation": ["to the"] },
+                { "text": "letto", "translation": ["bed"] },
+                { "text": "c'è", "translation": ["there is"] },
+                { "text": "un", "translation": ["a"] },
+                { "text": "piccolo", "translation": ["small"] },
+                {
+                  "text": "comodino",
+                  "translation": ["bedside table", "nightstand"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-story-01-paragraph-02",
+          "sentences": [
+            {
+              "id": "a1-story-01-sentence-04",
+              "text": "Davanti al letto c'è una scrivania.",
+              "translation": "In front of the bed there is a desk.",
+              "words": [
+                { "text": "Davanti", "translation": ["in front"] },
+                { "text": "al", "translation": ["to the"] },
+                { "text": "letto", "translation": ["bed"] },
+                { "text": "c'è", "translation": ["there is"] },
+                { "text": "una", "translation": ["a"] },
+                { "text": "scrivania", "translation": ["desk"] }
+              ]
+            },
+            {
+              "id": "a1-story-01-sentence-05",
+              "text": "Sulla scrivania ci sono il mio computer, alcuni libri e una lampada.",
+              "translation": "On the desk there are my computer, some books, and a lamp.",
+              "words": [
+                { "text": "Sulla", "translation": ["On the"] },
+                { "text": "scrivania", "translation": ["desk"] },
+                { "text": "ci", "translation": ["there"] },
+                { "text": "sono", "translation": ["are", "there are"] },
+                { "text": "il", "translation": ["the"] },
+                { "text": "mio", "translation": ["my"] },
+                { "text": "computer", "translation": ["computer"] },
+                { "text": "alcuni", "translation": ["some"] },
+                { "text": "libri", "translation": ["books"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "una", "translation": ["a"] },
+                { "text": "lampada", "translation": ["lamp"] }
+              ]
+            },
+            {
+              "id": "a1-story-01-sentence-06",
+              "text": "Uso la scrivania ogni giorno per studiare.",
+              "translation": "I use the desk every day to study.",
+              "words": [
+                { "text": "Uso", "translation": ["I use"] },
+                { "text": "la", "translation": ["the"] },
+                { "text": "scrivania", "translation": ["desk"] },
+                { "text": "ogni", "translation": ["every"] },
+                { "text": "giorno", "translation": ["day"] },
+                { "text": "per", "translation": ["to", "for"] },
+                { "text": "studiare", "translation": ["to study"] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-story-01-paragraph-03",
+          "sentences": [
+            {
+              "id": "a1-story-01-sentence-07",
+              "text": "Nella camera c'è anche un armadio grande.",
+              "translation": "There is also a large wardrobe in the room.",
+              "words": [
+                { "text": "Nella", "translation": ["In the"] },
+                { "text": "camera", "translation": ["room"] },
+                { "text": "c'è", "translation": ["there is"] },
+                { "text": "anche", "translation": ["also"] },
+                { "text": "un", "translation": ["a"] },
+                { "text": "armadio", "translation": ["wardrobe", "closet"] },
+                { "text": "grande", "translation": ["big", "large"] }
+              ]
+            },
+            {
+              "id": "a1-story-01-sentence-08",
+              "text": "Dentro l'armadio tengo i vestiti e le scarpe.",
+              "translation": "Inside the wardrobe I keep my clothes and shoes.",
+              "words": [
+                { "text": "Dentro", "translation": ["inside"] },
+                { "text": "l'armadio", "translation": ["the wardrobe"] },
+                { "text": "tengo", "translation": ["I keep"] },
+                { "text": "i", "translation": ["the"] },
+                { "text": "vestiti", "translation": ["clothes"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "le", "translation": ["the"] },
+                { "text": "scarpe", "translation": ["shoes"] }
+              ]
+            },
+            {
+              "id": "a1-story-01-sentence-09",
+              "text": "Mi piace molto la mia camera perché è tranquilla.",
+              "translation": "I really like my room because it is quiet.",
+              "words": [
+                { "text": "Mi", "translation": ["to me"] },
+                { "text": "piace", "translation": ["I like"] },
+                { "text": "molto", "translation": ["very much", "a lot"] },
+                { "text": "la", "translation": ["the"] },
+                { "text": "mia", "translation": ["my"] },
+                { "text": "camera", "translation": ["room"] },
+                { "text": "perché", "translation": ["because"] },
+                { "text": "è", "translation": ["is"] },
+                { "text": "tranquilla", "translation": ["quiet", "calm"] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-story-02",
+      "title": "Il Mio Nuovo Appartamento",
+      "description": "A student describes a new apartment and the rooms inside it.",
+      "level": "A1",
+      "topic": "home",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "wordCount": 132,
+      "estimatedReadingMinutes": 3,
+      "paragraphs": [
+        {
+          "id": "a1-story-02-paragraph-01",
+          "sentences": [
+            {
+              "id": "a1-story-02-sentence-01",
+              "text": "Da una settimana vivo in un nuovo appartamento.",
+              "translation": "I have been living in a new apartment for one week.",
+              "words": [
+                { "text": "Da", "translation": ["for", "since"] },
+                { "text": "una", "translation": ["one", "a"] },
+                { "text": "settimana", "translation": ["week"] },
+                { "text": "vivo", "translation": ["I live"] },
+                { "text": "in", "translation": ["in"] },
+                { "text": "un", "translation": ["a"] },
+                { "text": "nuovo", "translation": ["new"] },
+                { "text": "appartamento", "translation": ["apartment"] }
+              ]
+            },
+            {
+              "id": "a1-story-02-sentence-02",
+              "text": "L'appartamento è al terzo piano.",
+              "translation": "The apartment is on the third floor.",
+              "words": [
+                { "text": "L'appartamento", "translation": ["The apartment"] },
+                { "text": "è", "translation": ["is"] },
+                { "text": "al", "translation": ["on the"] },
+                { "text": "terzo", "translation": ["third"] },
+                { "text": "piano", "translation": ["floor"] }
+              ]
+            },
+            {
+              "id": "a1-story-02-sentence-03",
+              "text": "Non è molto grande, ma per me va bene.",
+              "translation": "It is not very big, but it is fine for me.",
+              "words": [
+                { "text": "Non", "translation": ["not"] },
+                { "text": "è", "translation": ["is"] },
+                { "text": "molto", "translation": ["very"] },
+                { "text": "grande", "translation": ["big"] },
+                { "text": "ma", "translation": ["but"] },
+                { "text": "per", "translation": ["for"] },
+                { "text": "me", "translation": ["me"] },
+                { "text": "va", "translation": ["goes", "is"] },
+                { "text": "bene", "translation": ["fine", "well"] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-story-02-paragraph-02",
+          "sentences": [
+            {
+              "id": "a1-story-02-sentence-04",
+              "text": "Ci sono una camera da letto, una cucina e un bagno.",
+              "translation": "There is a bedroom, a kitchen, and a bathroom.",
+              "words": [
+                { "text": "Ci", "translation": ["there"] },
+                { "text": "sono", "translation": ["there are"] },
+                { "text": "una", "translation": ["a"] },
+                { "text": "camera", "translation": ["room", "bedroom"] },
+                { "text": "da", "translation": ["for"] },
+                { "text": "letto", "translation": ["bed"] },
+                { "text": "cucina", "translation": ["kitchen"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "un", "translation": ["a"] },
+                { "text": "bagno", "translation": ["bathroom"] }
+              ]
+            },
+            {
+              "id": "a1-story-02-sentence-05",
+              "text": "La cucina è piccola, ma ha tutto quello che mi serve.",
+              "translation": "The kitchen is small, but it has everything I need.",
+              "words": [
+                { "text": "La", "translation": ["The"] },
+                { "text": "cucina", "translation": ["kitchen"] },
+                { "text": "è", "translation": ["is"] },
+                { "text": "piccola", "translation": ["small"] },
+                { "text": "ma", "translation": ["but"] },
+                { "text": "ha", "translation": ["has"] },
+                { "text": "tutto", "translation": ["everything"] },
+                { "text": "quello", "translation": ["that", "what"] },
+                { "text": "che", "translation": ["that", "which"] },
+                { "text": "mi", "translation": ["to me"] },
+                { "text": "serve", "translation": ["I need", "is needed"] }
+              ]
+            },
+            {
+              "id": "a1-story-02-sentence-06",
+              "text": "C'è un frigorifero, un forno e un piccolo tavolo.",
+              "translation": "There is a refrigerator, an oven, and a small table.",
+              "words": [
+                { "text": "C'è", "translation": ["There is"] },
+                { "text": "un", "translation": ["a"] },
+                {
+                  "text": "frigorifero",
+                  "translation": ["refrigerator", "fridge"]
+                },
+                { "text": "forno", "translation": ["oven"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "piccolo", "translation": ["small"] },
+                { "text": "tavolo", "translation": ["table"] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-story-02-paragraph-03",
+          "sentences": [
+            {
+              "id": "a1-story-02-sentence-07",
+              "text": "Dal balcone posso vedere la strada e alcuni alberi.",
+              "translation": "From the balcony I can see the street and some trees.",
+              "words": [
+                { "text": "Dal", "translation": ["From the"] },
+                { "text": "balcone", "translation": ["balcony"] },
+                { "text": "posso", "translation": ["I can"] },
+                { "text": "vedere", "translation": ["to see"] },
+                { "text": "la", "translation": ["the"] },
+                { "text": "strada", "translation": ["street"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "alcuni", "translation": ["some"] },
+                { "text": "alberi", "translation": ["trees"] }
+              ]
+            },
+            {
+              "id": "a1-story-02-sentence-08",
+              "text": "Vicino a casa ci sono un supermercato e una fermata dell'autobus.",
+              "translation": "Near my home there is a supermarket and a bus stop.",
+              "words": [
+                { "text": "Vicino", "translation": ["near"] },
+                { "text": "a", "translation": ["to"] },
+                { "text": "casa", "translation": ["home", "house"] },
+                { "text": "ci", "translation": ["there"] },
+                { "text": "sono", "translation": ["there are"] },
+                { "text": "un", "translation": ["a"] },
+                { "text": "supermercato", "translation": ["supermarket"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "una", "translation": ["a"] },
+                { "text": "fermata", "translation": ["stop"] },
+                { "text": "dell'autobus", "translation": ["of the bus", "bus"] }
+              ]
+            },
+            {
+              "id": "a1-story-02-sentence-09",
+              "text": "Sono contento del mio nuovo appartamento.",
+              "translation": "I am happy with my new apartment.",
+              "words": [
+                { "text": "Sono", "translation": ["I am"] },
+                { "text": "contento", "translation": ["happy", "glad"] },
+                { "text": "del", "translation": ["with the", "of the"] },
+                { "text": "mio", "translation": ["my"] },
+                { "text": "nuovo", "translation": ["new"] },
+                { "text": "appartamento", "translation": ["apartment"] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-story-03",
+      "title": "Il Mio Gatto Milo",
+      "description": "A short story about a cat and his daily routine.",
+      "level": "A1",
+      "topic": "animals",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "wordCount": 121,
+      "estimatedReadingMinutes": 2,
+      "paragraphs": [
+        {
+          "id": "a1-story-03-paragraph-01",
+          "sentences": [
+            {
+              "id": "a1-story-03-sentence-01",
+              "text": "Ho un gatto che si chiama Milo.",
+              "translation": "I have a cat named Milo.",
+              "words": [
+                { "text": "Ho", "translation": ["I have"] },
+                { "text": "un", "translation": ["a"] },
+                { "text": "gatto", "translation": ["cat"] },
+                { "text": "che", "translation": ["that", "who"] },
+                { "text": "si", "translation": ["himself"] },
+                { "text": "chiama", "translation": ["is called"] },
+                { "text": "Milo", "translation": ["Milo"] }
+              ]
+            },
+            {
+              "id": "a1-story-03-sentence-02",
+              "text": "Milo ha tre anni ed è bianco e grigio.",
+              "translation": "Milo is three years old and is white and gray.",
+              "words": [
+                { "text": "Milo", "translation": ["Milo"] },
+                { "text": "ha", "translation": ["has", "is"] },
+                { "text": "tre", "translation": ["three"] },
+                { "text": "anni", "translation": ["years"] },
+                { "text": "ed", "translation": ["and"] },
+                { "text": "è", "translation": ["is"] },
+                { "text": "bianco", "translation": ["white"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "grigio", "translation": ["gray"] }
+              ]
+            },
+            {
+              "id": "a1-story-03-sentence-03",
+              "text": "Ha gli occhi verdi e una coda lunga.",
+              "translation": "He has green eyes and a long tail.",
+              "words": [
+                { "text": "Ha", "translation": ["He has"] },
+                { "text": "gli", "translation": ["the"] },
+                { "text": "occhi", "translation": ["eyes"] },
+                { "text": "verdi", "translation": ["green"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "una", "translation": ["a"] },
+                { "text": "coda", "translation": ["tail"] },
+                { "text": "lunga", "translation": ["long"] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-story-03-paragraph-02",
+          "sentences": [
+            {
+              "id": "a1-story-03-sentence-04",
+              "text": "Ogni mattina Milo viene nella mia camera.",
+              "translation": "Every morning Milo comes into my room.",
+              "words": [
+                { "text": "Ogni", "translation": ["Every"] },
+                { "text": "mattina", "translation": ["morning"] },
+                { "text": "Milo", "translation": ["Milo"] },
+                { "text": "viene", "translation": ["comes"] },
+                { "text": "nella", "translation": ["into the", "in the"] },
+                { "text": "mia", "translation": ["my"] },
+                { "text": "camera", "translation": ["room"] }
+              ]
+            },
+            {
+              "id": "a1-story-03-sentence-05",
+              "text": "Mi guarda e aspetta la sua colazione.",
+              "translation": "He looks at me and waits for his breakfast.",
+              "words": [
+                { "text": "Mi", "translation": ["me", "at me"] },
+                { "text": "guarda", "translation": ["looks at"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "aspetta", "translation": ["waits for"] },
+                { "text": "la", "translation": ["the"] },
+                { "text": "sua", "translation": ["his"] },
+                { "text": "colazione", "translation": ["breakfast"] }
+              ]
+            },
+            {
+              "id": "a1-story-03-sentence-06",
+              "text": "Dopo mangia e dorme sul divano.",
+              "translation": "Afterward he eats and sleeps on the sofa.",
+              "words": [
+                { "text": "Dopo", "translation": ["Afterward", "After"] },
+                { "text": "mangia", "translation": ["he eats"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "dorme", "translation": ["sleeps"] },
+                { "text": "sul", "translation": ["on the"] },
+                { "text": "divano", "translation": ["sofa", "couch"] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-story-03-paragraph-03",
+          "sentences": [
+            {
+              "id": "a1-story-03-sentence-07",
+              "text": "Nel pomeriggio gli piace giocare con una piccola palla.",
+              "translation": "In the afternoon he likes to play with a small ball.",
+              "words": [
+                { "text": "Nel", "translation": ["In the"] },
+                { "text": "pomeriggio", "translation": ["afternoon"] },
+                { "text": "gli", "translation": ["to him"] },
+                { "text": "piace", "translation": ["he likes"] },
+                { "text": "giocare", "translation": ["to play"] },
+                { "text": "con", "translation": ["with"] },
+                { "text": "una", "translation": ["a"] },
+                { "text": "piccola", "translation": ["small"] },
+                { "text": "palla", "translation": ["ball"] }
+              ]
+            },
+            {
+              "id": "a1-story-03-sentence-08",
+              "text": "A volte guarda gli uccelli dalla finestra.",
+              "translation": "Sometimes he watches the birds from the window.",
+              "words": [
+                { "text": "A", "translation": ["At"] },
+                { "text": "volte", "translation": ["times", "sometimes"] },
+                { "text": "guarda", "translation": ["watches", "looks at"] },
+                { "text": "gli", "translation": ["the"] },
+                { "text": "uccelli", "translation": ["birds"] },
+                { "text": "dalla", "translation": ["from the"] },
+                { "text": "finestra", "translation": ["window"] }
+              ]
+            },
+            {
+              "id": "a1-story-03-sentence-09",
+              "text": "Milo è molto tranquillo e io gli voglio molto bene.",
+              "translation": "Milo is very calm and I love him very much.",
+              "words": [
+                { "text": "Milo", "translation": ["Milo"] },
+                { "text": "è", "translation": ["is"] },
+                { "text": "molto", "translation": ["very"] },
+                { "text": "tranquillo", "translation": ["calm", "quiet"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "io", "translation": ["I"] },
+                { "text": "gli", "translation": ["to him"] },
+                { "text": "voglio", "translation": ["I want", "I care"] },
+                { "text": "bene", "translation": ["well", "love"] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-story-04",
+      "title": "Studiare in Italia",
+      "description": "An international student talks about studying abroad in Italy.",
+      "level": "A1",
+      "topic": "studying-abroad",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "wordCount": 145,
+      "estimatedReadingMinutes": 3,
+      "paragraphs": [
+        {
+          "id": "a1-story-04-paragraph-01",
+          "sentences": [
+            {
+              "id": "a1-story-04-sentence-01",
+              "text": "Mi chiamo Daniel e sono uno studente internazionale.",
+              "translation": "My name is Daniel and I am an international student.",
+              "words": [
+                { "text": "Mi", "translation": ["myself", "me"] },
+                {
+                  "text": "chiamo",
+                  "translation": ["my name is", "I am called"]
+                },
+                { "text": "Daniel", "translation": ["Daniel"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "sono", "translation": ["I am"] },
+                { "text": "uno", "translation": ["a", "one"] },
+                { "text": "studente", "translation": ["student"] },
+                { "text": "internazionale", "translation": ["international"] }
+              ]
+            },
+            {
+              "id": "a1-story-04-sentence-02",
+              "text": "Da sei mesi studio in Italia.",
+              "translation": "I have been studying in Italy for six months.",
+              "words": [
+                { "text": "Da", "translation": ["for", "since"] },
+                { "text": "sei", "translation": ["six"] },
+                { "text": "mesi", "translation": ["months"] },
+                { "text": "studio", "translation": ["I study"] },
+                { "text": "in", "translation": ["in"] },
+                { "text": "Italia", "translation": ["Italy"] }
+              ]
+            },
+            {
+              "id": "a1-story-04-sentence-03",
+              "text": "Vivo in una città universitaria con molti studenti.",
+              "translation": "I live in a university city with many students.",
+              "words": [
+                { "text": "Vivo", "translation": ["I live"] },
+                { "text": "in", "translation": ["in"] },
+                { "text": "una", "translation": ["a"] },
+                { "text": "città", "translation": ["city"] },
+                {
+                  "text": "universitaria",
+                  "translation": ["university", "academic"]
+                },
+                { "text": "con", "translation": ["with"] },
+                { "text": "molti", "translation": ["many"] },
+                { "text": "studenti", "translation": ["students"] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-story-04-paragraph-02",
+          "sentences": [
+            {
+              "id": "a1-story-04-sentence-04",
+              "text": "Ogni mattina vado all'università in autobus.",
+              "translation": "Every morning I go to university by bus.",
+              "words": [
+                { "text": "Ogni", "translation": ["Every"] },
+                { "text": "mattina", "translation": ["morning"] },
+                { "text": "vado", "translation": ["I go"] },
+                {
+                  "text": "all'università",
+                  "translation": ["to the university"]
+                },
+                { "text": "in", "translation": ["by", "in"] },
+                { "text": "autobus", "translation": ["bus"] }
+              ]
+            },
+            {
+              "id": "a1-story-04-sentence-05",
+              "text": "Ho lezioni tre o quattro giorni alla settimana.",
+              "translation": "I have classes three or four days a week.",
+              "words": [
+                { "text": "Ho", "translation": ["I have"] },
+                { "text": "lezioni", "translation": ["classes", "lessons"] },
+                { "text": "tre", "translation": ["three"] },
+                { "text": "o", "translation": ["or"] },
+                { "text": "quattro", "translation": ["four"] },
+                { "text": "giorni", "translation": ["days"] },
+                { "text": "alla", "translation": ["per", "in the"] },
+                { "text": "settimana", "translation": ["week"] }
+              ]
+            },
+            {
+              "id": "a1-story-04-sentence-06",
+              "text": "Dopo le lezioni spesso studio in biblioteca.",
+              "translation": "After classes I often study in the library.",
+              "words": [
+                { "text": "Dopo", "translation": ["After"] },
+                { "text": "le", "translation": ["the"] },
+                { "text": "lezioni", "translation": ["classes"] },
+                { "text": "spesso", "translation": ["often"] },
+                { "text": "studio", "translation": ["I study"] },
+                { "text": "in", "translation": ["in"] },
+                { "text": "biblioteca", "translation": ["library"] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-story-04-paragraph-03",
+          "sentences": [
+            {
+              "id": "a1-story-04-sentence-07",
+              "text": "All'inizio non conoscevo molte persone.",
+              "translation": "At the beginning I did not know many people.",
+              "words": [
+                { "text": "All'inizio", "translation": ["At the beginning"] },
+                { "text": "non", "translation": ["not"] },
+                { "text": "conoscevo", "translation": ["I knew"] },
+                { "text": "molte", "translation": ["many"] },
+                { "text": "persone", "translation": ["people"] }
+              ]
+            },
+            {
+              "id": "a1-story-04-sentence-08",
+              "text": "Adesso ho amici italiani e amici di altri paesi.",
+              "translation": "Now I have Italian friends and friends from other countries.",
+              "words": [
+                { "text": "Adesso", "translation": ["Now"] },
+                { "text": "ho", "translation": ["I have"] },
+                { "text": "amici", "translation": ["friends"] },
+                { "text": "italiani", "translation": ["Italian"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "di", "translation": ["from", "of"] },
+                { "text": "altri", "translation": ["other"] },
+                { "text": "paesi", "translation": ["countries"] }
+              ]
+            },
+            {
+              "id": "a1-story-04-sentence-09",
+              "text": "Studiare all'estero non è sempre facile, ma mi piace molto.",
+              "translation": "Studying abroad is not always easy, but I like it very much.",
+              "words": [
+                { "text": "Studiare", "translation": ["To study", "Studying"] },
+                { "text": "all'estero", "translation": ["abroad"] },
+                { "text": "non", "translation": ["not"] },
+                { "text": "è", "translation": ["is"] },
+                { "text": "sempre", "translation": ["always"] },
+                { "text": "facile", "translation": ["easy"] },
+                { "text": "ma", "translation": ["but"] },
+                { "text": "mi", "translation": ["to me"] },
+                { "text": "piace", "translation": ["I like"] },
+                { "text": "molto", "translation": ["very much", "a lot"] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-story-05",
+      "title": "Una Domenica Tranquilla",
+      "description": "A student spends a quiet Sunday at home and in the neighborhood.",
+      "level": "A1",
+      "topic": "daily-life",
+      "sourceLanguage": "it",
+      "translationLanguage": "en",
+      "wordCount": 127,
+      "estimatedReadingMinutes": 2,
+      "paragraphs": [
+        {
+          "id": "a1-story-05-paragraph-01",
+          "sentences": [
+            {
+              "id": "a1-story-05-sentence-01",
+              "text": "La domenica non devo andare all'università.",
+              "translation": "On Sunday I do not have to go to university.",
+              "words": [
+                { "text": "La", "translation": ["The", "On"] },
+                { "text": "domenica", "translation": ["Sunday"] },
+                { "text": "non", "translation": ["not"] },
+                { "text": "devo", "translation": ["I must", "I have to"] },
+                { "text": "andare", "translation": ["to go"] },
+                {
+                  "text": "all'università",
+                  "translation": ["to the university"]
+                }
+              ]
+            },
+            {
+              "id": "a1-story-05-sentence-02",
+              "text": "Di solito mi sveglio più tardi.",
+              "translation": "I usually wake up later.",
+              "words": [
+                { "text": "Di", "translation": ["of"] },
+                { "text": "solito", "translation": ["usually"] },
+                { "text": "mi", "translation": ["myself"] },
+                { "text": "sveglio", "translation": ["I wake up"] },
+                { "text": "più", "translation": ["more"] },
+                { "text": "tardi", "translation": ["late", "later"] }
+              ]
+            },
+            {
+              "id": "a1-story-05-sentence-03",
+              "text": "Faccio colazione lentamente e bevo un caffè.",
+              "translation": "I have breakfast slowly and drink a coffee.",
+              "words": [
+                { "text": "Faccio", "translation": ["I do", "I have"] },
+                { "text": "colazione", "translation": ["breakfast"] },
+                { "text": "lentamente", "translation": ["slowly"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "bevo", "translation": ["I drink"] },
+                { "text": "un", "translation": ["a"] },
+                { "text": "caffè", "translation": ["coffee"] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-story-05-paragraph-02",
+          "sentences": [
+            {
+              "id": "a1-story-05-sentence-04",
+              "text": "Dopo colazione pulisco un po' la casa.",
+              "translation": "After breakfast I clean the house a little.",
+              "words": [
+                { "text": "Dopo", "translation": ["After"] },
+                { "text": "colazione", "translation": ["breakfast"] },
+                { "text": "pulisco", "translation": ["I clean"] },
+                { "text": "un", "translation": ["a"] },
+                { "text": "po'", "translation": ["little", "bit"] },
+                { "text": "la", "translation": ["the"] },
+                { "text": "casa", "translation": ["house", "home"] }
+              ]
+            },
+            {
+              "id": "a1-story-05-sentence-05",
+              "text": "Poi preparo il pranzo.",
+              "translation": "Then I prepare lunch.",
+              "words": [
+                { "text": "Poi", "translation": ["Then"] },
+                { "text": "preparo", "translation": ["I prepare"] },
+                { "text": "il", "translation": ["the"] },
+                { "text": "pranzo", "translation": ["lunch"] }
+              ]
+            },
+            {
+              "id": "a1-story-05-sentence-06",
+              "text": "Mi piace cucinare la pasta con pomodoro e verdure.",
+              "translation": "I like cooking pasta with tomato and vegetables.",
+              "words": [
+                { "text": "Mi", "translation": ["to me"] },
+                { "text": "piace", "translation": ["I like"] },
+                { "text": "cucinare", "translation": ["to cook", "cooking"] },
+                { "text": "la", "translation": ["the"] },
+                { "text": "pasta", "translation": ["pasta"] },
+                { "text": "con", "translation": ["with"] },
+                { "text": "pomodoro", "translation": ["tomato"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "verdure", "translation": ["vegetables"] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-story-05-paragraph-03",
+          "sentences": [
+            {
+              "id": "a1-story-05-sentence-07",
+              "text": "Nel pomeriggio esco per fare una passeggiata.",
+              "translation": "In the afternoon I go out for a walk.",
+              "words": [
+                { "text": "Nel", "translation": ["In the"] },
+                { "text": "pomeriggio", "translation": ["afternoon"] },
+                { "text": "esco", "translation": ["I go out"] },
+                { "text": "per", "translation": ["to", "for"] },
+                { "text": "fare", "translation": ["to do", "to take"] },
+                { "text": "una", "translation": ["a"] },
+                { "text": "passeggiata", "translation": ["walk"] }
+              ]
+            },
+            {
+              "id": "a1-story-05-sentence-08",
+              "text": "A volte incontro un amico e prendiamo un caffè.",
+              "translation": "Sometimes I meet a friend and we have a coffee.",
+              "words": [
+                { "text": "A", "translation": ["At"] },
+                { "text": "volte", "translation": ["times", "sometimes"] },
+                { "text": "incontro", "translation": ["I meet"] },
+                { "text": "un", "translation": ["a"] },
+                { "text": "amico", "translation": ["friend"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "prendiamo", "translation": ["we take", "we have"] },
+                { "text": "caffè", "translation": ["coffee"] }
+              ]
+            },
+            {
+              "id": "a1-story-05-sentence-09",
+              "text": "La sera torno a casa e leggo un libro prima di dormire.",
+              "translation": "In the evening I return home and read a book before sleeping.",
+              "words": [
+                { "text": "La", "translation": ["The", "In the"] },
+                { "text": "sera", "translation": ["evening"] },
+                { "text": "torno", "translation": ["I return", "I go back"] },
+                { "text": "a", "translation": ["to"] },
+                { "text": "casa", "translation": ["home"] },
+                { "text": "e", "translation": ["and"] },
+                { "text": "leggo", "translation": ["I read"] },
+                { "text": "un", "translation": ["a"] },
+                { "text": "libro", "translation": ["book"] },
+                { "text": "prima", "translation": ["before"] },
+                { "text": "di", "translation": ["of", "to"] },
+                { "text": "dormire", "translation": ["to sleep", "sleeping"] }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

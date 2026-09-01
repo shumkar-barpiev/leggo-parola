@@ -8,12 +8,13 @@ import Stack from '@mui/material/Stack';
 import Chip from '@mui/material/Chip';
 import Divider from '@mui/material/Divider';
 import { DialogueWord } from '@/app/types/dialogue';
+import { StoryWord } from '@/app/types/story';
 
 interface WordTranslationPopoverProps {
   open: boolean;
   anchorEl: HTMLElement | null;
   onClose: () => void;
-  word: DialogueWord;
+  word: DialogueWord | StoryWord;
 }
 
 export default function WordTranslationPopover({
