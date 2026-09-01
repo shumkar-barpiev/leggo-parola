@@ -22,21 +22,26 @@ export default function DialogueCard({ dialogue }: DialogueCardProps) {
   return (
     <Card
       variant="outlined"
-      sx={{
-        height: '100%',
-        display: 'flex',
-        flexDirection: 'column',
-        borderRadius: 3,
-        transition: 'transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out',
-        '&:hover': {
-          transform: 'translateY(-4px)',
-          boxShadow: (theme) =>
-            theme.palette.mode === 'dark'
-              ? '0 8px 24px rgba(0, 0, 0, 0.4)'
-              : theme.shadows[4],
-          borderColor: 'primary.main',
+      sx={[
+        {
+          height: '100%',
+          display: 'flex',
+          flexDirection: 'column',
+          borderRadius: 3,
+          transition: 'transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out',
+          '&:hover': {
+            transform: 'translateY(-4px)',
+            boxShadow: 4,
+            borderColor: 'primary.main',
+          },
         },
-      }}
+        (theme) =>
+          theme.applyStyles('dark', {
+            '&:hover': {
+              boxShadow: '0 8px 24px rgba(0, 0, 0, 0.4)',
+            },
+          }),
+      ]}
     >
       <CardActionArea
         component={Link}

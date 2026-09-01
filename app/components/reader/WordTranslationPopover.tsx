@@ -41,21 +41,24 @@ export default function WordTranslationPopover({
       slotProps={{
         paper: {
           elevation: 6,
-          sx: {
-            mt: 1,
-            borderRadius: 2.5,
-            p: 1.75,
-            minWidth: 180,
-            maxWidth: 280,
-            bgcolor: 'background.paper',
-            color: 'text.primary',
-            border: '1px solid',
-            borderColor: 'divider',
-            boxShadow: (theme) =>
-              theme.palette.mode === 'dark'
-                ? '0 8px 24px rgba(0, 0, 0, 0.45)'
-                : '0 8px 24px rgba(0, 0, 0, 0.12)',
-          },
+          sx: [
+            {
+              mt: 1,
+              borderRadius: 2.5,
+              p: 1.75,
+              minWidth: 180,
+              maxWidth: 280,
+              bgcolor: 'background.paper',
+              color: 'text.primary',
+              border: '1px solid',
+              borderColor: 'divider',
+              boxShadow: '0 8px 24px rgba(0, 0, 0, 0.12)',
+            },
+            (theme) =>
+              theme.applyStyles('dark', {
+                boxShadow: '0 8px 24px rgba(0, 0, 0, 0.45)',
+              }),
+          ],
         },
       }}
     >

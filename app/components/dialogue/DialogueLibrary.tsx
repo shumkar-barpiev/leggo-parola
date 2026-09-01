@@ -206,21 +206,26 @@ export default function DialogueLibrary({ dialogues }: DialogueLibraryProps) {
       {/* Active Filter Compact Status Bar */}
       {isFiltering && (
         <Box
-          sx={{
-            mb: 2.5,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            flexWrap: 'wrap',
-            gap: 1,
-            py: 0.75,
-            px: 1.5,
-            borderRadius: 2,
-            bgcolor: (theme) =>
-              theme.palette.mode === 'dark' ? 'rgba(255, 255, 255, 0.03)' : 'rgba(0, 0, 0, 0.02)',
-            border: '1px solid',
-            borderColor: 'divider',
-          }}
+          sx={[
+            {
+              mb: 2.5,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              flexWrap: 'wrap',
+              gap: 1,
+              py: 0.75,
+              px: 1.5,
+              borderRadius: 2,
+              bgcolor: 'rgba(0, 0, 0, 0.02)',
+              border: '1px solid',
+              borderColor: 'divider',
+            },
+            (theme) =>
+              theme.applyStyles('dark', {
+                bgcolor: 'rgba(255, 255, 255, 0.03)',
+              }),
+          ]}
         >
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, flexWrap: 'wrap' }}>
             <Typography variant="caption" sx={{ fontWeight: 600, color: 'text.secondary' }}>

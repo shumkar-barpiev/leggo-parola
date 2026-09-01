@@ -9,11 +9,11 @@ import Link from 'next/link';
 import DialogueList from '@/app/components/dialogue/DialogueList';
 import StoryList from '@/app/components/story/StoryList';
 import { getRandomDialogues } from '@/app/lib/dialogues';
-import { getFeaturedStories } from '@/app/lib/stories';
+import { getRandomStories } from '@/app/lib/stories';
 
 export default function Home() {
   const dialogues = getRandomDialogues(3);
-  const stories = getFeaturedStories(3);
+  const stories = getRandomStories(3);
 
   return (
     <Container maxWidth="lg" sx={{ py: { xs: 4, md: 6 } }}>

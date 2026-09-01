@@ -14,16 +14,21 @@ export default function SentenceTranslation({ translation, isOpen }: SentenceTra
   return (
     <Collapse in={isOpen} timeout={200} unmountOnExit>
       <Box
-        sx={{
-          mt: 1,
-          py: 0.875,
-          px: 1.5,
-          borderRadius: '0 8px 8px 0',
-          borderLeft: '3px solid',
-          borderColor: 'primary.main',
-          backgroundColor: (theme) =>
-            theme.palette.mode === 'dark' ? 'rgba(255, 255, 255, 0.04)' : 'rgba(25, 118, 210, 0.04)',
-        }}
+        sx={[
+          {
+            mt: 1,
+            py: 0.875,
+            px: 1.5,
+            borderRadius: '0 8px 8px 0',
+            borderLeft: '3px solid',
+            borderColor: 'primary.main',
+            backgroundColor: 'rgba(25, 118, 210, 0.04)',
+          },
+          (theme) =>
+            theme.applyStyles('dark', {
+              backgroundColor: 'rgba(255, 255, 255, 0.04)',
+            }),
+        ]}
       >
         <Box
           sx={{

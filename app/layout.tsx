@@ -39,7 +39,7 @@ export default function RootLayout({
         <InitColorSchemeScript attribute="class" />
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <ThemeProvider theme={theme} defaultMode="system">
-            <CssBaseline />
+            <CssBaseline enableColorScheme />
             <Box
               sx={{
                 display: "flex",
@@ -47,7 +47,6 @@ export default function RootLayout({
                 minHeight: "100vh",
                 bgcolor: "background.default",
                 color: "text.primary",
-                transition: "background-color 0.2s ease, color 0.2s ease",
               }}
             >
               <Header />

@@ -19,6 +19,23 @@ export function getStoryById(id: string): Story | undefined {
   return getAllStories().find((story) => story.id === id);
 }
 
+export function getRandomStories(limit: number = 3): Story[] {
+  const all = getAllStories();
+  const uniqueMap = new Map<string, Story>();
+  all.forEach((story) => {
+    if (!uniqueMap.has(story.id)) {
+      uniqueMap.set(story.id, story);
+    }
+  });
+
+  const stories = Array.from(uniqueMap.values());
+  for (let i = stories.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [stories[i], stories[j]] = [stories[j], stories[i]];
+  }
+  return stories.slice(0, Math.min(limit, stories.length));
+}
+
 export function getFeaturedStories(limit: number = 3): Story[] {
   const all = getAllStories();
   const uniqueMap = new Map<string, Story>();

@@ -42,38 +42,35 @@ export default function Word({ word }: WordProps) {
         aria-expanded={isOpen}
         onClick={handleClick}
         onKeyDown={handleKeyDown}
-        sx={{
-          display: 'inline',
-          cursor: 'pointer',
-          borderRadius: '4px',
-          px: '2px',
-          py: '1px',
-          transition: 'background-color 0.15s ease, color 0.15s ease',
-          backgroundColor: (theme) =>
-            isOpen
-              ? theme.palette.mode === 'dark'
-                ? 'rgba(56, 189, 248, 0.22)'
-                : 'rgba(25, 118, 210, 0.15)'
-              : 'transparent',
-          color: isOpen ? 'primary.main' : 'inherit',
-          fontWeight: isOpen ? 600 : 'inherit',
-          '&:hover': {
-            backgroundColor: (theme) =>
-              isOpen
-                ? theme.palette.mode === 'dark'
-                  ? 'rgba(56, 189, 248, 0.28)'
-                  : 'rgba(25, 118, 210, 0.2)'
-                : theme.palette.mode === 'dark'
-                  ? 'rgba(56, 189, 248, 0.12)'
-                  : 'rgba(25, 118, 210, 0.08)',
-            color: 'primary.main',
+        sx={[
+          {
+            display: 'inline',
+            cursor: 'pointer',
+            borderRadius: '4px',
+            px: '2px',
+            py: '1px',
+            transition: 'background-color 0.15s ease, color 0.15s ease',
+            backgroundColor: isOpen ? 'rgba(25, 118, 210, 0.15)' : 'transparent',
+            color: isOpen ? 'primary.main' : 'inherit',
+            fontWeight: isOpen ? 600 : 'inherit',
+            '&:hover': {
+              backgroundColor: isOpen ? 'rgba(25, 118, 210, 0.2)' : 'rgba(25, 118, 210, 0.08)',
+              color: 'primary.main',
+            },
+            '&:focus-visible': {
+              outline: '2px solid',
+              outlineColor: 'primary.main',
+              outlineOffset: '1px',
+            },
           },
-          '&:focus-visible': {
-            outline: '2px solid',
-            outlineColor: 'primary.main',
-            outlineOffset: '1px',
-          },
-        }}
+          (theme) =>
+            theme.applyStyles('dark', {
+              backgroundColor: isOpen ? 'rgba(56, 189, 248, 0.22)' : 'transparent',
+              '&:hover': {
+                backgroundColor: isOpen ? 'rgba(56, 189, 248, 0.28)' : 'rgba(56, 189, 248, 0.12)',
+              },
+            }),
+        ]}
       >
         {word.text}
       </Box>
